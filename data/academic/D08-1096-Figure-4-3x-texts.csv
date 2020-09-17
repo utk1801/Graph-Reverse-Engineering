@@ -1,0 +1,18 @@
+id,x,y,width,height,text,type
+0,54.0,37.5,31.0,59.5,0.95,y-axis-label
+1,54.0,319.5,31.0,59.5,0.80,y-axis-label
+2,54.0,414.0,31.0,59.5,0.75,y-axis-label
+4,190.5,30.0,89.5,31.0,synt-1,legend-label
+5,190.5,66.0,95.5,29.5,para-2,legend-label
+6,190.5,102.0,89.5,29.5,synt-2,legend-label
+7,190.5,136.5,95.5,29.5,para-3,legend-label
+23,54.0,225.0,31.0,61.0,0.85,y-axis-label
+24,54.0,130.5,31.0,61.0,0.90,y-axis-label
+30,54.0,507.0,31.0,61.0,0.70,y-axis-label
+31,7.5,141.0,29.5,341.5,accuracy of discrimination,y-axis-title
+53,121.5,636.0,19.0,31.0,2,x-axis-label
+54,279.0,636.0,19.0,31.0,4,x-axis-label
+55,436.5,636.0,19.0,31.0,6,x-axis-label
+56,594.0,636.0,19.0,31.0,8,x-axis-label
+57,742.5,636.0,35.5,31.0,10,x-axis-label
+58,306.0,684.0,278.5,29.5,number of half words,x-axis-title

@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,78.0,198.0,23.5,56.5,0.965,y-axis-label
+1,78.0,474.0,23.5,56.5,0.955,y-axis-label
+2,78.0,610.5,23.5,58.0,0.950,y-axis-label
+3,27.0,412.5,22.0,88.0,accuracy,y-axis-title
+4,78.0,336.0,23.5,56.5,0.960,y-axis-label
+5,78.0,748.5,23.5,56.5,0.945,y-axis-label
+6,741.0,651.0,46.0,23.5,m=2,legend-label
+7,741.0,684.0,46.0,22.0,m=3,legend-label
+8,741.0,715.5,46.0,22.0,m=4,legend-label
+9,741.0,747.0,82.0,22.0,average,legend-label
+10,252.0,817.5,40.0,23.5,500,x-axis-label
+11,441.0,817.5,50.5,23.5,1000,x-axis-label
+12,634.5,817.5,52.0,23.5,1500,x-axis-label
+13,829.5,817.5,50.5,23.5,2000,x-axis-label
+14,409.5,870.0,176.5,22.0,size of training set,x-axis-title

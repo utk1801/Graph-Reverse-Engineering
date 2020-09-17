@@ -1,0 +1,24 @@
+id,x,y,width,height,text,type
+0,55.5,9.0,26.5,17.5,90,y-axis-label
+1,7.5,228.0,29.5,140.5,Accuracy,y-axis-title
+3,55.5,99.0,26.5,17.5,80,y-axis-label
+4,55.5,187.5,26.5,17.5,70,y-axis-label
+5,55.5,279.0,26.5,17.5,60,y-axis-label
+6,457.5,354.0,85.0,22.0,LF+ILC,legend-label
+7,55.5,369.0,26.5,17.5,50,y-axis-label
+8,457.5,402.0,34.0,22.0,LF,legend-label
+9,457.5,448.5,359.5,20.5,LF+Automatic ILC Trained on PB,legend-label
+14,55.5,457.5,26.5,17.5,40,y-axis-label
+15,457.5,496.5,359.5,20.5,LF+Automatic ILC Trained on FN,legend-label
+20,55.5,547.5,26.5,17.5,30,y-axis-label
+21,81.0,577.5,28.0,17.5,10,x-axis-label
+22,166.5,577.5,26.5,17.5,20,x-axis-label
+23,252.0,577.5,28.0,17.5,30,x-axis-label
+24,337.5,577.5,28.0,17.5,40,x-axis-label
+25,424.5,577.5,26.5,17.5,50,x-axis-label
+26,508.5,577.5,28.0,17.5,60,x-axis-label
+27,595.5,577.5,26.5,17.5,70,x-axis-label
+28,679.5,577.5,28.0,17.5,80,x-axis-label
+29,766.5,577.5,28.0,17.5,90,x-axis-label
+30,846.0,577.5,38.5,17.5,100,x-axis-label
+31,399.0,613.5,158.5,20.5,% Training Data,x-axis-title

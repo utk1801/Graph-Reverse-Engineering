@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,139.5,28.5,668.5,22.0,Relative Recall (Pattern-based vs. Co-occurrence-based),title
+5,75.0,96.0,47.5,22.0,7.00,y-axis-label
+6,75.0,151.5,47.5,22.0,6.00,y-axis-label
+7,75.0,205.5,47.5,22.0,5.00,y-axis-label
+8,39.0,225.0,22.0,155.5,Relative Recall,y-axis-title
+10,75.0,261.0,47.5,22.0,4.00,y-axis-label
+11,75.0,316.5,47.5,22.0,3.00,y-axis-label
+12,75.0,372.0,47.5,22.0,2.00,y-axis-label
+13,75.0,426.0,47.5,20.5,1.00,y-axis-label
+14,75.0,481.5,47.5,20.5,0.00,y-axis-label
+15,172.5,513.0,67.0,22.0,1.5MB,x-axis-label
+16,306.0,513.0,61.0,22.0,15MB,x-axis-label
+17,427.5,513.0,74.5,22.0,150MB,x-axis-label
+18,561.0,513.0,65.5,22.0,1.5GB,x-axis-label
+19,699.0,513.0,47.5,22.0,6GB,x-axis-label
+20,823.5,513.0,59.5,22.0,15GB,x-axis-label
+21,796.5,540.0,113.5,22.0,(projected),text-label
+22,478.5,577.5,104.5,23.5,Datesets,x-axis-title

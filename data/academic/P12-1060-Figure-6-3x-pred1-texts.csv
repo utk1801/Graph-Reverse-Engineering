@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,352.5,9.0,76.0,26.5,Model,legend-title
+2,178.5,37.5,65.5,22.0,CLMM,legend-label
+3,276.0,37.5,107.5,22.0,Joint-Train,legend-label
+4,415.5,37.5,128.5,22.0,Para-Cotrain,legend-label
+5,576.0,37.5,49.0,22.0,SVM,legend-label
+7,31.5,124.5,26.5,22.0,80,y-axis-label
+9,34.5,202.5,23.5,23.5,5,y-axis-label
+12,31.5,282.0,26.5,22.0,70,y-axis-label
+13,31.5,361.5,26.5,22.0,65,y-axis-label
+14,82.5,412.5,38.5,23.5,500,x-axis-label
+15,180.0,412.5,50.5,23.5,1000,x-axis-label
+16,282.0,412.5,50.5,19.5,1500,x-axis-label
+17,385.5,412.5,49.0,19.5,2000,x-axis-label
+18,487.5,412.5,50.5,20.5,2500,x-axis-label
+19,589.5,412.5,50.5,23.5,3000,x-axis-label
+20,693.0,412.5,49.0,23.5,3500,x-axis-label
+21,259.5,433.5,262.0,26.5,Number of Sentences,x-axis-title
+26,7.5,190.5,24.5,112.0,Accuracy,y-axis-title

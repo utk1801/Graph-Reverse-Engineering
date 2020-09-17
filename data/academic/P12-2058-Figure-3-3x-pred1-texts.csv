@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,57.0,6.0,28.0,23.5,25,y-axis-label
+1,57.0,115.5,28.0,23.5,20,y-axis-label
+2,7.5,213.0,23.5,154.0,speed gain (?/o),y-axis-title
+5,57.0,225.0,28.0,23.5,15,y-axis-label
+6,57.0,334.5,28.0,23.5,10,y-axis-label
+7,69.0,444.0,16.0,23.5,5,y-axis-label
+8,531.0,510.0,248.5,23.5,LCP speed gain over CP,legend-label
+13,517.5,532.5,262.0,23.5,LCP speed gain over FCP,legend-label
+18,69.0,553.5,16.0,23.5,0,y-axis-label
+19,93.0,576.0,14.5,23.5,1,x-axis-label
+20,348.0,576.0,28.0,23.5,10,x-axis-label
+21,604.5,576.0,40.0,23.5,100,x-axis-label
+22,859.5,576.0,53.5,23.5,1000,x-axis-label
+23,438.0,609.0,104.5,23.5,beam size,x-axis-title

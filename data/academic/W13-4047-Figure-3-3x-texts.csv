@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,37.5,9.0,26.5,23.5,90,y-axis-label
+1,37.5,67.5,26.5,22.0,85,y-axis-label
+2,334.5,99.0,305.5,22.0,Without ASR N−Best Information,legend-label
+6,334.5,127.5,277.0,22.0,With ASR N−Best Information,legend-label
+10,7.5,169.5,25.0,275.5,Classification Accuracy (%),y-axis-title
+13,37.5,124.5,26.5,23.5,80,y-axis-label
+14,37.5,183.0,26.5,22.0,75,y-axis-label
+15,37.5,240.0,26.5,23.5,70,y-axis-label
+16,37.5,298.5,26.5,22.0,65,y-axis-label
+17,37.5,355.5,26.5,23.5,60,y-axis-label
+18,37.5,414.0,26.5,22.0,55,y-axis-label
+19,37.5,471.0,26.5,23.5,50,y-axis-label
+20,37.5,529.5,26.5,22.0,45,y-axis-label
+21,37.5,586.5,26.5,23.5,40,y-axis-label
+22,54.0,604.5,140.5,22.0,Semi−Random,x-axis-label
+23,219.0,604.5,41.5,22.0,Inc0,x-axis-label
+24,334.5,604.5,41.5,22.0,Inc1,x-axis-label
+25,450.0,604.5,41.5,22.0,Inc2,x-axis-label
+26,564.0,604.5,43.0,22.0,Inc3,x-axis-label
+27,679.5,604.5,43.0,22.0,IncK,x-axis-label
+28,783.0,604.5,67.0,22.0,Ceiling,x-axis-label
+29,345.0,627.0,251.5,23.5,Dialogue Act Recogniser,x-axis-title

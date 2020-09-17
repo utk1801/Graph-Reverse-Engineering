@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,351.0,9.0,76.0,26.5,Model,legend-title
+2,213.0,37.5,67.0,22.0,CLMM,legend-label
+3,312.0,37.5,115.0,22.0,MT-Cotrain,legend-label
+4,459.0,37.5,128.5,22.0,Para-Cotrain,legend-label
+6,30.0,102.0,26.5,23.5,70,y-axis-label
+11,6.0,190.5,26.5,112.0,Accuracy,y-axis-title
+15,30.0,169.5,26.5,23.5,68,y-axis-label
+17,30.0,237.0,26.5,22.0,66,y-axis-label
+19,30.0,304.5,26.5,22.0,64,y-axis-label
+20,30.0,372.0,26.5,22.0,62,y-axis-label
+21,178.5,412.5,50.5,23.5,5000,x-axis-label
+22,343.5,412.5,62.5,23.5,10000,x-axis-label
+23,514.5,412.5,62.5,23.5,15000,x-axis-label
+24,685.5,412.5,62.5,23.5,20000,x-axis-label
+25,258.0,433.5,262.0,26.5,Number of Sentences,x-axis-title

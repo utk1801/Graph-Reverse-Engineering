@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,58.5,10.5,44.5,43.0,37,y-axis-label
+1,309.0,79.5,158.5,43.0,J apanese,legend-label
+2,7.5,192.0,43.0,229.0,BLEU score,y-axis-title
+4,58.5,123.0,44.5,43.0,36,y-axis-label
+5,309.0,147.0,140.5,43.0,German,legend-label
+6,58.5,234.0,44.5,43.0,35,y-axis-label
+7,58.5,348.0,44.5,41.5,34,y-axis-label
+8,58.5,459.0,44.5,41.5,33,y-axis-label
+9,58.5,571.5,44.5,43.0,32,y-axis-label
+10,103.5,643.5,67.0,43.0,100,x-axis-label
+11,333.0,643.5,85.0,43.0,1000,x-axis-label
+12,564.0,643.5,106.0,43.0,10000,x-axis-label
+13,277.5,684.0,430.0,43.0,Parser training sentences,x-axis-title
+16,792.0,643.5,127.0,43.0,100000,x-axis-label

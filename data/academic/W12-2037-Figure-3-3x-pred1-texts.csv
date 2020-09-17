@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,69.0,1.5,764.5,35.5,Performance Comparison for Prerequisite Prediction,title
+5,43.5,40.5,25.0,26.5,80,y-axis-label
+6,198.0,85.5,223.0,31.0,Random Baseline,legend-label
+8,550.5,85.5,223.0,31.0,MaxEnt Classifier,legend-label
+10,0.0,249.0,34.0,125.5,Accuracy,y-axis-title
+11,43.5,169.5,25.0,26.5,70,y-axis-label
+12,43.5,298.5,25.0,26.5,60,y-axis-label
+13,43.5,427.5,25.0,26.5,50,y-axis-label
+14,43.5,556.5,25.0,25.0,40,y-axis-label
+15,115.5,576.0,59.5,20.5,Meiosis,x-axis-label
+16,226.5,576.0,82.0,20.5,Public Key,x-axis-label
+18,330.0,576.0,119.5,20.5,Para. Postulate,x-axis-label
+20,456.0,576.0,112.0,20.5,Newton's Law,x-axis-label
+22,570.0,576.0,127.0,20.5,Global Warming,x-axis-label
+24,723.0,576.0,65.5,20.5,Average,x-axis-label

@@ -1,0 +1,12 @@
+id,x,y,width,height,text,type
+0,69.0,4.5,19.0,31.0,1,y-axis-label
+1,588.0,63.0,88.0,41.5,Prior,legend-label
+2,588.0,100.5,193.0,40.0,Adaptation,legend-label
+3,7.5,211.5,31.0,145.0,Probability,y-axis-title
+4,43.5,273.0,43.0,31.0,0.5,y-axis-label
+5,66.0,540.0,19.0,31.0,0,y-axis-label
+6,142.5,558.0,38.5,31.0,PP,x-axis-label
+7,262.5,558.0,86.5,32.5,SBAR,x-axis-label
+8,436.5,558.0,25.0,31.0,N,x-axis-label
+9,555.0,558.0,76.0,31.0,DTN,x-axis-label
+11,664.5,558.0,143.5,32.5,DT ADJ N,x-axis-label

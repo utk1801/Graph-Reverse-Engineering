@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,36.0,129.0,32.5,143.5,F-measure,y-axis-title
+1,76.5,30.0,38.5,23.5,0.75,y-axis-label
+2,76.5,129.0,38.5,25.0,0.65,y-axis-label
+3,520.5,169.5,178.0,25.0,Supervised Batch,legend-label
+5,520.5,211.5,203.5,25.0,Unsupervised Batch,legend-label
+7,76.5,229.5,38.5,23.5,0.55,y-axis-label
+8,520.5,253.5,205.0,25.0,U-Incremental (100),legend-label
+10,520.5,294.0,223.0,25.0,"U-Incremental (5,000)",legend-label
+12,76.5,328.5,38.5,25.0,0.45,y-axis-label
+13,178.5,361.5,13.0,25.0,1,x-axis-label
+14,288.0,361.5,13.0,25.0,2,x-axis-label
+15,397.5,361.5,13.0,25.0,3,x-axis-label
+16,507.0,361.5,13.0,25.0,4,x-axis-label
+17,616.5,361.5,13.0,25.0,5,x-axis-label
+18,726.0,361.5,13.0,25.0,6,x-axis-label
+19,396.0,406.5,125.5,35.5,#Iteration,x-axis-title

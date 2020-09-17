@@ -1,0 +1,22 @@
+id,x,y,width,height,text,type
+0,253.5,3.0,112.0,32.5,Idiomatic,legend-label
+1,246.0,436.5,14.5,28.0,0,x-axis-label
+2,415.5,3.0,166.0,32.5,Non idiomatic,legend-label
+4,57.0,60.0,178.0,31.0,fazer (make/do),y-axis-label
+6,124.5,90.0,110.5,29.5,ter (have),y-axis-label
+8,78.0,120.0,157.0,29.5,ser (be worth),y-axis-label
+11,100.5,150.0,134.5,29.5,abrir(open),y-axis-label
+13,85.5,178.5,149.5,31.0,chamar(ca|l),y-axis-label
+15,117.0,208.5,118.0,31.0,virar (turn),y-axis-label
+17,57.0,238.5,178.0,31.0,valer (be worth),y-axis-label
+20,84.0,268.5,151.0,29.5,torcer (wring),y-axis-label
+22,97.5,298.5,137.5,29.5,tomar (ta ke),y-axis-label
+24,97.5,328.5,137.5,29.5,levar (ca rry),y-axis-label
+26,7.5,357.0,227.5,31.0,garantir (g uarantee),y-axis-label
+28,106.5,387.0,128.5,31.0,correr (run),y-axis-label
+30,325.5,436.5,28.0,28.0,10,x-axis-label
+31,411.0,436.5,28.0,28.0,20,x-axis-label
+32,496.5,436.5,28.0,28.0,30,x-axis-label
+33,583.5,436.5,26.5,28.0,40,x-axis-label
+34,669.0,436.5,26.5,28.0,50,x-axis-label
+35,754.5,436.5,28.0,28.0,60,x-axis-label

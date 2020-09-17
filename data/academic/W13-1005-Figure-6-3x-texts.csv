@@ -1,0 +1,24 @@
+id,x,y,width,height,text,type
+0,271.5,9.0,464.5,31.0,Data Retention with MSA Filtering,title
+5,34.5,51.0,35.5,23.5,1.0,y-axis-label
+28,7.5,124.5,26.5,269.5,Fraction Data Retained,y-axis-title
+31,34.5,90.0,35.5,25.0,0.9,y-axis-label
+35,34.5,130.5,35.5,23.5,0.8,y-axis-label
+36,34.5,169.5,35.5,25.0,0.7,y-axis-label
+38,34.5,210.0,35.5,23.5,0.6,y-axis-label
+41,34.5,249.0,35.5,25.0,0.5,y-axis-label
+42,34.5,289.5,35.5,23.5,0.4,y-axis-label
+44,34.5,328.5,35.5,25.0,0.3,y-axis-label
+46,34.5,367.5,35.5,25.0,0.2,y-axis-label
+47,34.5,408.0,35.5,23.5,0.1,y-axis-label
+49,34.5,447.0,35.5,25.0,0.0,y-axis-label
+50,105.0,492.0,35.5,25.0,0.1,x-axis-label
+51,258.0,492.0,35.5,25.0,0.2,x-axis-label
+52,409.5,492.0,35.5,25.0,0.3,x-axis-label
+53,562.5,492.0,35.5,25.0,0.4,x-axis-label
+54,714.0,492.0,35.5,25.0,0.5,x-axis-label
+55,867.0,492.0,35.5,25.0,0.6,x-axis-label
+56,280.5,517.5,446.5,55.0,Minimum Subject−Average Correlation (Spearman's rho),x-axis-title
+62,388.5,618.0,58.0,26.5,Indiv,legend-label
+64,495.0,618.0,76.0,26.5,Whole,legend-label
+66,619.5,618.0,55.0,26.5,Both,legend-label

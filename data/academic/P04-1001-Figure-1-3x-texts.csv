@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,126.0,45.0,250.0,26.5,Non-overlap Speech First,legend-label
+3,126.0,64.5,209.5,28.0,Overlap Speech First,legend-label
+6,438.0,45.0,253.0,26.5,Non-overlap Gesture First,legend-label
+9,438.0,64.5,212.5,28.0,Overlap Gesture First,legend-label
+12,91.5,99.0,16.0,31.0,1,y-axis-label
+13,31.5,178.5,29.5,134.5,Percentage,y-axis-title
+14,70.5,150.0,37.0,32.5,0.8,y-axis-label
+15,70.5,202.5,37.0,31.0,0.6,y-axis-label
+16,70.5,252.0,37.0,31.0,0.4,y-axis-label
+17,70.5,303.0,37.0,31.0,0.2,y-axis-label
+18,727.5,352.5,58.0,29.5,User,x-axis-title
+19,91.5,354.0,16.0,32.5,0,y-axis-label
+20,160.5,393.0,16.0,31.0,1,x-axis-label
+21,241.5,393.0,17.5,31.0,2,x-axis-label
+22,324.0,393.0,17.5,31.0,3,x-axis-label
+23,406.5,393.0,17.5,31.0,4,x-axis-label
+24,489.0,393.0,17.5,31.0,5,x-axis-label
+25,571.5,393.0,17.5,31.0,6,x-axis-label
+26,654.0,393.0,16.0,31.0,7,x-axis-label

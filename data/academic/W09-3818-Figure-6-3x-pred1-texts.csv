@@ -1,0 +1,13 @@
+id,x,y,width,height,text,type
+0,75.0,10.5,82.0,29.5,1000,y-axis-label
+1,9.0,210.0,29.5,322.0,compression rate,y-axis-title
+3,195.0,37.5,262.0,29.5,pruned forest,legend-label
+5,255.0,70.5,202.0,29.5,rectangles,legend-label
+6,295.5,103.5,161.5,29.5,ranksets,legend-label
+7,94.5,243.0,62.5,29.5,100,y-axis-label
+8,115.5,477.0,41.5,29.5,10,y-axis-label
+9,135.0,709.5,22.0,29.5,1,y-axis-label
+10,175.5,744.0,22.0,29.5,1,x-axis-label
+11,483.0,744.0,41.5,29.5,10,x-axis-label
+12,790.5,744.0,62.5,29.5,100,x-axis-label
+13,1098.0,744.0,82.0,29.5,1000,x-axis-label

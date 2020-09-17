@@ -1,0 +1,24 @@
+id,x,y,width,height,text,type
+0,31.5,4.5,49.0,29.5,2000,y-axis-label
+1,31.5,99.0,49.0,31.0,1800,y-axis-label
+2,31.5,195.0,49.0,29.5,1600,y-axis-label
+3,1.5,232.5,31.0,143.5,Direct Matches,y-axis-title
+5,31.5,289.5,49.0,29.5,1400,y-axis-label
+6,771.0,370.5,46.0,31.0,Cass,legend-label
+7,771.0,394.5,77.5,31.0,Minipar,legend-label
+8,771.0,423.0,71.5,31.0,Sextant,legend-label
+9,771.0,447.0,74.5,37.0,"W(L1,2)",legend-label
+12,31.5,385.5,49.0,29.5,1200,y-axis-label
+13,31.5,480.0,49.0,29.5,1000,y-axis-label
+14,43.5,574.5,37.0,31.0,800,y-axis-label
+15,771.0,481.5,85.0,38.5,W(L1R1),legend-label
+20,771.0,514.5,97.0,37.0,W(L1R1*),legend-label
+25,79.5,591.0,14.5,31.0,0,x-axis-label
+26,190.5,594.0,25.0,28.0,50,x-axis-label
+27,301.5,594.0,37.0,25.0,100,x-axis-label
+28,534.0,594.0,37.0,25.0,200,x-axis-label
+29,418.5,594.0,35.5,23.5,150,x-axis-label
+30,651.0,594.0,37.0,25.0,250,x-axis-label
+31,346.5,619.5,296.5,26.5,Corpus Size (millions of words),x-axis-title
+36,768.0,594.0,37.0,25.0,300,x-axis-label
+37,883.5,592.5,37.0,28.0,350,x-axis-label

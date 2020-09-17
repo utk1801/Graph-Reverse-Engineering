@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,4.5,132.0,26.5,136.0,Answers,y-axis-title
+1,283.5,292.5,206.5,25.0,negative sentiment,legend-label
+3,301.5,321.0,188.5,26.5,neutral sentiment,legend-label
+5,292.5,351.0,197.5,25.0,positive sentiment,legend-label
+7,129.0,397.5,17.5,29.5,1,x-axis-label
+8,249.0,397.5,34.0,29.5,10,x-axis-label
+9,369.0,397.5,50.5,29.5,100,x-axis-label
+10,489.0,397.5,67.0,29.5,1000,x-axis-label
+11,210.0,442.5,329.5,26.5,time (in minutes),x-axis-title
+14,75.0,7.5,43.0,29.5,4.5,y-axis-label
+15,99.0,48.0,19.0,29.5,4,y-axis-label
+16,75.0,87.0,43.0,29.5,3.5,y-axis-label
+17,99.0,127.5,19.0,29.5,3,y-axis-label
+18,75.0,168.0,43.0,29.5,2.5,y-axis-label
+19,99.0,207.0,19.0,29.5,2,y-axis-label
+20,75.0,247.5,43.0,29.5,1.5,y-axis-label
+21,99.0,288.0,19.0,29.5,1,y-axis-label
+22,75.0,328.5,43.0,28.0,0.5,y-axis-label
+23,99.0,367.5,19.0,29.5,0,y-axis-label

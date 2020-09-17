@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,39.0,7.5,32.5,23.5,45,y-axis-label
+1,723.0,31.5,161.5,25.0,char: 0 order,legend-label
+4,723.0,60.0,161.5,23.5,char: 1 order,legend-label
+7,723.0,88.5,161.5,23.5,char: 2 order,legend-label
+10,723.0,117.0,169.0,23.5,word: 0 order,legend-label
+13,39.0,79.5,32.5,23.5,40,y-axis-label
+14,39.0,150.0,32.5,23.5,35,y-axis-label
+15,6.0,274.5,26.5,49.0,EER,y-axis-title
+16,39.0,222.0,32.5,23.5,30,y-axis-label
+17,39.0,294.0,32.5,23.5,25,y-axis-label
+18,39.0,364.5,32.5,23.5,20,y-axis-label
+19,39.0,436.5,32.5,23.5,15,y-axis-label
+20,39.0,508.5,32.5,23.5,10,y-axis-label
+21,54.0,580.5,17.5,23.5,5,y-axis-label
+22,91.5,597.0,59.5,23.5,1750,x-axis-label
+23,276.0,597.0,59.5,23.5,3500,x-axis-label
+24,460.5,597.0,59.5,23.5,7000,x-axis-label
+25,637.5,597.0,74.5,23.5,14000,x-axis-label
+26,319.5,621.0,350.5,23.5,NUMBER OF CHARACTERS,x-axis-title
+29,822.0,597.0,74.5,23.5,28000,x-axis-label

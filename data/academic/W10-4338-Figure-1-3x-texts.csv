@@ -1,0 +1,13 @@
+id,x,y,width,height,text,type
+0,6.0,-1.5,38.5,32.5,0.6,y-axis-label
+1,6.0,121.5,38.5,32.5,0.2,y-axis-label
+2,24.0,183.0,20.5,32.5,0,y-axis-label
+3,55.5,219.0,158.5,32.5,[Aplg;ClarifReq],x-axis-label
+4,226.5,219.0,109.0,32.5,[ClarifReq],x-axis-label
+5,681.0,219.0,71.5,32.5,[Offer],x-axis-label
+6,792.0,219.0,142.0,32.5,[Inform;Offer],x-axis-label
+7,355.5,219.0,140.5,32.5,[Info-request],x-axis-label
+8,505.5,219.0,131.5,32.5,[Greet;Offer],x-axis-label
+9,555.0,13.5,41.5,32.5,low,legend-label
+10,6.0,60.0,38.5,32.5,0.4,y-axis-label
+11,478.5,13.5,49.0,32.5,high,legend-label

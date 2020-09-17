@@ -1,0 +1,25 @@
+id,x,y,width,height,text,type
+0,535.5,27.0,143.5,28.0,keyRatio= 0.02,legend-label
+2,535.5,55.5,143.5,29.5,keyRatio= 0.04,legend-label
+4,535.5,85.5,143.5,28.0,keyRatio= 0.08,legend-label
+6,535.5,114.0,143.5,29.5,keyRatio= 0.16,legend-label
+8,450.0,144.0,229.0,28.0,Baseline keyRatio= 0.04,legend-label
+11,81.0,60.0,32.5,29.5,0.1,y-axis-label
+12,70.5,114.0,43.0,28.0,0.09,y-axis-label
+13,70.5,166.5,43.0,28.0,0.08,y-axis-label
+14,70.5,219.0,43.0,28.0,0.07,y-axis-label
+15,70.5,271.5,43.0,29.5,0.06,y-axis-label
+16,70.5,324.0,43.0,29.5,0.05,y-axis-label
+17,70.5,376.5,43.0,29.5,0.04,y-axis-label
+18,70.5,429.0,43.0,29.5,0.03,y-axis-label
+19,70.5,481.5,43.0,29.5,0.02,y-axis-label
+20,70.5,535.5,43.0,28.0,0.01,y-axis-label
+21,121.5,564.0,14.5,29.5,0,x-axis-label
+22,247.5,564.0,25.0,29.5,20,x-axis-label
+23,378.0,564.0,25.0,29.5,40,x-axis-label
+24,510.0,564.0,25.0,29.5,60,x-axis-label
+25,640.5,564.0,26.5,29.5,80,x-axis-label
+26,766.5,564.0,37.0,29.5,100,x-axis-label
+27,351.0,607.5,205.0,29.5,Top N topics returned,x-axis-title
+31,70.5,7.5,43.0,29.5,0.11,y-axis-label
+32,7.5,217.5,23.5,130.0,F-Measure,y-axis-title

@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,102.0,7.5,44.5,32.5,0.1,y-axis-label
+1,6.0,58.5,32.5,493.0,percent of sentences taking this long,y-axis-title
+7,555.0,31.5,239.5,32.5,yes/no judgments,legend-label
+9,579.0,61.5,215.5,32.5,constituent rank,legend-label
+11,601.5,91.5,193.0,34.0,sentence rank,legend-label
+13,84.0,121.5,62.5,32.5,0.08,y-axis-label
+14,84.0,234.0,62.5,32.5,0.06,y-axis-label
+15,84.0,348.0,62.5,32.5,0.04,y-axis-label
+16,84.0,460.5,62.5,32.5,0.02,y-axis-label
+17,126.0,573.0,20.5,34.0,0,y-axis-label
+18,157.5,604.5,19.0,32.5,0,x-axis-label
+19,277.5,604.5,35.5,32.5,10,x-axis-label
+20,405.0,604.5,35.5,32.5,20,x-axis-label
+21,532.5,604.5,35.5,32.5,30,x-axis-label
+22,660.0,604.5,35.5,32.5,40,x-axis-label
+23,787.5,604.5,35.5,32.5,50,x-axis-label
+24,292.5,649.5,506.5,32.5,time to judge one sentence (seconds),x-axis-title
+30,915.0,604.5,35.5,32.5,60,x-axis-label

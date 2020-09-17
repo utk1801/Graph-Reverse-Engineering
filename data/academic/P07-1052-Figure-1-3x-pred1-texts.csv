@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,9.0,114.0,22.0,173.5,Fraction of parses,y-axis-title
+3,57.0,12.0,17.5,26.5,1,y-axis-label
+4,387.0,16.5,124.0,26.5,"Collins, ID",legend-label
+6,387.0,49.5,167.5,28.0,"Collins, Adap.",legend-label
+8,387.0,84.0,151.0,26.5,"Charniak, ID",legend-label
+10,387.0,117.0,187.0,28.0,"Charniak,Adap.",legend-label
+11,34.5,102.0,40.0,26.5,0.8,y-axis-label
+12,34.5,192.0,40.0,26.5,0.6,y-axis-label
+13,34.5,282.0,40.0,26.5,0.4,y-axis-label
+14,34.5,372.0,40.0,26.5,0.,y-axis-label
+15,61.5,390.0,31.0,26.5,0,x-axis-label
+16,177.0,390.0,32.5,26.5,85,x-axis-label
+17,294.0,390.0,31.0,26.5,90,x-axis-label
+18,409.5,390.0,32.5,26.5,95,x-axis-label
+19,519.0,390.0,46.0,26.5,100,x-axis-label
+20,273.0,415.5,73.0,22.0,F score,x-axis-title

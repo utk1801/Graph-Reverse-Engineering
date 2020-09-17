@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,67.5,10.5,25.0,37.0,0.5,y-axis-label
+3,67.5,147.0,25.0,37.0,0.3,y-axis-label
+5,67.5,216.0,25.0,37.0,0.2,y-axis-label
+6,67.5,283.5,25.0,37.0,0.1,y-axis-label
+8,226.5,49.5,121.0,25.0,Vox Populi,legend-label
+10,226.5,79.5,128.5,25.0,random 0.5,legend-label
+12,226.5,109.5,142.0,25.0,random 0.99,legend-label
+16,67.5,352.5,25.0,37.0,0.0,y-axis-label
+17,7.5,169.5,25.0,119.5,correlation,y-axis-title
+18,67.5,79.5,25.0,37.0,0.4,y-axis-label
+20,288.0,486.0,16.0,26.5,2,x-axis-label
+21,412.5,486.0,16.0,26.5,3,x-axis-label
+22,537.0,486.0,16.0,26.5,4,x-axis-label
+23,661.5,486.0,17.5,26.5,5,x-axis-label
+24,67.5,412.5,25.0,52.0,−0.1,y-axis-label
+25,163.5,486.0,16.0,26.5,1,x-axis-label
+26,787.5,486.0,16.0,26.5,6,x-axis-label
+27,420.0,546.0,118.0,26.5,group size,x-axis-title

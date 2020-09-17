@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,58.5,412.5,22.0,44.5,18.0,y-axis-label
+1,7.5,319.5,22.0,70.0,Bleu o/o,y-axis-title
+3,58.5,256.5,22.0,44.5,18.5,y-axis-label
+4,58.5,100.5,22.0,44.5,E,y-axis-label
+5,58.5,568.5,22.0,44.5,17.5,y-axis-label
+6,738.0,441.0,49.0,29.5,'Yzoo,legend-label
+7,738.0,468.0,64.0,31.0,7:0.1,legend-label
+10,738.0,493.5,46.0,31.0,v=1,legend-label
+12,738.0,520.5,58.0,29.5,7:10,legend-label
+15,115.5,730.5,38.5,22.0,-10,x-axis-label
+16,300.0,730.5,26.5,22.0,-5,x-axis-label
+17,484.5,730.5,14.5,22.0,0,x-axis-label
+18,663.0,730.5,14.5,22.0,5,x-axis-label
+19,834.0,730.5,26.5,22.0,10,x-axis-label
+20,397.5,781.5,191.5,23.5,Translation model 1,x-axis-title

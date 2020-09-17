@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,7.5,102.0,38.5,28.0,0.8,y-axis-label
+1,7.5,196.5,38.5,26.5,0.6,y-axis-label
+2,7.5,289.5,38.5,26.5,0.4,y-axis-label
+3,490.5,396.0,119.5,28.0,Coverage,legend-label
+4,364.5,423.0,245.5,28.0,Estimated Coverage,legend-label
+6,504.0,450.0,106.0,28.0,Baseline,legend-label
+7,168.0,502.5,62.5,28.0,2000,x-axis-label
+8,303.0,502.5,61.0,28.0,4000,x-axis-label
+9,436.5,502.5,62.5,28.0,6000,x-axis-label
+10,267.0,543.0,260.5,26.5,Number of Sentences,x-axis-title
+13,571.5,502.5,61.0,28.0,8000,x-axis-label
+14,28.5,475.5,17.5,28.0,0,y-axis-label
+15,57.0,502.5,17.5,28.0,0,x-axis-label
+16,28.5,9.0,17.5,28.0,1,y-axis-label
+17,7.5,382.5,38.5,28.0,0.2,y-axis-label
+18,697.5,502.5,77.5,28.0,10000,x-axis-label

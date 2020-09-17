@@ -1,0 +1,24 @@
+id,x,y,width,height,text,type
+0,0.0,37.5,31.0,95.5,Precision,y-axis-title
+1,31.5,4.5,52.0,26.5,100%,y-axis-label
+2,45.0,64.5,40.0,26.5,90%,y-axis-label
+3,45.0,121.5,40.0,28.0,80%,y-axis-label
+4,45.0,181.5,40.0,26.5,70%,y-axis-label
+5,45.0,238.5,40.0,28.0,60%,y-axis-label
+6,45.0,298.5,40.0,26.5,50%,y-axis-label
+7,45.0,358.5,40.0,26.5,40%,y-axis-label
+8,601.5,402.0,88.0,29.5,Baseline,legend-label
+9,601.5,435.0,238.0,29.5,Baseline with bootstrap,legend-label
+12,601.5,468.0,121.0,29.5,Incremental,legend-label
+13,601.5,501.0,271.0,29.5,Incremental with bootstrap,legend-label
+16,45.0,415.5,40.0,28.0,30%,y-axis-label
+17,45.0,475.5,40.0,26.5,20%,y-axis-label
+18,94.5,627.0,14.5,26.5,0,x-axis-label
+19,256.5,627.0,14.5,26.5,5,x-axis-label
+20,409.5,627.0,28.0,26.5,10,x-axis-label
+21,571.5,627.0,28.0,26.5,15,x-axis-label
+22,732.0,627.0,28.0,26.5,20,x-axis-label
+23,894.0,627.0,26.5,26.5,25,x-axis-label
+24,637.5,646.5,295.0,31.0,Number of Valid Alignments,x-axis-title
+28,45.0,532.5,40.0,28.0,10%,y-axis-label
+29,58.5,592.5,26.5,26.5,0%,y-axis-label

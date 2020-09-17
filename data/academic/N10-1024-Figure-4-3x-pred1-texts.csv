@@ -1,0 +1,14 @@
+id,x,y,width,height,text,type
+0,186.0,9.0,370.0,29.5,Distribution of Turker Skill,title
+4,133.5,100.5,44.5,23.5,25%,text-label
+5,106.5,133.5,44.5,23.5,23%,text-label
+6,22.5,292.5,28.0,218.5,Normalized Density,y-axis-title
+8,18.0,739.5,38.5,26.5,0%,x-axis-label
+9,78.0,739.5,52.0,26.5,10%,x-axis-label
+10,415.5,372.0,302.5,23.5,Estimated Against Professionals,legend-label
+13,415.5,396.0,305.5,23.5,Estimated Against Other Turkers,legend-label
+17,210.0,739.5,52.0,26.5,30%,x-axis-label
+18,342.0,739.5,52.0,26.5,50%,x-axis-label
+19,474.0,739.5,52.0,26.5,70%,x-axis-label
+20,606.0,739.5,52.0,26.5,90%,x-axis-label
+21,9.0,799.5,728.5,26.5,Average Disagreement of Transcribed Utterances by Each Turker,x-axis-title

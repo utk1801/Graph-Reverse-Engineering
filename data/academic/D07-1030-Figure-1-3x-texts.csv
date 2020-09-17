@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,43.5,7.5,70.0,38.5,0.21,y-axis-label
+1,6.0,169.5,37.0,103.0,BLEU,y-axis-title
+2,43.5,106.5,70.0,37.0,0.19,y-axis-label
+3,43.5,204.0,70.0,38.5,0.17,y-axis-label
+4,43.5,303.0,70.0,37.0,0.15,y-axis-label
+5,633.0,306.0,164.5,32.5,Interpolated,legend-label
+6,633.0,342.0,121.0,32.5,Standard,legend-label
+7,633.0,378.0,128.5,32.5,Synthetic,legend-label
+8,43.5,402.0,70.0,37.0,0.13,y-axis-label
+9,192.0,459.0,40.0,37.0,20,x-axis-label
+10,331.5,459.0,41.5,37.0,40,x-axis-label
+11,472.5,459.0,41.5,37.0,60,x-axis-label
+12,613.5,459.0,40.0,37.0,80,x-axis-label
+13,744.0,459.0,61.0,37.0,100,x-axis-label
+14,255.0,496.5,490.0,37.0,Synthetic Bilingual Corpus (%),x-axis-title

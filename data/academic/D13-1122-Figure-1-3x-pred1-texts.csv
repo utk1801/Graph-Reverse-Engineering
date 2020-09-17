@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,57.0,9.0,22.0,31.0,1.0,y-axis-label
+1,57.0,223.5,22.0,31.0,0.6,y-axis-label
+2,57.0,331.5,22.0,31.0,0.4,y-axis-label
+3,7.5,169.5,20.5,140.5,overage Rate,y-axis-title
+5,57.0,115.5,22.0,32.5,0.8,y-axis-label
+6,57.0,439.5,22.0,31.0,0.2,y-axis-label
+7,658.5,412.5,43.0,23.5,SRN,legend-label
+9,658.5,430.5,136.0,31.0,SRN+ ET+HW,legend-label
+13,121.5,501.0,14.5,22.0,0,x-axis-label
+14,283.5,501.0,14.5,22.0,5,x-axis-label
+15,441.0,501.0,25.0,22.0,10,x-axis-label
+16,603.0,501.0,25.0,22.0,15,x-axis-label
+17,765.0,501.0,25.0,22.0,20,x-axis-label
+18,424.5,546.0,64.0,22.0,Top N,x-axis-title

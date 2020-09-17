@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,52.5,7.5,37.0,31.0,50,y-axis-label
+1,367.5,63.0,169.0,31.0,Switchboard,legend-label
+2,367.5,102.0,263.5,31.0,"Head-Mic, Overlap",legend-label
+4,367.5,139.5,313.0,31.0,"Head-Mic, Nonoverlap",legend-label
+6,367.5,178.5,265.0,31.0,"LapeI-Mic, Overlap",legend-label
+8,367.5,216.0,314.5,31.0,"LapeI-Mic, Nonoverlap",legend-label
+10,7.5,274.5,35.5,149.5,Rate (?/o),y-axis-title
+12,52.5,139.5,37.0,29.5,40,y-axis-label
+13,52.5,270.0,37.0,31.0,30,y-axis-label
+14,52.5,402.0,37.0,29.5,20,y-axis-label
+15,52.5,534.0,37.0,29.5,10,y-axis-label
+16,69.0,664.5,20.5,31.0,0,y-axis-label
+17,91.5,690.0,175.0,29.5,Substitutions,x-axis-label
+18,474.0,690.0,127.0,29.5,Deletions,x-axis-label
+19,829.5,690.0,133.0,29.5,Insertions,x-axis-label
+20,454.5,727.5,166.0,34.0,Error Type,x-axis-title

@@ -1,0 +1,25 @@
+id,x,y,width,height,text,type
+0,339.0,9.0,391.0,34.0,AER after Entire Training,title
+4,60.0,61.5,70.0,34.0,0.50,y-axis-label
+5,60.0,127.5,70.0,35.5,0.45,y-axis-label
+6,6.0,307.5,34.0,74.5,AER,y-axis-title
+7,60.0,262.5,70.0,35.5,0.35,y-axis-label
+8,60.0,330.0,70.0,35.5,0.30,y-axis-label
+9,60.0,397.5,70.0,34.0,0.25,y-axis-label
+10,60.0,465.0,70.0,34.0,0.20,y-axis-label
+11,60.0,195.0,70.0,35.5,0.40,y-axis-label
+12,427.5,280.5,274.0,34.0,French (baseline),legend-label
+16,291.0,315.0,410.5,35.5,French (variational Bayes),legend-label
+17,408.0,349.5,293.5,35.5,Chinese (baseline),legend-label
+19,271.5,385.5,430.0,34.0,Chinese (variational Bayes),legend-label
+22,409.5,420.0,292.0,35.5,German (baseline),legend-label
+24,273.0,454.5,428.5,35.5,German (variational Bayes),legend-label
+27,60.0,532.5,70.0,34.0,0.15,y-axis-label
+28,60.0,598.5,70.0,35.5,0.10,y-axis-label
+29,109.5,634.5,91.0,34.0,1e-10,x-axis-label
+30,262.5,634.5,92.5,34.0,1e-08,x-axis-label
+31,417.0,634.5,91.0,34.0,1 e-06,x-axis-label
+32,561.0,634.5,110.5,34.0,0.0001,x-axis-label
+33,489.0,687.0,91.0,34.0,Alpha,x-axis-title
+34,735.0,634.5,70.0,34.0,0.01,x-axis-label
+35,912.0,634.5,22.0,34.0,1,x-axis-label

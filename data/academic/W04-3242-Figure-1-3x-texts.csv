@@ -1,0 +1,26 @@
+id,x,y,width,height,text,type
+0,28.5,10.5,31.0,17.5,165,y-axis-label
+1,663.0,30.0,121.0,17.5,RF−trigram test,legend-label
+3,663.0,49.5,122.5,17.5,KN−trigram test,legend-label
+5,663.0,69.0,149.5,19.0,RF−trigram heldout,legend-label
+7,663.0,88.5,151.0,19.0,KN−trigram heldout,legend-label
+9,28.5,85.5,31.0,17.5,160,y-axis-label
+10,28.5,160.5,31.0,19.0,155,y-axis-label
+11,9.0,301.5,17.5,35.5,PPL,y-axis-title
+12,28.5,237.0,31.0,17.5,150,y-axis-label
+13,28.5,312.0,31.0,17.5,145,y-axis-label
+14,28.5,387.0,31.0,19.0,140,y-axis-label
+15,28.5,462.0,31.0,19.0,135,y-axis-label
+16,28.5,538.5,31.0,17.5,130,y-axis-label
+17,28.5,613.5,31.0,19.0,125,y-axis-label
+18,123.0,628.5,20.5,17.5,10,x-axis-label
+19,199.5,628.5,22.0,17.5,20,x-axis-label
+20,277.5,628.5,20.5,17.5,30,x-axis-label
+21,354.0,628.5,22.0,17.5,40,x-axis-label
+22,432.0,628.5,22.0,17.5,50,x-axis-label
+23,508.5,628.5,22.0,17.5,60,x-axis-label
+24,387.0,648.0,119.5,19.0,Number of DTs,x-axis-title
+27,586.5,628.5,22.0,17.5,70,x-axis-label
+28,663.0,628.5,22.0,17.5,80,x-axis-label
+29,741.0,628.5,22.0,17.5,90,x-axis-label
+30,813.0,628.5,31.0,17.5,100,x-axis-label

@@ -1,0 +1,18 @@
+id,x,y,width,height,text,type
+0,6.0,150.0,31.0,245.5,Objective function,y-axis-title
+2,73.5,46.5,55.0,31.0,-1.6,y-axis-label
+3,73.5,153.0,55.0,31.0,-1.8,y-axis-label
+4,99.0,259.5,29.5,31.0,-2,y-axis-label
+5,73.5,367.5,55.0,29.5,-2.2,y-axis-label
+6,612.0,405.0,128.5,31.0,OWL-QN,legend-label
+7,487.5,436.5,253.0,31.0,SGD-L1 (Clipping),legend-label
+9,445.5,466.5,295.0,31.0,SGD-L1 (Cumulative),legend-label
+11,367.5,498.0,373.0,31.0,SGD-L1 (Cumulative + ED),legend-label
+15,73.5,474.0,55.0,29.5,-2.4,y-axis-label
+16,139.5,558.0,20.5,29.5,0,x-axis-label
+17,279.0,558.0,35.5,29.5,10,x-axis-label
+18,426.0,558.0,37.0,29.5,20,x-axis-label
+19,573.0,558.0,37.0,29.5,30,x-axis-label
+20,720.0,558.0,37.0,29.5,40,x-axis-label
+21,868.5,558.0,35.5,29.5,50,x-axis-label
+22,462.0,603.0,103.0,31.0,Passes,x-axis-title

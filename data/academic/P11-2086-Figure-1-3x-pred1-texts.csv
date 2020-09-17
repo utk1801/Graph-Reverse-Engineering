@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,177.0,45.0,22.0,35.5,1,y-axis-label
+1,1458.0,79.5,203.5,35.5,Num. Words,legend-label
+3,1542.0,115.5,119.5,35.5,Judges,legend-label
+4,1506.0,151.5,155.5,35.5,Concepts,legend-label
+5,57.0,283.5,35.5,179.5,Agreement,y-axis-title
+6,147.0,148.5,52.0,37.0,0.8,y-axis-label
+7,147.0,253.5,52.0,35.5,0.6,y-axis-label
+8,147.0,358.5,52.0,35.5,0.4,y-axis-label
+9,147.0,462.0,52.0,37.0,0.2,y-axis-label
+10,177.0,567.0,22.0,35.5,0,y-axis-label
+11,135.0,672.0,64.0,35.5,-0.2,y-axis-label
+12,385.5,708.0,26.5,35.5,A,x-axis-label
+13,564.0,708.0,26.5,35.5,B,x-axis-label
+14,741.0,708.0,28.0,35.5,C,x-axis-label
+15,919.5,708.0,28.0,35.5,D,x-axis-label
+16,1099.5,708.0,26.5,35.5,E,x-axis-label
+17,1279.5,708.0,23.5,35.5,F,x-axis-label
+18,1455.0,708.0,29.5,35.5,G,x-axis-label
+19,1633.5,708.0,29.5,35.5,H,x-axis-label
+20,951.0,762.0,145.0,35.5,Scenafio,x-axis-title

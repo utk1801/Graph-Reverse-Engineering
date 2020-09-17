@@ -1,0 +1,13 @@
+id,x,y,width,height,text,type
+0,22.5,42.0,25.0,23.5,60,y-axis-label
+1,22.5,126.0,25.0,25.0,50,y-axis-label
+2,22.5,210.0,25.0,23.5,40,y-axis-label
+3,804.0,276.0,101.5,28.0,Hungarian,legend-label
+4,811.5,307.5,68.5,28.0,French,legend-label
+5,22.5,294.0,25.0,25.0,30,y-axis-label
+6,22.5,379.5,25.0,23.5,20,y-axis-label
+7,22.5,462.0,25.0,23.5,10,y-axis-label
+8,33.0,547.5,13.0,23.5,0,y-axis-label
+9,114.0,564.0,193.0,38.5,satisfaction/joy,x-axis-label
+10,361.5,564.0,164.5,38.5,dislike/anger,x-axis-label
+11,607.5,564.0,130.0,38.5,stress/fear,x-axis-label

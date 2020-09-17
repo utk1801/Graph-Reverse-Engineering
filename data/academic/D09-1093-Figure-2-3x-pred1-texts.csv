@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,64.5,9.0,17.5,26.5,6,y-axis-label
+1,574.5,34.5,136.0,26.5,Typed TER,legend-label
+3,571.5,60.0,139.0,26.5,Typed CER,legend-label
+5,574.5,87.0,136.0,26.5,Typed FER,legend-label
+7,556.5,112.5,154.0,26.5,Artificial TER,legend-label
+9,553.5,139.5,157.0,26.5,Artificial CER,legend-label
+11,556.5,165.0,154.0,26.5,Artificial FER,legend-label
+13,64.5,118.5,17.5,28.0,5,y-axis-label
+14,9.0,238.5,26.5,113.5,Error rate,y-axis-title
+16,64.5,229.5,17.5,26.5,4,y-axis-label
+17,64.5,339.0,17.5,28.0,3,y-axis-label
+18,64.5,450.0,17.5,26.5,2,y-axis-label
+19,64.5,559.5,17.5,28.0,1,y-axis-label
+20,76.5,586.5,46.0,26.5,100,x-axis-label
+21,174.0,586.5,61.0,26.5,1000,x-axis-label
+22,271.5,586.5,76.0,26.5,10000,x-axis-label
+23,370.5,586.5,89.5,26.5,100000,x-axis-label
+24,481.5,586.5,76.0,26.5,1e+06,x-axis-label
+25,393.0,625.5,140.5,26.5,Corpus size,x-axis-title
+27,586.5,586.5,76.0,26.5,1e+07,x-axis-label
+28,691.5,586.5,76.0,26.5,1e+08,x-axis-label
+29,796.5,586.5,76.0,26.5,1e+09,x-axis-label

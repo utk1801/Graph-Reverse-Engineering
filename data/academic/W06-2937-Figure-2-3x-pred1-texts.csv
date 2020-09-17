@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,54.0,361.5,29.5,28.0,SO,y-axis-label
+1,13.5,109.5,28.0,250.0,Labeled attachement score,y-axis-title
+2,517.5,19.5,71.5,26.5,Arabic,legend-label
+3,673.5,19.5,82.0,26.5,Turkish,legend-label
+4,54.0,87.0,29.5,28.0,90,y-axis-label
+5,54.0,156.0,29.5,26.5,80,y-axis-label
+6,54.0,225.0,29.5,28.0,70,y-axis-label
+7,87.0,468.0,29.5,26.5,10,x-axis-label
+8,157.5,468.0,29.5,26.5,20,x-axis-label
+9,228.0,468.0,29.5,26.5,30,x-axis-label
+10,300.0,468.0,29.5,26.5,40,x-axis-label
+11,370.5,468.0,29.5,26.5,SO,x-axis-label
+12,441.0,468.0,29.5,26.5,60,x-axis-label
+13,511.5,468.0,29.5,26.5,70,x-axis-label
+14,270.0,493.5,280.0,26.5,Training Size (Percentage),x-axis-title
+15,583.5,468.0,29.5,26.5,80,x-axis-label
+16,654.0,468.0,29.5,26.5,90,x-axis-label
+17,718.5,468.0,41.5,26.5,100,x-axis-label
+18,54.0,294.0,29.5,26.5,60,y-axis-label
+19,337.5,19.5,95.5,26.5,J apenese,legend-label
+20,54.0,429.0,29.5,28.0,40,y-axis-label
+21,40.5,19.5,43.0,26.5,100,y-axis-label

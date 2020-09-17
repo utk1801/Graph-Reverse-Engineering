@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,66.0,0.0,31.0,35.5,80,y-axis-label
+1,66.0,283.5,31.0,35.5,50,y-axis-label
+2,66.0,378.0,31.0,35.5,40,y-axis-label
+3,66.0,567.0,31.0,35.5,20,y-axis-label
+4,142.5,591.0,58.0,35.5,1000,x-axis-label
+5,508.5,591.0,71.5,35.5,10000,x-axis-label
+6,345.0,628.5,350.5,35.5,Number of abstracts for training,x-axis-title
+11,832.5,591.0,85.0,35.5,100000,x-axis-label
+12,66.0,189.0,31.0,35.5,60,y-axis-label
+13,66.0,472.5,31.0,35.5,30,y-axis-label
+14,154.5,27.0,53.5,29.5,CRF,legend-label
+15,151.5,55.5,56.5,29.5,SVM,legend-label
+16,66.0,94.5,31.0,35.5,70,y-axis-label
+17,1.5,136.5,35.5,293.5,Per-abstract accuracy (%),y-axis-title

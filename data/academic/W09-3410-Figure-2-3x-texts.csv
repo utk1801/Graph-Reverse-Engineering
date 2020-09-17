@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,33.0,9.0,43.0,47.5,70,y-axis-label
+1,33.0,61.5,43.0,47.5,60,y-axis-label
+2,33.0,115.5,43.0,46.0,50,y-axis-label
+3,33.0,168.0,43.0,46.0,40,y-axis-label
+4,33.0,220.5,43.0,46.0,30,y-axis-label
+5,33.0,273.0,43.0,46.0,20,y-axis-label
+6,33.0,325.5,43.0,46.0,10,y-axis-label
+7,54.0,378.0,22.0,46.0,0,y-axis-label
+8,265.5,33.0,416.5,38.5,Ratio of 2-gram Item [%],title
+13,669.0,75.0,137.5,46.0,Chinese,legend-label
+14,669.0,138.0,158.5,46.0,Japanese,legend-label
+15,669.0,201.0,131.5,46.0,English,legend-label
+16,165.0,438.0,22.0,46.0,1,x-axis-label
+17,292.5,438.0,23.5,46.0,2,x-axis-label
+18,421.5,438.0,22.0,46.0,3,x-axis-label
+19,550.5,438.0,22.0,46.0,4,x-axis-label
+20,678.0,438.0,23.5,46.0,5,x-axis-label
+21,382.5,474.0,185.5,38.5,occurrence,x-axis-title
+22,807.0,438.0,22.0,46.0,6,x-axis-label

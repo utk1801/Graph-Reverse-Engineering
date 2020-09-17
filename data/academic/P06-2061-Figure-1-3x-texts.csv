@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,52.5,6.0,37.0,19.0,21.5,y-axis-label
+1,760.5,22.5,50.5,19.0,IBM-1,legend-label
+2,766.5,40.5,44.5,19.0,HMM,legend-label
+3,760.5,58.5,50.5,19.0,IBM-3,legend-label
+4,760.5,76.5,50.5,19.0,IBM-4,legend-label
+5,760.5,94.5,50.5,19.0,IBM-5,legend-label
+6,67.5,87.0,22.0,19.0,21,y-axis-label
+7,52.5,169.5,37.0,19.0,20.5,y-axis-label
+8,6.0,262.5,19.0,76.0,WER [%],y-axis-title
+10,67.5,250.5,22.0,20.5,20,y-axis-label
+11,52.5,333.0,37.0,19.0,19.5,y-axis-label
+12,67.5,415.5,22.0,19.0,19,y-axis-label
+13,52.5,496.5,37.0,20.5,18.5,y-axis-label
+14,67.5,579.0,22.0,19.0,18,y-axis-label
+15,96.0,597.0,13.0,19.0,1,x-axis-label
+16,289.5,597.0,22.0,19.0,10,x-axis-label
+17,483.0,597.0,32.5,19.0,100,x-axis-label
+18,360.0,624.0,274.0,19.0,"Size of N-best list (N), in log scale",x-axis-title
+26,676.5,597.0,43.0,19.0,1000,x-axis-label
+27,870.0,597.0,53.5,19.0,10000,x-axis-label

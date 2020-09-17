@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,79.5,7.5,19.0,34.0,1,y-axis-label
+1,54.0,127.5,44.5,32.5,0.9,y-axis-label
+2,6.0,235.5,34.0,167.5,1 - p-value,y-axis-title
+5,54.0,246.0,44.5,34.0,0.8,y-axis-label
+6,423.0,288.0,350.5,34.0,Different research groups,legend-label
+9,484.5,322.5,289.0,34.0,Same research group,legend-label
+12,54.0,364.5,44.5,34.0,0.7,y-axis-label
+13,54.0,484.5,44.5,32.5,0.6,y-axis-label
+14,54.0,603.0,44.5,34.0,0.5,y-axis-label
+15,112.5,637.5,20.5,32.5,0,x-axis-label
+16,304.5,637.5,44.5,32.5,0.5,x-axis-label
+17,522.0,637.5,19.0,32.5,1,x-axis-label
+18,466.5,678.0,121.0,34.0,ROUGE,x-axis-title
+19,714.0,637.5,44.5,32.5,1.5,x-axis-label
+20,930.0,637.5,20.5,32.5,2,x-axis-label

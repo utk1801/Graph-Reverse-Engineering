@@ -1,0 +1,11 @@
+id,x,y,width,height,text,type
+0,720.0,30.0,115.0,19.0,= Word Vector,legend-label
+3,720.0,70.5,115.0,19.0,= Gloss Vector,legend-label
+6,58.5,72.0,70.0,25.0,Tennis,y-axis-title
+7,286.5,336.0,58.0,23.5,Serve,text-label
+8,579.0,378.0,112.0,22.0,Normalized,text-label
+9,579.0,403.5,115.0,23.5,gloss vector,text-label
+11,579.0,429.0,92.5,23.5,"for ""fork""",text-label
+13,391.5,477.0,79.0,23.5,Cutlery,text-label
+14,520.5,511.5,37.0,23.5,Eat,text-label
+15,807.0,558.0,53.5,25.0,Food,x-axis-title

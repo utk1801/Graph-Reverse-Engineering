@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,63.0,10.5,79.0,17.5,-2.7e+08,y-axis-label
+1,676.5,27.0,188.5,17.5,bootstrapped EN LSA,legend-label
+4,685.5,43.5,179.5,19.0,monolin ual EN LSA,legend-label
+7,52.5,90.0,89.5,17.5,-2.75e+08,y-axis-label
+8,6.0,210.0,20.5,172.0,Training log likelihood,y-axis-title
+11,63.0,169.5,79.0,17.5,-2.8e+08,y-axis-label
+12,52.5,249.0,89.5,17.5,-2.85e+08,y-axis-label
+13,63.0,328.5,79.0,17.5,-2.96+08,y-axis-label
+14,52.5,408.0,89.5,17.5,-2.95e+08,y-axis-label
+15,78.0,487.5,64.0,17.5,-Se+08,y-axis-label
+16,52.5,567.0,89.5,17.5,-3.05e+08,y-axis-label
+17,190.5,583.5,13.0,19.0,2,x-axis-label
+18,274.5,583.5,13.0,19.0,4,x-axis-label
+19,358.5,583.5,13.0,19.0,6,x-axis-label
+20,442.5,583.5,14.5,19.0,8,x-axis-label
+21,522.0,583.5,23.5,19.0,10,x-axis-label
+22,606.0,583.5,25.0,19.0,12,x-axis-label
+23,459.0,610.5,187.0,19.0,# of training iterations,x-axis-title
+27,691.5,583.5,23.5,19.0,14,x-axis-label
+28,775.5,583.5,23.5,19.0,16,x-axis-label
+29,859.5,583.5,23.5,19.0,18,x-axis-label
+30,943.5,583.5,25.0,19.0,20,x-axis-label

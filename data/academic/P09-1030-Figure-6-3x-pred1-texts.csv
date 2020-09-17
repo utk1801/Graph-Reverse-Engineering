@@ -1,0 +1,14 @@
+id,x,y,width,height,text,type
+0,79.5,90.0,43.0,29.5,0.9,y-axis-label
+1,1.5,121.5,44.5,136.0,Precision,y-axis-title
+2,64.5,4.5,58.0,29.5,0.95,y-axis-label
+3,64.5,175.5,58.0,29.5,0.85,y-axis-label
+4,79.5,261.0,43.0,29.5,0.8,y-axis-label
+5,64.5,346.5,58.0,29.5,0.75,y-axis-label
+6,238.5,283.5,196.0,23.5,Avg precision 0.90,legend-label
+9,238.5,325.5,196.0,23.5,Avg precision 0.85,legend-label
+12,223.5,388.5,19.0,29.5,1,x-axis-label
+13,388.5,388.5,17.5,29.5,2,x-axis-label
+14,532.5,387.0,43.0,29.5,3-4,x-axis-label
+16,709.5,388.5,34.0,29.5,>4,x-axis-label
+17,165.0,432.0,641.5,38.5,Polysemy of the English source word,x-axis-title

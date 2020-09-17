@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,232.5,10.5,110.5,26.5,Da-Vinci,legend-label
+1,558.0,10.5,140.5,26.5,Tom Hanks,legend-label
+3,6.0,81.0,28.0,229.0,Mutual information,y-axis-title
+5,34.5,39.0,31.0,28.0,10,y-axis-label
+6,48.0,99.0,17.5,28.0,5,y-axis-label
+7,48.0,159.0,17.5,26.5,0,y-axis-label
+8,39.0,217.5,26.5,28.0,-5,y-axis-label
+9,25.5,277.5,40.0,26.5,-10,y-axis-label
+10,25.5,336.0,40.0,28.0,-15,y-axis-label
+11,94.5,376.5,17.5,28.0,1,x-axis-label
+12,163.5,376.5,17.5,28.0,3,x-axis-label
+13,231.0,376.5,17.5,28.0,5,x-axis-label
+14,300.0,376.5,17.5,28.0,7,x-axis-label
+15,366.0,376.5,17.5,28.0,9,x-axis-label
+16,429.0,376.5,31.0,28.0,11,x-axis-label
+17,496.5,376.5,31.0,28.0,13,x-axis-label
+18,565.5,376.5,31.0,28.0,15,x-axis-label
+19,631.5,376.5,31.0,28.0,17,x-axis-label
+20,700.5,376.5,32.5,28.0,19,x-axis-label
+21,630.0,400.5,134.5,26.5,Time (day),x-axis-title

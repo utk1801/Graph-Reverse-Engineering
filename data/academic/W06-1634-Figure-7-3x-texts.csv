@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,75.0,10.5,53.5,29.5,600,y-axis-label
+1,9.0,157.5,29.5,109.0,Number,y-axis-title
+2,75.0,73.5,53.5,29.5,500,y-axis-label
+3,75.0,136.5,53.5,29.5,400,y-axis-label
+4,75.0,199.5,53.5,31.0,300,y-axis-label
+5,75.0,262.5,53.5,31.0,200,y-axis-label
+6,75.0,325.5,53.5,31.0,100,y-axis-label
+7,108.0,388.5,20.5,31.0,0,y-axis-label
+8,139.5,418.5,19.0,31.0,0,x-axis-label
+9,271.5,418.5,37.0,31.0,50,x-axis-label
+10,405.0,418.5,52.0,31.0,100,x-axis-label
+11,546.0,418.5,52.0,31.0,150,x-axis-label
+12,687.0,418.5,52.0,31.0,200,x-axis-label
+13,163.5,463.5,584.5,31.0,Training Corpus Size (Number of Abstracts),x-axis-title
+19,210.0,501.0,403.0,31.0,Raw Patterns (before division),legend-label
+23,382.5,531.0,230.5,31.0,Main Component,legend-label
+25,373.5,561.0,239.5,31.0,Entity Component,legend-label
+27,373.5,591.0,239.5,31.0,Other Component,legend-label
+29,429.0,621.0,184.0,31.0,Naive Pattern,legend-label

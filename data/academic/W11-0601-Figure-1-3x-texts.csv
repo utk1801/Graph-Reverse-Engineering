@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,6.0,19.5,27.0,43.0,4.0,y-axis-label
+1,6.0,150.0,27.0,43.0,3.5,y-axis-label
+4,6.0,282.0,27.0,43.0,3.0,y-axis-label
+6,6.0,412.5,27.0,43.0,2.5,y-axis-label
+8,6.0,544.5,27.0,43.0,2.0,y-axis-label
+10,6.0,675.0,27.0,43.0,1.5,y-axis-label
+12,6.0,807.0,27.0,43.0,1.0,y-axis-label
+16,226.5,886.5,19.0,31.0,5,x-axis-label
+17,403.5,886.5,35.5,31.0,10,x-axis-label
+18,588.0,886.5,35.5,31.0,15,x-axis-label
+19,780.0,718.5,118.0,35.5,English,legend-label
+20,780.0,759.0,107.5,37.0,French,legend-label
+21,780.0,801.0,137.5,37.0,Japanese,legend-label
+22,772.5,886.5,35.5,31.0,20,x-axis-label

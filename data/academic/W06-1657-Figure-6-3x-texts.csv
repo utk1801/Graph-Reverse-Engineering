@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,40.5,7.5,31.0,23.5,45,y-axis-label
+1,306.0,57.0,353.5,23.5,char: len=4 (bounded range),legend-label
+5,306.0,88.5,355.0,23.5,word: len=1 (specific length),legend-label
+9,306.0,118.5,355.0,23.5,word: len=2 (specific length),legend-label
+13,306.0,148.5,440.5,23.5,word: len=2 (bounded linear decay),legend-label
+18,40.5,79.5,31.0,23.5,40,y-axis-label
+19,40.5,150.0,31.0,25.0,35,y-axis-label
+20,7.5,274.5,26.5,50.5,EER,y-axis-title
+21,40.5,222.0,31.0,23.5,30,y-axis-label
+22,40.5,294.0,31.0,23.5,25,y-axis-label
+23,40.5,364.5,31.0,25.0,20,y-axis-label
+24,40.5,436.5,31.0,23.5,15,y-axis-label
+25,40.5,508.5,31.0,23.5,10,y-axis-label
+26,54.0,580.5,17.5,23.5,5,y-axis-label
+27,91.5,597.0,61.0,23.5,1750,x-axis-label
+28,276.0,597.0,61.0,23.5,3500,x-axis-label
+29,460.5,597.0,61.0,23.5,7000,x-axis-label
+30,637.5,597.0,76.0,23.5,14000,x-axis-label
+31,319.5,621.0,350.5,23.5,NUMBER OF CHARACTERS,x-axis-title
+34,823.5,597.0,74.5,23.5,28000,x-axis-label

@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,57.0,237.0,59.5,31.0,0.53,y-axis-label
+1,42.0,301.5,74.5,31.0,0.525,y-axis-label
+2,57.0,364.5,59.5,32.5,0.52,y-axis-label
+3,42.0,429.0,74.5,31.0,0.515,y-axis-label
+4,118.5,457.5,19.0,32.5,0,x-axis-label
+5,267.0,457.5,41.5,32.5,0.2,x-axis-label
+6,427.5,457.5,41.5,32.5,0.4,x-axis-label
+7,586.5,457.5,43.0,32.5,0.6,x-axis-label
+8,436.5,487.5,187.0,31.0,Lambda Value,x-axis-title
+10,747.0,457.5,43.0,32.5,0.8,x-axis-label
+11,919.5,457.5,17.5,32.5,1,x-axis-label
+12,42.0,174.0,74.5,31.0,0.535,y-axis-label
+13,57.0,109.5,59.5,31.0,0.54,y-axis-label
+14,4.5,190.5,31.0,119.5,Accuracy,y-axis-title
+15,295.5,6.0,467.5,38.5,Lambda Parameter Accuracy,title
+18,42.0,46.5,74.5,31.0,0.545,y-axis-label

@@ -1,0 +1,12 @@
+id,x,y,width,height,text,type
+0,211.5,501.0,28.0,44.5,2,x-axis-label
+1,340.5,501.0,28.0,44.5,4,x-axis-label
+2,471.0,501.0,28.0,44.5,6,x-axis-label
+3,600.0,501.0,28.0,44.5,8,x-axis-label
+4,342.0,567.0,220.0,44.5,annotators,x-axis-title
+5,715.5,501.0,53.5,44.5,10,x-axis-label
+6,64.5,415.5,44.5,91.0,0.70,y-axis-label
+7,-1.5,184.5,44.5,185.5,accuracy,y-axis-title
+8,64.5,268.5,44.5,91.0,0.80,y-axis-label
+9,64.5,121.5,44.5,91.0,0.90,y-axis-label
+10,193.5,7.5,517.0,53.5,Temp. Ordering ITA,title

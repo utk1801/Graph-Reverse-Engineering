@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,4.5,76.5,43.0,250.0,BLEU score (%),y-axis-title
+1,160.5,414.0,23.5,43.0,0,x-axis-label
+2,324.0,414.0,43.0,43.0,10,x-axis-label
+3,496.5,414.0,44.5,43.0,20,x-axis-label
+4,670.5,414.0,43.0,43.0,30,x-axis-label
+5,843.0,414.0,44.5,43.0,40,x-axis-label
+6,288.0,475.5,461.5,43.0,Considered paraprhases (k),x-axis-title
+7,52.5,1.5,83.5,43.0,45.4,y-axis-label
+8,52.5,61.5,83.5,43.0,45.2,y-axis-label
+9,52.5,121.5,83.5,43.0,45.0,y-axis-label
+10,52.5,181.5,83.5,43.0,44.8,y-axis-label
+11,52.5,241.5,83.5,43.0,44.6,y-axis-label
+12,52.5,301.5,83.5,43.0,44.4,y-axis-label
+13,52.5,361.5,83.5,43.0,44.2,y-axis-label

@@ -1,0 +1,25 @@
+id,x,y,width,height,text,type
+0,90.0,7.5,16.0,25.0,4,y-axis-label
+1,496.5,31.5,254.5,25.0,"Co-citation, Bayes filter",legend-label
+4,690.0,55.5,61.0,25.0,BIND,legend-label
+5,637.5,81.0,113.5,25.0,Reactome,legend-label
+6,679.5,105.0,71.5,25.0,HPRD,legend-label
+7,571.5,129.0,179.5,25.0,Orthology (core),legend-label
+9,571.5,153.0,179.5,26.5,Orthology (core),legend-label
+11,69.0,88.5,37.0,25.0,3.5,y-axis-label
+12,7.5,117.0,26.5,361.0,"LLR score, functional benchmark",y-axis-title
+16,90.0,168.0,16.0,25.0,3,y-axis-label
+17,69.0,247.5,37.0,25.0,2.5,y-axis-label
+18,90.0,327.0,16.0,25.0,2,y-axis-label
+19,69.0,406.5,37.0,25.0,1.5,y-axis-label
+20,90.0,486.0,16.0,26.5,1,y-axis-label
+21,69.0,567.0,37.0,25.0,0.5,y-axis-label
+22,114.0,591.0,17.5,25.0,0,x-axis-label
+23,193.5,591.0,71.5,25.0,10000,x-axis-label
+24,300.0,591.0,71.5,25.0,20000,x-axis-label
+25,406.5,591.0,70.0,25.0,30000,x-axis-label
+26,513.0,591.0,70.0,25.0,40000,x-axis-label
+27,619.5,591.0,70.0,25.0,50000,x-axis-label
+28,346.5,627.0,290.5,26.5,# of interactions recovered,x-axis-title
+32,726.0,591.0,70.0,25.0,60000,x-axis-label
+33,832.5,591.0,70.0,25.0,70000,x-axis-label

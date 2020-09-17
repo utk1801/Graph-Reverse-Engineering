@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+4,61.5,85.5,25.0,32.5,1.0,y-axis-label
+8,61.5,478.5,25.0,32.5,0.2,y-axis-label
+9,571.5,187.5,182.5,22.0,CH.EN.RQuantity,legend-label
+10,571.5,213.0,182.5,22.0,AR.EN.RQuantity,legend-label
+11,61.5,282.0,25.0,32.5,0.6,y-axis-label
+13,61.5,381.0,25.0,31.0,0.4,y-axis-label
+14,7.5,262.5,23.5,97.0,RQuantity,y-axis-title
+15,61.5,184.5,25.0,31.0,0.8,y-axis-label
+19,117.0,645.0,41.5,22.0,0−9,x-axis-label
+20,225.0,645.0,67.0,22.0,20−29,x-axis-label
+21,346.5,645.0,67.0,22.0,40−49,x-axis-label
+22,468.0,645.0,67.0,22.0,60−69,x-axis-label
+23,589.5,645.0,67.0,22.0,80−89,x-axis-label
+24,711.0,645.0,67.0,22.0,>=100,x-axis-label
+25,333.0,696.0,215.5,23.5,Sentence Length Bin,x-axis-title
+28,61.5,577.5,25.0,32.5,0.0,y-axis-label

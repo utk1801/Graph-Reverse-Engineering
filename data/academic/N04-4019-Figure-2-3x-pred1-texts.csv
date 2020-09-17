@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,30.0,61.5,17.5,35.5,7,y-axis-label
+1,669.0,67.5,40.0,34.0,NL,legend-label
+2,790.5,67.5,41.5,34.0,SG,legend-label
+3,30.0,142.5,17.5,35.5,6,y-axis-label
+4,30.0,223.5,17.5,35.5,5,y-axis-label
+5,30.0,304.5,17.5,35.5,4,y-axis-label
+6,30.0,385.5,17.5,35.5,3,y-axis-label
+7,30.0,466.5,17.5,35.5,2,y-axis-label
+8,32.0,547.5,17.5,35.5,1,y-axis-label
+9,97.5,592.5,67.0,113.5,EESE,x-axis-label
+12,219.0,592.5,55.0,35.5,like.,x-axis-label
+13,331.5,592.5,65.5,74.5,"33%"".",x-axis-label
+16,456.0,592.5,58.0,35.5,ann.,x-axis-label
+17,571.5,592.5,56.5,35.5,hab.,x-axis-label
+18,676.5,592.5,82.0,35.5,speed,x-axis-label
+19,787.5,592.5,89.5,35.5,overall,x-axis-label

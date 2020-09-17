@@ -1,0 +1,18 @@
+id,x,y,width,height,text,type
+0,82.5,1.5,17.5,35.5,1,y-axis-label
+1,43.5,61.5,56.5,35.5,0.95,y-axis-label
+2,0.0,106.5,37.0,125.5,Precision,y-axis-title
+3,58.5,120.0,41.5,37.0,0.9,y-axis-label
+4,43.5,180.0,56.5,37.0,0.85,y-axis-label
+5,58.5,240.0,41.5,37.0,0.8,y-axis-label
+6,43.5,300.0,56.5,37.0,0.75,y-axis-label
+7,111.0,339.0,17.5,37.0,0,x-axis-label
+8,225.0,339.0,32.5,37.0,50,x-axis-label
+9,340.5,339.0,47.5,37.0,100,x-axis-label
+10,462.0,339.0,49.0,37.0,150,x-axis-label
+11,585.0,339.0,47.5,37.0,200,x-axis-label
+12,706.5,339.0,49.0,37.0,250,x-axis-label
+13,297.0,384.0,256.0,37.0,Correct Extractions,x-axis-title
+15,112.5,435.0,227.5,41.5,KnowItNow-freq,legend-label
+16,423.0,435.0,260.5,41.5,KnowItNow-URNS,legend-label
+17,111.0,478.5,214.0,34.0,KnOWItAII-PMI,legend-label

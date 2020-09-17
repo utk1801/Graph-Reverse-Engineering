@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,40.5,6.0,20.5,17.5,80,y-axis-label
+1,40.5,88.5,20.5,17.5,75,y-axis-label
+2,7.5,228.0,16.0,67.0,Accuracy,y-axis-title
+3,40.5,171.0,20.5,17.5,70,y-axis-label
+4,40.5,253.5,20.5,17.5,65,y-axis-label
+5,40.5,336.0,20.5,17.5,60,y-axis-label
+6,40.5,418.5,20.5,17.5,55,y-axis-label
+7,550.5,439.5,151.0,17.5,Selector: LL-CONFIG,legend-label
+9,531.0,456.0,170.5,16.0,Selector: LL-CONGLOM,legend-label
+11,589.5,471.0,112.0,17.5,Selector: RAND,legend-label
+13,583.5,486.0,118.0,17.5,Selector: P-MRS,legend-label
+15,40.5,501.0,20.5,17.5,50,y-axis-label
+16,66.0,517.5,11.5,16.0,0,x-axis-label
+17,141.0,517.5,37.0,16.0,1000,x-axis-label
+18,228.0,517.5,38.5,16.0,2000,x-axis-label
+19,316.5,517.5,37.0,16.0,3000,x-axis-label
+20,405.0,517.5,37.0,16.0,4000,x-axis-label
+21,366.0,540.0,110.5,17.5,Annotation oost,x-axis-title
+23,492.0,517.5,38.5,16.0,5000,x-axis-label
+24,580.5,517.5,37.0,16.0,6000,x-axis-label
+25,669.0,517.5,37.0,16.0,7000,x-axis-label
+26,756.0,517.5,38.5,16.0,8000,x-axis-label

@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,55.5,214.5,20.5,25.0,10,y-axis-label
+1,580.5,168.0,94.0,22.0,800 t0pics,legend-label
+3,580.5,192.0,94.0,22.0,400 topics,legend-label
+5,580.5,216.0,94.0,22.0,200 topics,legend-label
+7,580.5,240.0,94.0,22.0,100 topics,legend-label
+9,580.5,264.0,82.0,22.0,50 to pics,legend-label
+11,55.5,294.0,20.5,13.0,5,y-axis-label
+12,7.5,192.0,20.5,70.0,Density,y-axis-title
+13,55.5,141.0,20.5,25.0,15,y-axis-label
+14,55.5,66.0,20.5,25.0,20,y-axis-label
+15,138.0,9.0,614.5,23.5,Smoothed histograms of inter-Ianguage JS divergence,title
+21,55.5,367.5,20.5,14.5,0,y-axis-label
+22,111.0,414.0,29.5,20.5,0.0,x-axis-label
+23,238.5,414.0,29.5,20.5,0.1,x-axis-label
+24,366.0,414.0,31.0,20.5,0.2,x-axis-label
+25,495.0,414.0,29.5,20.5,0.3,x-axis-label
+26,622.5,414.0,29.5,20.5,0.4,x-axis-label
+27,750.0,414.0,31.0,20.5,0.5,x-axis-label
+28,313.5,462.0,265.0,20.5,Jensen-Shannon Divergence,x-axis-title

@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,172.5,28.5,553.0,34.0,"Expanding Productivity, Wikipedia",title
+3,54.0,160.5,29.5,221.5,Spearman's rho,y-axis-title
+5,96.0,126.0,29.5,20.5,1.2,y-axis-label
+6,112.5,171.0,13.0,20.5,1,y-axis-label
+7,96.0,216.0,29.5,20.5,0.8,y-axis-label
+8,793.5,226.5,71.5,20.5,Top 100,legend-label
+10,96.0,261.0,29.5,20.5,0.6,y-axis-label
+11,793.5,262.5,61.0,20.5,Top 50,legend-label
+13,96.0,306.0,29.5,20.5,0.4,y-axis-label
+14,793.5,298.5,61.0,20.5,Top 25,legend-label
+16,96.0,351.0,29.5,20.5,0.2,y-axis-label
+17,112.5,397.5,13.0,19.0,0,y-axis-label
+18,132.0,426.0,13.0,19.0,0,x-axis-label
+19,205.5,426.0,23.5,19.0,50,x-axis-label
+20,279.0,426.0,34.0,19.0,100,x-axis-label
+21,358.5,426.0,34.0,19.0,150,x-axis-label
+22,438.0,426.0,34.0,19.0,200,x-axis-label
+23,517.5,426.0,34.0,19.0,250,x-axis-label
+24,597.0,426.0,34.0,19.0,300,x-axis-label
+25,256.5,466.5,239.5,29.5,Tokens (millions),x-axis-title

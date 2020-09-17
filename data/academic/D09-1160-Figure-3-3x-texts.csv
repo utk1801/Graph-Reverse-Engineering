@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,7.5,15.0,29.5,412.0,Ave. classification time [ms/sent.],y-axis-title
+4,63.0,7.5,40.0,31.0,2.5,y-axis-label
+5,85.5,87.0,17.5,29.5,2,y-axis-label
+6,571.5,31.5,203.5,29.5,SVM-KE (d = 1),legend-label
+9,571.5,63.0,203.5,29.5,SVM-KE (d = 2),legend-label
+12,571.5,93.0,203.5,29.5,SVM-KE (d = 3),legend-label
+15,571.5,123.0,203.5,29.5,SVM-KE (d = 4),legend-label
+30,415.5,435.0,47.5,29.5,300,x-axis-label
+31,522.0,435.0,47.5,29.5,400,x-axis-label
+32,627.0,435.0,47.5,29.5,500,x-axis-label
+33,400.5,465.0,230.5,29.5,Size of fstrie [MB],x-axis-title
+37,733.5,435.0,47.5,29.5,600,x-axis-label
+38,63.0,166.5,40.0,29.5,1.5,y-axis-label
+39,85.5,246.0,17.5,29.5,1,y-axis-label
+40,63.0,325.5,40.0,29.5,0.5,y-axis-label
+41,85.5,403.5,17.5,29.5,0,y-axis-label
+42,114.0,435.0,17.5,29.5,0,x-axis-label
+43,205.5,435.0,47.5,29.5,100,x-axis-label
+44,310.5,435.0,47.5,29.5,200,x-axis-label
+45,838.5,435.0,47.5,29.5,700,x-axis-label

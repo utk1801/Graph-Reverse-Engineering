@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,220.5,10.5,610.0,34.0,Precision vs Recall on Teleconferences,title
+5,39.0,51.0,61.0,34.0,100,y-axis-label
+6,555.0,79.5,367.0,35.5,1−best word hypothesis,legend-label
+9,555.0,120.0,196.0,34.0,word lattices,legend-label
+11,555.0,160.5,356.5,34.0,word lattices (prune=6),legend-label
+14,555.0,199.5,356.5,35.5,word lattices (prune=4),legend-label
+17,555.0,240.0,356.5,34.0,word lattices (prune=2),legend-label
+20,58.5,186.0,41.5,34.0,80,y-axis-label
+21,58.5,321.0,41.5,35.5,60,y-axis-label
+22,7.5,352.5,35.5,98.5,Recall,y-axis-title
+23,58.5,456.0,41.5,35.5,40,y-axis-label
+24,58.5,592.5,41.5,34.0,20,y-axis-label
+25,78.0,727.5,22.0,34.0,0,y-axis-label
+26,91.5,751.5,22.0,34.0,0,x-axis-label
+27,250.5,751.5,41.5,34.0,20,x-axis-label
+28,420.0,751.5,41.5,34.0,40,x-axis-label
+29,589.5,751.5,40.0,34.0,60,x-axis-label
+30,453.0,783.0,145.0,35.5,Precision,x-axis-title
+31,757.5,751.5,41.5,34.0,80,x-axis-label
+32,918.0,751.5,59.5,34.0,100,x-axis-label

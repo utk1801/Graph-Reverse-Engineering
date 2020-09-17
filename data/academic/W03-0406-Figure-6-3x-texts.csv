@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,46.5,9.0,10.0,16.0,0,y-axis-label
+1,570.0,22.5,86.5,16.0,CROSS-VAL,legend-label
+2,40.5,87.0,16.0,16.0,-5,y-axis-label
+3,6.0,136.5,16.0,224.5,difference from base precision (%),y-axis-title
+8,33.0,163.5,23.5,16.0,-10,y-axis-label
+9,33.0,241.5,23.5,16.0,-15,y-axis-label
+10,33.0,318.0,23.5,16.0,-20,y-axis-label
+11,33.0,396.0,23.5,16.0,-25,y-axis-label
+12,33.0,472.5,23.5,16.0,-30,y-axis-label
+13,58.5,487.5,11.5,16.0,0,x-axis-label
+14,190.5,487.5,11.5,16.0,2,x-axis-label
+15,322.5,487.5,11.5,16.0,4,x-axis-label
+16,454.5,487.5,10.0,16.0,6,x-axis-label
+17,586.5,487.5,10.0,16.0,8,x-axis-label
+18,714.0,487.5,19.0,16.0,10,x-axis-label
+19,366.0,510.0,55.0,16.0,iteration,x-axis-title
