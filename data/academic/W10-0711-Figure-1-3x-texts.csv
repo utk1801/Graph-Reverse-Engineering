@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,60.0,1.5,37.0,37.0,20,y-axis-label
+1,60.0,63.0,37.0,37.0,18,y-axis-label
+2,60.0,123.0,37.0,37.0,16,y-axis-label
+3,1.5,196.5,41.5,299.5,Number of Turkers,y-axis-title
+6,60.0,184.5,37.0,37.0,14,y-axis-label
+7,60.0,244.5,37.0,38.5,12,y-axis-label
+8,60.0,306.0,37.0,37.0,10,y-axis-label
+9,78.0,367.5,19.0,37.0,8,y-axis-label
+10,78.0,427.5,19.0,37.0,6,y-axis-label
+11,78.0,489.0,19.0,37.0,4,y-axis-label
+12,78.0,549.0,19.0,38.5,2,y-axis-label
+13,78.0,610.5,19.0,37.0,0,y-axis-label
+14,130.5,655.5,20.5,37.0,0,x-axis-label
+15,283.5,655.5,64.0,37.0,0.25,x-axis-label
+16,466.5,655.5,46.0,37.0,0.5,x-axis-label
+17,631.5,655.5,64.0,37.0,0.75,x-axis-label
+18,828.0,655.5,19.0,37.0,1,x-axis-label
+19,150.0,706.5,616.0,41.5,Accuracy of judgments of control cases,x-axis-title

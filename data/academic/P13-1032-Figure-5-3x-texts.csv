@@ -1,0 +1,22 @@
+id,x,y,width,height,text,type
+0,70.5,30.0,104.5,29.5,UNALIGN,y-axis-label
+1,7.5,63.0,167.5,29.5,Lreorder-Rreorder,y-axis-label
+2,21.0,94.5,154.0,29.5,Lreorder-Rmono,y-axis-label
+3,19.5,127.5,155.5,29.5,Lmono-Rreorder,y-axis-label
+4,34.5,160.5,140.5,29.5,Lmono-Rmono,y-axis-label
+5,40.5,193.5,134.5,29.5,END-Lreorder,y-axis-label
+6,54.0,225.0,121.0,29.5,END-Lmono,y-axis-label
+7,16.5,258.0,158.5,29.5,BEGIN-Rreorder,y-axis-label
+8,30.0,291.0,145.0,29.5,BEGIN-Rmono,y-axis-label
+9,196.5,346.5,13.0,25.0,0,x-axis-label
+10,252.0,346.5,31.0,25.0,0.5,x-axis-label
+11,325.5,346.5,13.0,25.0,1,x-axis-label
+12,381.0,346.5,31.0,25.0,1.5,x-axis-label
+13,453.0,346.5,14.5,25.0,2,x-axis-label
+14,508.5,346.5,32.5,25.0,2.5,x-axis-label
+15,582.0,346.5,14.5,25.0,3,x-axis-label
+16,448.5,369.0,154.0,32.5,Amount of Tags,x-axis-title
+19,637.5,346.5,32.5,25.0,3.5,x-axis-label
+20,711.0,346.5,14.5,25.0,4,x-axis-label
+21,766.5,346.5,32.5,25.0,4.5,x-axis-label
+22,840.0,346.5,14.5,25.0,5,x-axis-label

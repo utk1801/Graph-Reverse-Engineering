@@ -1,0 +1,27 @@
+id,x,y,width,height,text,type
+0,94.5,7.5,17.5,26.5,1,y-axis-label
+1,73.5,75.0,38.5,28.0,0.9,y-axis-label
+2,7.5,216.0,26.5,148.0,S-recall-at-K,y-axis-title
+3,73.5,144.0,38.5,26.5,0.8,y-axis-label
+4,651.0,156.0,98.5,26.5,Squares,legend-label
+5,640.5,183.0,109.0,26.5,Triangles,legend-label
+6,664.5,208.5,85.0,26.5,Yahoo!,legend-label
+7,712.5,234.0,37.0,26.5,EP,legend-label
+8,667.5,261.0,82.0,26.5,Keysrc,legend-label
+9,73.5,211.5,38.5,26.5,0.7,y-axis-label
+10,73.5,279.0,38.5,26.5,0.6,y-axis-label
+11,73.5,346.5,38.5,26.5,0.5,y-axis-label
+12,73.5,414.0,38.5,26.5,0.4,y-axis-label
+13,73.5,481.5,38.5,26.5,0.3,y-axis-label
+14,73.5,550.5,38.5,26.5,0.2,y-axis-label
+15,181.5,576.0,31.0,26.5,10,x-axis-label
+16,256.5,576.0,31.0,26.5,20,x-axis-label
+17,330.0,576.0,32.5,26.5,30,x-axis-label
+18,405.0,576.0,32.5,26.5,40,x-axis-label
+19,480.0,576.0,31.0,26.5,50,x-axis-label
+20,555.0,576.0,31.0,26.5,60,x-axis-label
+21,630.0,576.0,31.0,26.5,70,x-axis-label
+22,705.0,576.0,31.0,26.5,80,x-axis-label
+23,778.5,576.0,32.5,26.5,90,x-axis-label
+24,846.0,576.0,46.0,26.5,100,x-axis-label
+25,381.0,615.0,229.0,26.5,number of results K,x-axis-title

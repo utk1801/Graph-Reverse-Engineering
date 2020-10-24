@@ -1,0 +1,22 @@
+id,x,y,width,height,text,type
+0,64.5,1.5,61.0,38.5,0.83,y-axis-label
+1,624.0,33.0,68.5,40.0,CMF,legend-label
+2,624.0,70.5,170.5,38.5,Early Fusion,legend-label
+4,624.0,106.5,175.0,40.0,Speech Only,legend-label
+6,48.0,64.5,77.5,40.0,0.825,y-axis-label
+7,64.5,127.5,61.0,40.0,0.82,y-axis-label
+8,1.5,241.5,40.0,65.5,AUC,y-axis-title
+9,48.0,192.0,77.5,38.5,0.815,y-axis-label
+10,64.5,255.0,61.0,40.0,0.81,y-axis-label
+11,48.0,318.0,77.5,40.0,0.805,y-axis-label
+12,81.0,382.5,44.5,40.0,0.8,y-axis-label
+13,48.0,445.5,77.5,40.0,0.795,y-axis-label
+14,64.5,510.0,61.0,38.5,0.79,y-axis-label
+15,123.0,534.0,19.0,38.5,2,x-axis-label
+16,237.0,534.0,19.0,38.5,3,x-axis-label
+17,351.0,534.0,19.0,38.5,4,x-axis-label
+18,466.5,534.0,19.0,38.5,5,x-axis-label
+19,580.5,534.0,19.0,38.5,6,x-axis-label
+20,694.5,534.0,19.0,38.5,7,x-axis-label
+21,282.0,567.0,388.0,40.0,log of regularization constant,x-axis-title
+25,810.0,534.0,19.0,38.5,8,x-axis-label

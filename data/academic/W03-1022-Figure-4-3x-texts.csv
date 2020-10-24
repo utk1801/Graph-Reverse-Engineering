@@ -1,0 +1,18 @@
+id,x,y,width,height,text,type
+0,54.0,9.0,22.0,19.0,70,y-axis-label
+1,750.0,27.0,85.0,36.5,Test 1.6,legend-label
+3,750.0,65.0,97.0,38.5,Test 1.71,legend-label
+5,7.5,265.5,31.0,134.5,Accuracy,y-axis-title
+6,54.0,135.0,22.0,17.5,65,y-axis-label
+7,54.0,259.5,22.0,19.0,60,y-axis-label
+8,54.0,385.5,22.0,17.5,55,y-axis-label
+9,54.0,510.0,22.0,19.0,50,y-axis-label
+10,54.0,636.0,22.0,15.0,45,y-axis-label
+11,73.5,651.0,11.5,19.0,1,x-axis-label
+12,205.5,651.0,13.0,19.0,2,x-axis-label
+13,337.5,651.0,13.0,19.0,3,x-axis-label
+14,469.5,651.0,13.0,19.0,4,x-axis-label
+15,603.0,651.0,11.5,19.0,5,x-axis-label
+16,735.0,651.0,11.5,19.0,6,x-axis-label
+17,867.0,651.0,13.0,19.0,7,x-axis-label
+18,277.5,681.0,397.0,32.5,Test Nouns Frequency Bins,x-axis-title

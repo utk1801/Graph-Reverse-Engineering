@@ -1,0 +1,49 @@
+id,x,y,width,height,text,type
+0,1138.5,606.0,32.5,172.0,Western Sahara,x-axis-label
+2,1048.5,606.0,31.0,70.0,Sudan,x-axis-label
+3,1093.5,606.0,31.0,77.5,Tunisia,x-axis-label
+4,1003.5,606.0,31.0,92.5,Morocco,x-axis-label
+5,958.5,606.0,31.0,68.5,Melilla,x-axis-label
+6,912.0,606.0,32.5,58.0,Libya,x-axis-label
+7,867.0,606.0,31.0,62.5,Egypt,x-axis-label
+8,822.0,606.0,31.0,65.5,Ceuta,x-axis-label
+9,777.0,606.0,31.0,76.0,Algeria,x-axis-label
+10,732.0,606.0,31.0,73.0,Gabon,x-axis-label
+11,640.5,606.0,32.5,112.0,Cameroon,x-axis-label
+12,685.5,606.0,32.5,190.0,Equatorial Guinea,x-axis-label
+14,595.5,606.0,31.0,85.0,Uganda,x-axis-label
+15,550.5,606.0,31.0,98.5,Tanzania,x-axis-label
+16,505.5,606.0,31.0,86.5,Somalia,x-axis-label
+17,414.0,606.0,32.5,88.0,Rwanda,x-axis-label
+18,460.5,606.0,31.0,115.0,Seychelles,x-axis-label
+19,369.0,606.0,31.0,68.5,Kenya,x-axis-label
+20,324.0,606.0,31.0,86.5,Ethiopia,x-axis-label
+21,279.0,606.0,31.0,71.5,Eritrea,x-axis-label
+22,234.0,606.0,31.0,80.5,Djibouti,x-axis-label
+23,187.5,606.0,32.5,97.0,Comoros,x-axis-label
+24,547.5,3.0,332.5,32.5,Total reference snippets (count),legend-label
+28,450.0,27.0,430.0,31.0,Matched reference snippets (percentage),legend-label
+32,142.5,606.0,32.5,83.5,Burundi,x-axis-label
+33,97.5,606.0,31.0,85.0,Gambia,x-axis-label
+34,1.5,211.5,32.5,190.0,Count/Percentage,y-axis-title
+35,60.0,3.0,40.0,32.5,100,y-axis-label
+36,72.0,33.0,28.0,31.0,95,y-axis-label
+37,72.0,61.5,28.0,31.0,90,y-axis-label
+38,72.0,90.0,28.0,31.0,85,y-axis-label
+39,72.0,118.5,28.0,31.0,80,y-axis-label
+40,72.0,147.0,28.0,31.0,75,y-axis-label
+41,72.0,175.5,28.0,31.0,70,y-axis-label
+42,72.0,204.0,28.0,32.5,65,y-axis-label
+43,72.0,234.0,28.0,31.0,60,y-axis-label
+44,72.0,262.5,28.0,31.0,55,y-axis-label
+45,72.0,291.0,28.0,31.0,50,y-axis-label
+46,72.0,319.5,28.0,31.0,45,y-axis-label
+47,72.0,348.0,28.0,31.0,40,y-axis-label
+48,72.0,376.5,28.0,31.0,35,y-axis-label
+49,72.0,405.0,28.0,32.5,30,y-axis-label
+50,72.0,433.5,28.0,32.5,25,y-axis-label
+51,72.0,463.5,28.0,31.0,20,y-axis-label
+52,72.0,492.0,28.0,31.0,15,y-axis-label
+53,72.0,520.5,28.0,31.0,10,y-axis-label
+54,85.5,549.0,16.0,31.0,5,y-axis-label
+55,85.5,577.5,16.0,31.0,0,y-axis-label

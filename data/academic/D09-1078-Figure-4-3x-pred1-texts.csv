@@ -1,0 +1,34 @@
+id,x,y,width,height,text,type
+0,93.0,46.5,23.5,23.5,73,y-axis-label
+1,1579.5,87.0,226.0,26.5,cou nt cutoffs for n > 1,legend-label
+7,93.0,90.0,23.5,23.5,72,y-axis-label
+8,93.0,133.5,23.5,23.5,71,y-axis-label
+9,93.0,177.0,23.5,23.5,70,y-axis-label
+10,1579.5,181.5,226.0,26.5,cou nt cutoffs for n > 2,legend-label
+16,46.5,277.5,32.5,125.5,Perplexity,y-axis-title
+17,93.0,220.5,23.5,23.5,69,y-axis-label
+18,93.0,264.0,23.5,23.5,68,y-axis-label
+19,1579.5,274.5,250.0,28.0,relative entropy pruning,legend-label
+22,93.0,307.5,23.5,23.5,67,y-axis-label
+23,93.0,351.0,23.5,23.5,66,y-axis-label
+24,1579.5,369.0,229.0,89.5,gfge?EEe?gviggge?'Ege?:,legend-label
+32,1579.5,463.5,275.5,58.0,"?SSLTEZJYEEtVL/riilt'a""y'",legend-label
+38,93.0,394.5,23.5,23.5,65,y-axis-label
+39,93.0,438.0,23.5,23.5,64,y-axis-label
+40,93.0,481.5,23.5,23.5,63,y-axis-label
+41,93.0,525.0,23.5,23.5,62,y-axis-label
+42,1579.5,558.0,235.0,58.0,?:SLTfiZdVYEEtVL/r?e?ly',legend-label
+48,93.0,568.5,23.5,23.5,61,y-axis-label
+49,93.0,612.0,23.5,23.5,60,y-axis-label
+50,129.0,645.0,13.0,23.5,0,x-axis-label
+51,264.0,645.0,13.0,23.5,1,x-axis-label
+52,399.0,645.0,13.0,23.5,2,x-axis-label
+53,534.0,645.0,13.0,23.5,3,x-axis-label
+54,669.0,645.0,14.5,23.5,4,x-axis-label
+55,805.5,645.0,13.0,23.5,5,x-axis-label
+56,940.5,645.0,13.0,23.5,6,x-axis-label
+57,1075.5,645.0,13.0,23.5,7,x-axis-label
+58,1210.5,645.0,13.0,23.5,8,x-axis-label
+59,1345.5,645.0,13.0,23.5,9,x-axis-label
+60,1476.0,645.0,23.5,23.5,10,x-axis-label
+61,628.5,688.5,365.5,32.5,Millions of Model Parameters,x-axis-title

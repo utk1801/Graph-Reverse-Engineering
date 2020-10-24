@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,78.0,52.5,41.5,43.0,35,y-axis-label
+1,559.5,76.5,217.0,43.0,phrase-based,legend-label
+2,696.0,117.0,80.5,35.5,hiero,legend-label
+3,567.0,148.5,209.5,37.0,syntax-based,legend-label
+4,78.0,178.5,41.5,43.0,30,y-axis-label
+5,1.5,235.5,43.0,290.5,Diversity (TER[%]),y-axis-title
+7,309.0,3.0,377.5,41.5,Diversity on MT04 (test),title
+11,78.0,304.5,41.5,43.0,25,y-axis-label
+12,78.0,430.5,41.5,41.5,20,y-axis-label
+13,78.0,556.5,41.5,41.5,15,y-axis-label
+14,78.0,682.5,41.5,41.5,10,y-axis-label
+15,123.0,715.5,23.5,43.0,0,x-axis-label
+16,246.0,715.5,22.0,43.0,5,x-axis-label
+17,849.0,715.5,41.5,43.0,30,x-axis-label
+18,727.5,715.5,41.5,43.0,25,x-axis-label
+19,358.5,715.5,43.0,43.0,10,x-axis-label
+20,481.5,715.5,41.5,43.0,15,x-axis-label
+21,604.5,715.5,41.5,43.0,20,x-axis-label

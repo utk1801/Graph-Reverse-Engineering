@@ -1,0 +1,24 @@
+id,x,y,width,height,text,type
+0,154.5,9.0,692.5,67.0,"DET graph showing %Misses and %False Alarms for TRAD_50, LexDetect and CHAIN systems",title
+13,46.5,102.0,46.0,28.0,100,y-axis-label
+14,579.0,157.5,149.5,29.5,Lex_Detect,legend-label
+15,579.0,196.5,131.5,31.0,TRAD_50,legend-label
+16,579.0,237.0,94.0,29.5,CHAIN,legend-label
+17,60.0,165.0,32.5,28.0,90,y-axis-label
+18,60.0,289.5,32.5,28.0,70,y-axis-label
+19,60.0,352.5,32.5,26.5,60,y-axis-label
+20,60.0,414.0,32.5,28.0,50,y-axis-label
+21,60.0,477.0,32.5,26.5,40,y-axis-label
+22,60.0,538.5,32.5,28.0,30,y-axis-label
+23,60.0,601.5,32.5,28.0,20,y-axis-label
+24,60.0,664.5,32.5,26.5,10,y-axis-label
+25,75.0,726.0,17.5,28.0,0,y-axis-label
+26,103.5,765.0,17.5,28.0,0,x-axis-label
+27,228.0,765.0,32.5,28.0,20,x-axis-label
+28,361.5,765.0,31.0,28.0,40,x-axis-label
+29,493.5,765.0,32.5,28.0,60,x-axis-label
+30,625.5,765.0,32.5,28.0,80,x-axis-label
+31,750.0,765.0,47.5,28.0,100,x-axis-label
+32,372.0,807.0,142.0,35.5,%Misses,x-axis-title
+33,7.5,306.0,34.0,239.5,%False Alarms,y-axis-title
+35,60.0,226.5,32.5,28.0,80,y-axis-label

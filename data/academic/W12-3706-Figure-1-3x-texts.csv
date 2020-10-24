@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,135.0,9.0,752.5,29.5,Similarity to the Language Models and text sizes (Test set),title
+10,114.0,42.0,19.0,29.5,0,y-axis-label
+11,64.5,160.5,68.5,31.0,−500,y-axis-label
+12,7.5,193.5,31.0,317.5,Similarity to negative LM,y-axis-title
+16,49.5,280.5,83.5,29.5,−1000,y-axis-label
+17,49.5,399.0,83.5,29.5,−1500,y-axis-label
+18,49.5,517.5,83.5,31.0,−2000,y-axis-label
+19,49.5,637.5,83.5,29.5,−2500,y-axis-label
+20,90.0,661.5,83.5,29.5,−2500,x-axis-label
+21,237.0,661.5,83.5,29.5,−2000,x-axis-label
+22,385.5,661.5,83.5,29.5,−1500,x-axis-label
+23,532.5,661.5,83.5,29.5,−1000,x-axis-label
+24,688.5,661.5,67.0,29.5,−500,x-axis-label
+25,355.5,696.0,305.5,29.5,Similarity to positive LM,x-axis-title
+29,868.5,661.5,19.0,29.5,0,x-axis-label

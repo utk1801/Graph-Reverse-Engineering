@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,0.0,28.5,44.5,367.0,Parsing speed (in ms),y-axis-title
+4,760.5,3.0,91.0,44.5,Nivre,text-label
+5,75.0,39.0,41.5,38.5,22,y-axis-label
+6,75.0,103.5,41.5,38.5,18,y-axis-label
+7,75.0,169.5,41.5,40.0,14,y-axis-label
+8,834.0,175.5,52.0,43.0,CN,text-label
+9,75.0,234.0,41.5,40.0,10,y-axis-label
+10,94.5,298.5,22.0,40.0,6,y-axis-label
+11,801.0,303.0,94.0,43.0,Our+,text-label
+12,94.5,366.0,22.0,38.5,2,y-axis-label
+13,115.5,423.0,22.0,40.0,0,x-axis-label
+14,211.5,423.0,41.5,40.0,10,x-axis-label
+15,319.5,423.0,43.0,40.0,20,x-axis-label
+16,426.0,423.0,43.0,40.0,30,x-axis-label
+17,535.5,423.0,41.5,40.0,40,x-axis-label
+18,642.0,423.0,41.5,40.0,50,x-axis-label
+19,750.0,423.0,43.0,40.0,60,x-axis-label
+20,856.5,423.0,43.0,40.0,70,x-axis-label
+21,372.0,492.0,274.0,43.0,Sentence length,x-axis-title

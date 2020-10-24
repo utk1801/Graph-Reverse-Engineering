@@ -1,0 +1,24 @@
+id,x,y,width,height,text,type
+0,72.0,7.5,55.0,31.0,-1.8,y-axis-label
+1,72.0,61.5,55.0,29.5,-1.9,y-axis-label
+2,6.0,163.5,31.0,247.0,Objective function,y-axis-title
+4,97.5,114.0,29.5,31.0,-2,y-axis-label
+5,72.0,168.0,55.0,29.5,-2.1,y-axis-label
+6,72.0,220.5,55.0,31.0,-2.2,y-axis-label
+7,72.0,274.5,55.0,29.5,-2.3,y-axis-label
+8,72.0,327.0,55.0,31.0,-2.4,y-axis-label
+9,72.0,381.0,55.0,29.5,-2.5,y-axis-label
+10,612.0,420.0,128.5,29.5,OWL-QN,legend-label
+11,487.5,450.0,253.0,31.0,SGD-L1 (Clipping),legend-label
+13,445.5,480.0,295.0,31.0,GD-L1 (Cumulative),legend-label
+15,367.5,511.5,373.0,31.0,SGD- 1 (Cumulative + ED,legend-label
+19,72.0,433.5,55.0,31.0,-2.6,y-axis-label
+20,72.0,487.5,55.0,29.5,-2.7,y-axis-label
+21,72.0,540.0,55.0,31.0,-2.8,y-axis-label
+22,139.5,571.5,19.0,29.5,0,x-axis-label
+23,277.5,571.5,37.0,29.5,10,x-axis-label
+24,424.5,571.5,37.0,29.5,20,x-axis-label
+25,573.0,571.5,35.5,29.5,30,x-axis-label
+26,720.0,571.5,37.0,29.5,40,x-axis-label
+27,867.0,571.5,37.0,29.5,50,x-axis-label
+28,462.0,616.5,103.0,31.0,Passes,x-axis-title

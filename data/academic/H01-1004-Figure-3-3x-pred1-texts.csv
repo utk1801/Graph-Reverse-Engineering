@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,202.5,40.5,521.5,82.0,"W ""Z'o'r'lfi'flli'iflr ?322.13""",title
+6,78.0,226.5,166.0,26.5,Flight Number,y-axis-label
+8,75.0,310.5,170.5,26.5,Stops - Length,y-axis-label
+11,169.5,396.0,76.0,26.5,Airline,y-axis-label
+12,60.0,478.5,184.0,26.5,Stops - Number,y-axis-label
+15,45.0,562.5,200.5,26.5,Time - Departure,y-axis-label
+18,85.5,648.0,158.5,26.5,Time - Arrival,y-axis-label
+21,183.0,732.0,62.5,26.5,Price,y-axis-label
+22,255.0,811.5,17.5,26.5,0,x-axis-label
+23,75.0,840.0,98.5,26.5,Verbose,legend-label
+24,334.5,811.5,32.5,26.5,10,x-axis-label
+25,423.0,811.5,31.0,26.5,20,x-axis-label
+26,510.0,811.5,31.0,26.5,30,x-axis-label
+27,597.0,811.5,31.0,26.5,40,x-axis-label
+28,684.0,811.5,31.0,26.5,50,x-axis-label
+29,771.0,811.5,32.5,26.5,60,x-axis-label
+30,859.5,811.5,31.0,26.5,70,x-axis-label
+31,384.0,859.5,370.0,26.5,Number of Subjects Selecting,x-axis-title
+35,75.0,883.5,70.0,26.5,Terse,legend-label

@@ -1,0 +1,26 @@
+id,x,y,width,height,text,type
+0,54.0,4.5,16.0,29.5,1,y-axis-label
+1,54.0,60.0,16.0,29.5,3,y-axis-label
+2,54.0,117.0,16.0,29.5,5,y-axis-label
+3,4.5,147.0,29.5,316.0,Average rank in test datasets,y-axis-title
+8,838.5,139.5,62.5,29.5,T3.E2,legend-label
+9,54.0,174.0,16.0,29.5,7,y-axis-label
+10,838.5,180.0,62.5,29.5,T5.E1,legend-label
+11,54.0,231.0,16.0,28.0,9,y-axis-label
+12,838.5,220.5,62.5,29.5,T5.E2,legend-label
+13,838.5,261.0,62.5,29.5,T5.E5,legend-label
+14,40.5,286.5,29.5,29.5,11,y-axis-label
+15,838.5,301.5,62.5,29.5,T6.E2,legend-label
+16,838.5,342.0,62.5,29.5,T6.E3,legend-label
+17,40.5,343.5,29.5,29.5,13,y-axis-label
+18,838.5,382.5,62.5,29.5,T6.E4,legend-label
+19,40.5,400.5,29.5,29.5,15,y-axis-label
+20,838.5,423.0,62.5,29.5,T6.E5,legend-label
+21,40.5,456.0,29.5,29.5,17,y-axis-label
+22,838.5,463.5,62.5,29.5,T9.E1,legend-label
+23,40.5,513.0,29.5,29.5,19,y-axis-label
+24,136.5,576.0,97.0,29.5,accuracy,x-axis-label
+25,357.0,576.0,22.0,29.5,I2,x-axis-label
+26,490.5,576.0,119.5,29.5,roc.v1_eer,x-axis-label
+27,664.5,576.0,134.5,29.5,roc.v2_ca05,x-axis-label
+28,160.5,616.5,559.0,29.5,Metric - scheduleZ - weighted average over all slots,x-axis-title

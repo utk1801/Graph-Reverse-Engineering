@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,66.0,7.5,40.0,86.5,2000,y-axis-label
+1,66.0,583.5,40.0,23.5,0,y-axis-label
+2,6.0,144.0,40.0,353.5,Number of sentences,y-axis-title
+5,66.0,427.5,40.0,64.0,500,y-axis-label
+6,66.0,280.5,40.0,85.0,1000,y-axis-label
+7,66.0,144.0,40.0,86.5,1500,y-axis-label
+8,640.5,79.5,104.5,40.0,Better,legend-label
+9,640.5,130.5,182.5,40.0,No change,legend-label
+11,640.5,180.0,112.0,40.0,Worse,legend-label
+12,133.5,646.5,23.5,40.0,0,x-axis-label
+13,273.0,646.5,23.5,40.0,1,x-axis-label
+14,412.5,646.5,22.0,40.0,2,x-axis-label
+15,550.5,646.5,23.5,40.0,3,x-axis-label
+16,690.0,646.5,23.5,40.0,4,x-axis-label
+17,829.5,646.5,22.0,40.0,5,x-axis-label

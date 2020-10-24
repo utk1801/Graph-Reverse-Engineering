@@ -1,0 +1,25 @@
+id,x,y,width,height,text,type
+0,64.5,166.5,37.0,41.5,60,y-axis-label
+1,64.5,247.5,37.0,41.5,40,y-axis-label
+2,64.5,342.0,37.0,41.5,20,y-axis-label
+3,64.5,412.5,37.0,41.5,10,y-axis-label
+4,72.0,469.5,20.5,43.0,5,y-axis-label
+5,72.0,535.5,20.5,41.5,2,y-axis-label
+6,72.0,579.0,20.5,41.5,1,y-axis-label
+7,108.0,601.5,20.5,41.5,1,x-axis-label
+8,151.5,601.5,20.5,41.5,2,x-axis-label
+9,217.5,601.5,20.5,41.5,5,x-axis-label
+10,271.5,601.5,37.0,41.5,10,x-axis-label
+11,342.0,601.5,37.0,41.5,20,x-axis-label
+12,436.5,601.5,37.0,41.5,40,x-axis-label
+13,516.0,601.5,38.5,38.5,60,x-axis-label
+14,610.5,601.5,38.5,41.5,80,x-axis-label
+15,204.0,640.0,416.5,34.5,False Alarm probability (in %),x-axis-title
+20,681.0,601.5,38.5,41.5,90,x-axis-label
+21,541.5,43.5,109.0,41.5,grade 2,legend-label
+23,541.5,85.5,109.0,41.5,grade 3,legend-label
+25,541.5,129.0,109.0,41.5,grade 4,legend-label
+27,541.5,172.5,109.0,41.5,grade 5,legend-label
+29,64.5,72.0,37.0,41.5,80,y-axis-label
+30,64.5,1.5,37.0,41.5,90,y-axis-label
+31,1.5,154.5,41.5,311.5,Miss probability (in %),y-axis-title

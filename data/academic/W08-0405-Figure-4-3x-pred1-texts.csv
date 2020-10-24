@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,330.0,24.0,326.5,26.5,rule-driven decoder N(r)>=5,legend-label
+3,330.0,58.5,326.5,26.5,rule-driven decoder N(r)>=2,legend-label
+6,273.0,91.5,383.5,28.0,distortion-limited phrase decoder,legend-label
+9,67.5,106.5,46.0,26.5,100,y-axis-label
+10,9.0,136.5,26.5,212.5,CPU [words / sec],y-axis-title
+14,81.0,382.5,32.5,26.5,10,y-axis-label
+15,123.0,490.5,17.5,28.0,0,x-axis-label
+16,204.0,490.5,17.5,28.0,2,x-axis-label
+17,285.0,490.5,17.5,28.0,4,x-axis-label
+18,366.0,490.5,17.5,28.0,6,x-axis-label
+19,447.0,490.5,17.5,28.0,8,x-axis-label
+20,520.5,490.5,32.5,28.0,10,x-axis-label
+21,601.5,490.5,32.5,28.0,12,x-axis-label
+22,682.5,490.5,32.5,28.0,14,x-axis-label
+23,763.5,490.5,32.5,28.0,16,x-axis-label
+24,319.5,531.0,265.0,26.5,maximum window size,x-axis-title

@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,25.5,22.5,49.0,25.0,20.7,y-axis-label
+1,9.0,102.0,26.5,268.0,Held−out set WER(%),y-axis-title
+4,342.0,58.5,125.5,23.5,4−gram LM,legend-label
+6,342.0,93.0,256.0,23.5,"DNN LM: h=500, d=120",legend-label
+10,342.0,126.0,529.0,25.0,"DNN LM: h=500, d=120 (with disc. pre−training 1)",legend-label
+18,342.0,160.5,528.0,25.0,"DNN LM: h=500, d=120 (with disc. pre−training 2)",legend-label
+26,46.5,198.0,28.0,25.0,20,y-axis-label
+27,30.5,324.0,44.0,25.0,19.5,y-axis-label
+28,46.5,450.0,28.0,20.5,19,y-axis-label
+29,70.5,466.5,16.0,25.0,1,x-axis-label
+30,337.5,466.5,16.0,25.0,2,x-axis-label
+31,604.5,466.5,16.0,25.0,3,x-axis-label
+32,871.5,466.5,16.0,25.0,4,x-axis-label
+33,331.5,492.0,296.5,26.5,Number of hidden layers,x-axis-title

@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,366.0,6.0,226.0,32.5,ROC on test set,title
+4,76.5,42.0,20.5,32.5,1,y-axis-label
+5,51.0,163.5,46.0,32.5,0.8,y-axis-label
+6,6.0,234.0,32.5,245.5,True positive rate,y-axis-title
+9,51.0,285.0,46.0,32.5,0.6,y-axis-label
+10,51.0,406.5,46.0,32.5,0.4,y-axis-label
+11,51.0,528.0,46.0,32.5,0.2,y-axis-label
+12,76.5,649.5,20.5,32.5,0,y-axis-label
+13,94.5,675.0,20.5,32.5,0,x-axis-label
+14,231.0,675.0,46.0,32.5,0.2,x-axis-label
+15,381.0,675.0,46.0,32.5,0.4,x-axis-label
+16,531.0,675.0,46.0,32.5,0.6,x-axis-label
+17,351.0,712.5,257.5,32.5,False positive rate,x-axis-title
+20,681.0,675.0,46.0,32.5,0.8,x-axis-label
+21,843.0,675.0,20.5,32.5,1,x-axis-label

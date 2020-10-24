@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,141.0,36.0,652.0,79.0,"""9""""i?XEaIZZ??2F??Jv???EZTSJ""'? 5?",title
+9,70.5,162.0,46.0,28.0,100,y-axis-label
+10,33.0,261.0,28.0,134.5,Percentage,y-axis-title
+11,85.5,225.0,31.0,26.5,80,y-axis-label
+12,85.5,286.5,31.0,26.5,60,y-axis-label
+13,85.5,348.0,31.0,28.0,40,y-axis-label
+14,85.5,409.5,31.0,28.0,20,y-axis-label
+15,100.5,471.0,16.0,28.0,0,y-axis-label
+16,261.0,502.5,13.0,23.5,1,x-axis-label
+17,171.0,561.0,295.0,28.0,Cosine similarity measure,legend-label
+20,519.0,502.5,14.5,23.5,2,x-axis-label
+21,501.0,561.0,113.5,28.0,City block,legend-label
+23,777.0,502.5,14.5,23.5,3,x-axis-label
+24,811.5,561.0,83.5,26.5,chance,legend-label
+25,648.0,561.0,130.0,28.0,C he byc hev,legend-label

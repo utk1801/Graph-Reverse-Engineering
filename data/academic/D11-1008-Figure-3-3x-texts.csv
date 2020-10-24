@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,6.0,133.5,37.0,349.0,Number of Fragments,y-axis-title
+3,51.0,9.0,52.0,47.5,10 6,y-axis-label
+5,661.5,45.0,88.0,34.0,Depth,legend-label
+6,654.0,79.5,95.5,34.0,Words,legend-label
+7,501.0,115.5,248.5,34.0,Substitution Sites,legend-label
+9,51.0,102.0,52.0,46.0,10 5,y-axis-label
+11,51.0,193.5,52.0,46.0,10 4,y-axis-label
+13,51.0,285.0,52.0,47.5,10 3,y-axis-label
+15,51.0,378.0,52.0,46.0,10 2,y-axis-label
+17,51.0,469.5,52.0,46.0,10 1,y-axis-label
+19,51.0,561.0,52.0,46.0,10 0,y-axis-label
+21,117.0,604.5,19.0,34.0,0,x-axis-label
+22,250.5,604.5,37.0,34.0,10,x-axis-label
+23,393.0,604.5,37.0,34.0,20,x-axis-label
+24,535.5,604.5,37.0,34.0,30,x-axis-label
+25,678.0,604.5,37.0,34.0,40,x-axis-label
+26,820.5,604.5,37.0,34.0,50,x-axis-label
+27,244.5,655.5,539.5,38.5,Depth / Words / Substitution Sites,x-axis-title

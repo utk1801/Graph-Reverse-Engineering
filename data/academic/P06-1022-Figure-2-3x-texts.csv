@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,55.5,3.0,52.0,29.5,400,y-axis-label
+1,55.5,66.0,52.0,31.0,350,y-axis-label
+2,7.5,141.0,29.5,260.5,Parsing time [msec],y-axis-title
+5,246.0,91.5,151.0,31.0,our method,legend-label
+7,219.0,121.5,178.0,29.5,conv. method,legend-label
+9,55.5,130.5,52.0,29.5,300,y-axis-label
+10,55.5,195.0,52.0,29.5,250,y-axis-label
+11,55.5,258.0,52.0,31.0,200,y-axis-label
+12,55.5,322.5,52.0,29.5,150,y-axis-label
+13,55.5,387.0,52.0,29.5,100,y-axis-label
+14,72.0,451.5,35.5,29.5,50,y-axis-label
+15,88.5,514.5,19.0,31.0,0,y-axis-label
+16,114.0,544.5,19.0,29.5,0,x-axis-label
+17,832.5,544.5,35.5,29.5,30,x-axis-label
+18,235.5,544.5,19.0,29.5,5,x-axis-label
+19,348.0,544.5,35.5,29.5,10,x-axis-label
+20,469.5,544.5,35.5,29.5,15,x-axis-label
+21,589.5,544.5,35.5,29.5,20,x-axis-label
+22,711.0,544.5,35.5,29.5,25,x-axis-label
+23,217.5,588.0,538.0,31.0,Length of sentence [number of bunsetsu],x-axis-title

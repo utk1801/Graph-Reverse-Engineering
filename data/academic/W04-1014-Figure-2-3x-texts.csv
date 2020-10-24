@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,720.0,27.0,71.5,26.5,PREC1,legend-label
+1,720.0,52.5,71.5,26.5,PREC2,legend-label
+2,720.0,78.0,71.5,26.5,PREC3,legend-label
+3,720.0,103.5,71.5,26.5,PREC4,legend-label
+4,720.0,130.5,71.5,26.5,PREC5,legend-label
+5,543.0,28.5,103.0,26.5,SumACCY,legend-label
+6,540.0,54.0,122.5,26.5,WSumACCY,legend-label
+7,547.5,82.5,98.5,26.5,NrstACCY,legend-label
+8,34.5,30.0,41.5,34.0,1.0,y-axis-label
+9,9.0,157.5,28.0,337.0,Correlation coefficient,y-axis-title
+11,34.5,145.5,41.5,34.0,0.8,y-axis-label
+12,34.5,261.0,41.5,34.0,0.6,y-axis-label
+13,34.5,375.0,41.5,35.5,0.4,y-axis-label
+14,34.5,490.5,41.5,35.5,0.2,y-axis-label
+15,57.0,606.0,19.0,35.5,0,y-axis-label
+16,148.5,633.0,50.5,34.0,SIG,x-axis-label
+17,316.5,633.0,64.0,34.0,COH,x-axis-label
+18,492.0,633.0,62.5,34.0,SEM,x-axis-label
+19,334.5,672.0,200.5,34.0,Evaluation point,x-axis-title
+21,645.0,633.0,104.5,34.0,WHOLE,x-axis-label

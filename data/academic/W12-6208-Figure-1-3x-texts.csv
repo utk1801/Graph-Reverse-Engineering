@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,42.0,198.0,40.0,38.5,70,y-axis-label
+1,124.5,3.0,389.5,77.5,CMUdict 12k/112k Word Accuracy vs. Time for N=2-12,title
+2,42.0,117.0,40.0,38.5,75,y-axis-label
+3,42.0,36.0,40.0,38.5,80,y-axis-label
+4,339.0,241.5,190.0,47.5,Wa vs Time,text-label
+5,42.0,279.0,40.0,38.5,65,y-axis-label
+6,42.0,360.0,40.0,38.5,60,y-axis-label
+7,42.0,441.0,40.0,40.0,55,y-axis-label
+8,42.0,522.0,40.0,40.0,50,y-axis-label
+9,42.0,603.0,40.0,40.0,45,y-axis-label
+10,42.0,685.5,40.0,38.5,40,y-axis-label
+11,85.5,725.5,38.5,34.5,12,x-axis-label
+12,183.0,721.5,38.5,38.5,14,x-axis-label
+13,280.5,721.5,40.0,38.5,16,x-axis-label
+14,378.0,721.5,40.0,38.5,18,x-axis-label
+15,475.5,721.5,40.0,38.5,20,x-axis-label
+16,573.0,721.5,40.0,38.5,22,x-axis-label
+17,672.0,721.5,38.5,38.5,24,x-axis-label
+18,769.5,721.5,38.5,38.5,26,x-axis-label
+19,867.0,721.5,40.0,38.5,28,x-axis-label
+20,339.0,759.0,284.5,44.5,Decoding time (sec),x-axis-title
+21,3.0,240.0,35.5,280.0,Word Accuracy (%),y-axis-title

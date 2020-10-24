@@ -1,0 +1,29 @@
+id,x,y,width,height,text,type
+0,63.0,7.5,38.5,26.5,0.18,y-axis-label
+1,448.5,25.5,245.5,25.0,BiasArticles- PropCategories,legend-label
+3,316.5,51.0,377.5,26.5,BiasCategories- PropArticles PropCategories,legend-label
+6,319.5,78.0,374.5,26.5,BiasArticles BiasCategories- PropCategories,legend-label
+9,339.0,103.5,355.0,26.5,BiasArticles- PropArticles PropCategories,legend-label
+12,342.0,130.5,352.0,26.5,BiasArticles BiasCategories- PropArticles,legend-label
+15,448.5,156.0,245.5,26.5,BiasCategories- PropArticles,legend-label
+17,472.5,183.0,221.5,26.5,BiasArticles- PropArticles,legend-label
+19,208.5,210.0,485.5,25.0,BiasArticles BiasCategories- PropArticles PropCategories,legend-label
+23,426.0,235.5,268.0,26.5,BiasCategories- PropCategories,legend-label
+25,619.5,262.5,74.5,26.5,Baseline,legend-label
+26,63.0,67.5,38.5,26.5,0.16,y-axis-label
+27,63.0,127.5,38.5,26.5,0.14,y-axis-label
+28,63.0,187.5,38.5,26.5,0.12,y-axis-label
+29,6.0,237.0,22.0,101.5,Precision,y-axis-title
+30,73.5,247.5,28.0,26.5,0.1,y-axis-label
+31,63.0,307.5,38.5,26.5,0.08,y-axis-label
+32,63.0,367.5,38.5,26.5,0.06,y-axis-label
+33,63.0,427.5,38.5,26.5,0.04,y-axis-label
+34,63.0,487.5,38.5,26.5,0.02,y-axis-label
+35,88.5,547.5,13.0,26.5,0,y-axis-label
+36,108.0,573.0,13.0,26.5,0,x-axis-label
+37,238.5,573.0,22.0,26.5,20,x-axis-label
+38,373.5,573.0,22.0,26.5,40,x-axis-label
+39,507.0,573.0,23.5,26.5,60,x-axis-label
+40,642.0,573.0,23.5,26.5,80,x-axis-label
+41,772.5,573.0,32.5,26.5,100,x-axis-label
+42,357.0,613.5,184.0,26.5,Top N topics returned,x-axis-title

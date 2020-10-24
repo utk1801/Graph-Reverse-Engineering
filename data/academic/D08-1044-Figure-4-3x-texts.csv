@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,148.5,10.5,1289.5,34.0,Efficiency comparison of approaches to computing word co-occurrence matrices,title
+9,64.5,58.5,58.0,25.0,4000,y-axis-label
+10,192.0,85.5,205.0,25.0,"""stripes"" approach",legend-label
+12,211.5,114.0,185.5,26.5,"""pairs"" approach",legend-label
+14,1188.0,141.0,122.5,34.0,R2 = 0.999,text-label
+18,64.5,148.5,58.0,26.5,3500,y-axis-label
+19,9.0,283.5,29.5,299.5,running time (seconds),y-axis-title
+22,64.5,240.0,58.0,25.0,3000,y-axis-label
+23,64.5,330.0,58.0,26.5,2500,y-axis-label
+24,64.5,421.5,58.0,25.0,2000,y-axis-label
+25,64.5,511.5,58.0,25.0,1500,y-axis-label
+26,64.5,601.5,58.0,26.5,1000,y-axis-label
+27,1188.0,648.0,122.5,34.0,R2 = 0.992,text-label
+31,78.0,693.0,44.5,25.0,500,y-axis-label
+32,105.0,783.0,17.5,26.5,0,y-axis-label
+33,130.5,813.0,16.0,25.0,0,x-axis-label
+34,387.0,813.0,29.5,25.0,20,x-axis-label
+35,649.5,813.0,31.0,25.0,40,x-axis-label
+36,913.5,813.0,31.0,25.0,60,x-axis-label
+37,1177.5,813.0,29.5,25.0,80,x-axis-label
+38,1434.0,813.0,44.5,25.0,100,x-axis-label
+39,400.5,855.0,785.5,29.5,percentage of the APW sub-corpora of the English Gigaword,x-axis-title

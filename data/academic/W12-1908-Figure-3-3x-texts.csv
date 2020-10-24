@@ -1,0 +1,30 @@
+id,x,y,width,height,text,type
+0,70.5,-1.5,32.5,40.0,90,y-axis-label
+1,70.5,46.5,32.5,40.0,80,y-axis-label
+2,70.5,96.0,32.5,38.5,70,y-axis-label
+3,70.5,144.0,32.5,40.0,60,y-axis-label
+4,3.0,222.0,37.0,40.0,F1,y-axis-title
+5,70.5,192.0,32.5,40.0,50,y-axis-label
+6,70.5,241.5,32.5,38.5,40,y-axis-label
+7,571.5,271.5,131.5,28.0,supervised,legend-label
+8,625.5,304.5,77.5,28.0,single,legend-label
+9,634.5,339.0,68.5,28.0,multi,legend-label
+10,456.0,372.0,247.0,28.0,single + self/native,legend-label
+13,466.5,405.0,236.5,29.5,multi + self/native,legend-label
+16,70.5,289.5,32.5,40.0,30,y-axis-label
+17,70.5,337.5,32.5,40.0,20,y-axis-label
+18,70.5,385.5,32.5,40.0,10,y-axis-label
+19,85.5,435.0,17.5,38.5,0,y-axis-label
+20,127.5,468.0,17.5,40.0,0,x-axis-label
+21,160.5,468.0,49.0,40.0,125,x-axis-label
+22,223.5,468.0,49.0,40.0,250,x-axis-label
+23,286.5,468.0,49.0,40.0,500,x-axis-label
+24,357.0,468.0,32.5,40.0,1k,x-axis-label
+25,420.0,468.0,32.5,40.0,2k,x-axis-label
+26,483.0,468.0,32.5,40.0,4k,x-axis-label
+27,546.0,468.0,32.5,40.0,8k,x-axis-label
+28,600.0,468.0,49.0,40.0,16k,x-axis-label
+29,663.0,468.0,49.0,40.0,32k,x-axis-label
+30,726.0,468.0,49.0,40.0,64k,x-axis-label
+31,781.5,468.0,64.0,40.0,128k,x-axis-label
+32,291.0,519.0,428.5,40.0,Number of annotated target tokens,x-axis-title

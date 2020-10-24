@@ -1,0 +1,26 @@
+id,x,y,width,height,text,type
+0,117.0,28.5,86.5,23.5,MAP (InR),legend-label
+2,313.5,28.5,106.0,23.5,MAP (LDA2),legend-label
+4,510.0,28.5,116.5,23.5,Prec@5 (InR),legend-label
+6,708.0,28.5,134.5,23.5,Prec@5 (LDA2),legend-label
+8,117.0,67.5,127.0,23.5,Prec@10 (InR),legend-label
+10,313.5,67.5,146.5,23.5,Prec@10 (LDA2),legend-label
+12,510.0,67.5,97.0,23.5,NDCG (InR),legend-label
+14,708.0,67.5,115.0,23.5,NDCG (LDA2),legend-label
+16,117.0,108.0,92.5,23.5,Bpref (InR),legend-label
+18,313.5,108.0,112.0,23.5,Bpref (LDA2),legend-label
+20,28.5,148.5,29.5,23.5,0.7,y-axis-label
+21,28.5,204.0,29.5,23.5,0.6,y-axis-label
+22,28.5,259.5,29.5,23.5,0.5,y-axis-label
+23,28.5,316.5,29.5,23.5,0.4,y-axis-label
+24,28.5,372.0,29.5,23.5,0.3,y-axis-label
+25,28.5,427.5,29.5,23.5,0.2,y-axis-label
+26,28.5,484.5,29.5,23.5,0.1,y-axis-label
+27,45.0,540.0,13.0,23.5,0,y-axis-label
+28,132.0,574.5,25.0,23.5,50,x-axis-label
+29,262.5,574.5,35.5,23.5,100,x-axis-label
+30,397.5,574.5,35.5,23.5,200,x-axis-label
+31,532.5,574.5,35.5,23.5,300,x-axis-label
+32,667.5,574.5,35.5,23.5,400,x-axis-label
+33,802.5,574.5,35.5,23.5,500,x-axis-label
+34,349.5,618.0,256.0,23.5,Size of the initial retrieval set,x-axis-title

@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,63.0,204.0,25.0,28.0,92,y-axis-label
+1,63.0,301.5,25.0,29.5,90,y-axis-label
+2,6.0,168.0,26.5,98.5,Accuracy,y-axis-title
+3,63.0,105.0,25.0,29.5,94,y-axis-label
+4,63.0,7.5,25.0,28.0,96,y-axis-label
+5,636.0,370.5,95.5,25.0,precision,legend-label
+6,801.0,370.5,58.0,25.0,recall,legend-label
+7,63.0,400.5,25.0,28.0,88,y-axis-label
+8,471.0,370.5,88.0,25.0,F-score,legend-label
+9,108.0,460.5,14.5,26.5,0,x-axis-label
+10,189.0,460.5,68.5,26.5,50000,x-axis-label
+11,291.0,460.5,80.5,26.5,100000,x-axis-label
+12,399.0,460.5,80.5,26.5,150000,x-axis-label
+13,507.0,460.5,80.5,26.5,200000,x-axis-label
+14,615.0,460.5,80.5,26.5,250000,x-axis-label
+15,723.0,460.5,82.0,26.5,300000,x-axis-label
+16,831.0,460.5,82.0,26.5,350000,x-axis-label
+17,414.0,516.0,227.5,26.5,Training size (tokens),x-axis-title

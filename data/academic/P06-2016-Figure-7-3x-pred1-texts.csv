@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+0,51.0,27.0,23.5,20.5,80,y-axis-label
+1,207.0,48.0,83.5,19.0,A: HHMM,legend-label
+3,207.0,69.0,128.5,19.0,B: HHMM-tre,legend-label
+5,207.0,88.5,71.5,20.5,C: HMM,legend-label
+7,9.0,207.0,19.0,73.0,seconds,y-axis-title
+8,51.0,133.5,23.5,20.5,60,y-axis-label
+9,51.0,241.5,23.5,19.0,40,y-axis-label
+10,51.0,348.0,23.5,20.5,20,y-axis-label
+11,750.0,502.5,19.0,34.0,200,x-axis-label
+12,573.0,502.5,20.5,34.0,150,x-axis-label
+13,396.0,502.5,20.5,34.0,100,x-axis-label
+14,220.5,502.5,19.0,23.5,50,x-axis-label
+15,61.5,454.5,13.0,20.5,0,y-axis-label
+16,349.5,552.0,179.5,20.5,number of sentences,x-axis-title

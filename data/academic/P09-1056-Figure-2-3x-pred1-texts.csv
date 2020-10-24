@@ -1,0 +1,23 @@
+id,x,y,width,height,text,type
+0,196.5,34.5,527.5,40.0,Unlabeled Sample Complexity,title
+3,46.5,126.0,34.0,214.0,F1(Chunking),y-axis-title
+5,99.0,96.0,44.5,22.0,0.95,y-axis-label
+6,270.0,117.0,82.0,23.5,Baseline,text-label
+7,354.0,117.0,38.5,23.5,(all),text-label
+8,99.0,145.5,44.5,23.5,0.90,y-axis-label
+9,99.0,196.5,44.5,23.5,0.85,y-axis-label
+10,285.0,216.0,56.5,23.5,HMM,text-label
+11,343.5,216.0,38.5,23.5,(all),text-label
+12,673.5,220.5,56.5,22.0,HMM,text-label
+13,732.0,220.5,56.5,22.0,(rare),text-label
+14,99.0,247.5,44.5,22.0,0.80,y-axis-label
+15,99.0,298.5,44.5,22.0,0.75,y-axis-label
+16,637.5,328.5,82.0,22.0,Baseline,text-label
+17,723.0,328.5,55.0,22.0,(rare),text-label
+18,99.0,349.5,44.5,22.0,0.70,y-axis-label
+19,156.0,385.5,14.5,23.5,0,x-axis-label
+20,286.5,385.5,62.5,23.5,10000,x-axis-label
+21,441.0,385.5,61.0,23.5,20000,x-axis-label
+22,595.5,385.5,61.0,23.5,30000,x-axis-label
+23,750.0,385.5,61.0,23.5,40000,x-axis-label
+24,270.0,435.0,481.0,31.0,Number of Unannotated Sentences,x-axis-title

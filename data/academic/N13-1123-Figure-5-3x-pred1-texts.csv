@@ -1,0 +1,13 @@
+id,x,y,width,height,text,type
+0,4.5,7.5,40.0,28.0,1.0,y-axis-label
+1,546.0,30.0,100.0,26.5,JVTM-G,legend-label
+2,588.0,57.0,58.0,26.5,TAM,legend-label
+3,576.0,82.5,70.0,26.5,JVTM,legend-label
+4,595.5,109.5,50.5,26.5,UIM,legend-label
+5,540.0,135.0,106.0,26.5,JVTM-Ul,legend-label
+6,4.5,175.5,40.0,28.0,0.8,y-axis-label
+7,4.5,343.5,40.0,26.5,0.6,y-axis-label
+8,4.5,511.5,40.0,26.5,0.4,y-axis-label
+9,138.0,538.5,70.0,26.5,Purity,x-axis-label
+10,354.0,538.5,92.5,26.5,Entropy,x-axis-label
+11,573.0,538.5,110.5,26.5,Accuracy,x-axis-label

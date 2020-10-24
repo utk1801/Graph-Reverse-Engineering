@@ -1,0 +1,24 @@
+id,x,y,width,height,text,type
+0,49.5,81.0,49.0,34.0,0.9,y-axis-label
+1,49.5,157.5,49.0,34.0,0.8,y-axis-label
+2,49.5,231.0,49.0,34.0,0.7,y-axis-label
+3,49.5,304.5,49.0,34.0,0.6,y-axis-label
+4,6.0,324.0,34.0,142.0,Precision,y-axis-title
+5,78.0,7.5,22.0,34.0,1,y-axis-label
+6,49.5,381.0,49.0,34.0,0.5,y-axis-label
+7,49.5,456.0,49.0,34.0,0.4,y-axis-label
+8,49.5,531.0,49.0,34.0,0.3,y-axis-label
+9,49.5,606.0,49.0,34.0,0.2,y-axis-label
+10,49.5,679.5,49.0,34.0,0.1,y-axis-label
+11,78.0,756.0,22.0,34.0,0,y-axis-label
+12,93.0,778.5,22.0,34.0,0,x-axis-label
+13,178.5,598.5,115.0,34.0,Manual,legend-label
+14,178.5,640.5,101.5,34.0,Words,legend-label
+15,178.5,682.5,161.5,34.0,Templates,legend-label
+16,178.5,726.0,299.5,34.0,Words + Templates,legend-label
+19,229.5,778.5,49.0,34.0,0.2,x-axis-label
+20,378.0,778.5,50.5,34.0,0.4,x-axis-label
+21,528.0,778.5,50.5,34.0,0.6,x-axis-label
+22,678.0,778.5,50.5,34.0,0.8,x-axis-label
+23,841.5,778.5,22.0,34.0,1,x-axis-label
+24,429.0,813.0,97.0,34.0,Recall,x-axis-title

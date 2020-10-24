@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,7.5,19.5,31.0,391.0,parsing accuracy on heId-out,y-axis-title
+4,85.5,40.5,79.0,29.5,92.25,y-axis-label
+5,127.5,114.0,37.0,31.0,92,y-axis-label
+6,85.5,187.5,79.0,31.0,91.75,y-axis-label
+7,103.5,261.0,61.0,31.0,91.5,y-axis-label
+8,85.5,334.5,79.0,31.0,91.25,y-axis-label
+9,391.5,349.5,181.0,31.0,max-violation,legend-label
+10,504.0,379.5,68.5,31.0,early,legend-label
+11,127.5,408.0,37.0,31.0,91,y-axis-label
+12,175.5,438.0,19.0,31.0,0,x-axis-label
+13,234.0,438.0,20.5,31.0,2,x-axis-label
+14,294.0,438.0,19.0,31.0,4,x-axis-label
+15,352.5,438.0,19.0,31.0,6,x-axis-label
+16,411.0,438.0,20.5,31.0,8,x-axis-label
+17,462.0,438.0,37.0,31.0,10,x-axis-label
+18,522.0,438.0,35.5,31.0,12,x-axis-label
+19,580.5,438.0,35.5,31.0,14,x-axis-label
+20,639.0,438.0,37.0,31.0,16,x-axis-label
+21,699.0,438.0,35.5,31.0,18,x-axis-label
+22,310.5,484.5,272.5,31.0,training time (hours),x-axis-title

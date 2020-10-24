@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,216.0,34.5,50.5,29.5,BLEU,legend-label
+1,216.0,72.0,88.0,29.5,ROUG E-1,legend-label
+2,216.0,109.5,88.0,29.5,ROUG E-2,legend-label
+3,216.0,147.0,112.0,29.5,ROUG E-SU4,legend-label
+4,216.0,184.5,82.0,29.5,METEOR,legend-label
+5,34.5,39.0,28.0,28.0,0.8,y-axis-label
+6,6.0,297.0,26.5,160.0,correlation,y-axis-title
+7,34.5,211.5,28.0,28.0,0.6,y-axis-label
+8,34.5,384.0,28.0,28.0,0.4,y-axis-label
+9,34.5,556.5,28.0,28.0,0.2,y-axis-label
+10,49.5,729.0,13.0,28.0,0,y-axis-label
+11,66.0,754.5,13.0,29.5,0,x-axis-label
+12,195.0,754.5,13.0,29.5,1,x-axis-label
+13,325.5,754.5,13.0,29.5,2,x-axis-label
+14,456.0,754.5,13.0,29.5,3,x-axis-label
+15,585.0,754.5,13.0,29.5,4,x-axis-label
+16,715.5,754.5,13.0,29.5,5,x-axis-label
+17,846.0,754.5,13.0,29.5,6,x-axis-label
+18,349.5,790.5,226.0,35.5,Levenshtein distance,x-axis-title

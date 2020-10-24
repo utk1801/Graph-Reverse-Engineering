@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,37.5,180.0,73.0,32.5,400k,y-axis-label
+2,37.5,307.5,73.0,31.5,300k,y-axis-label
+4,37.5,436.0,73.0,29.5,200k,y-axis-label
+6,37.5,563.5,73.0,32.5,100k,y-axis-label
+8,37.5,52.5,73.0,31.5,500k,y-axis-label
+10,7.5,213.0,26.5,224.5,Av. Vocabulary Size,y-axis-title
+13,153.0,676.5,29.5,25.0,en,x-axis-label
+14,213.0,676.5,19.0,25.0,fr,x-axis-label
+15,270.0,676.5,14.5,25.0,it,x-axis-label
+16,318.0,676.5,29.5,25.0,es,x-axis-label
+17,376.5,676.5,23.5,25.0,pt,x-axis-label
+18,432.0,676.5,22.0,25.0,el,x-axis-label
+19,487.5,676.5,20.5,25.0,nl,x-axis-label
+20,538.5,676.5,28.0,25.0,sv,x-axis-label
+21,592.5,676.5,31.0,25.0,da,x-axis-label
+22,648.0,676.5,29.5,25.0,de,x-axis-label
+23,711.0,676.5,14.5,25.0,fi,x-axis-label
+24,387.0,742.5,113.5,25.0,Language,x-axis-title

@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,6.0,87.0,26.5,665.5,BLEU score on input preprocessed by rules / oracle input,y-axis-title
+10,73.5,87.0,53.5,26.5,43.5,y-axis-label
+11,94.5,271.5,32.5,26.5,43,y-axis-label
+12,73.5,454.5,53.5,28.0,42.5,y-axis-label
+13,94.5,639.0,32.5,26.5,42,y-axis-label
+14,493.5,693.0,661.0,28.0,baseline vs. oracle input; system tuned on baseline input,legend-label
+23,433.5,720.0,721.0,26.5,baseline vs. oracle input; system tuned on preprocessed input,legend-label
+32,391.5,745.5,763.0,28.0,baseline vs. rule-processed input; system tuned on baseline input,legend-label
+41,331.5,772.5,823.0,26.5,baseline vs. rule-processed input; system tuned on preprocessed input,legend-label
+50,367.5,798.0,787.0,28.0,threshold for improvement (above this line) vs. deterioration (below),legend-label
+59,73.5,823.5,53.5,26.5,41.5,y-axis-label
+60,193.5,849.0,53.5,28.0,41.6,x-axis-label
+61,345.0,849.0,53.5,28.0,41.8,x-axis-label
+62,507.0,849.0,31.0,28.0,42,x-axis-label
+63,646.5,849.0,53.5,28.0,42.2,x-axis-label
+64,798.0,849.0,53.5,28.0,42.4,x-axis-label
+65,508.5,889.5,398.5,26.5,BLEU score on raw baseline input,x-axis-title
+71,949.5,849.0,53.5,28.0,42.6,x-axis-label
+72,1101.0,849.0,53.5,28.0,42.8,x-axis-label
+73,1263.0,849.0,32.5,28.0,43,x-axis-label

@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,300.0,1.5,385.0,43.0,Diversity on MTO3 (dev.),title
+4,75.0,51.0,43.0,43.0,40,y-axis-label
+5,553.5,75.0,215.5,41.5,phrase-based,legend-label
+6,688.5,115.5,80.5,34.0,hiero,legend-label
+7,561.0,145.5,208.0,37.0,syntax-based,legend-label
+8,75.0,300.0,43.0,43.0,30,y-axis-label
+9,75.0,424.5,43.0,41.5,25,y-axis-label
+10,75.0,549.0,43.0,41.5,20,y-axis-label
+11,75.0,673.5,43.0,41.5,15,y-axis-label
+12,75.0,175.5,43.0,43.0,35,y-axis-label
+13,1.5,232.5,41.5,287.5,Diversity (TER[%]),y-axis-title
+15,121.5,706.5,22.0,41.5,0,x-axis-label
+16,243.0,706.5,22.0,41.5,5,x-axis-label
+17,355.5,706.5,41.5,41.5,10,x-axis-label
+18,477.0,706.5,41.5,41.5,15,x-axis-label
+19,598.5,706.5,41.5,41.5,20,x-axis-label
+20,366.0,756.0,253.0,43.0,iteration number,x-axis-title
+22,720.0,706.5,41.5,41.5,25,x-axis-label
+23,841.5,706.5,41.5,41.5,30,x-axis-label

@@ -1,0 +1,22 @@
+id,x,y,width,height,text,type
+0,67.5,144.0,25.0,35.5,2.0,y-axis-label
+2,354.0,30.0,130.0,26.5,Norwegian,legend-label
+3,354.0,63.0,139.0,26.5,Portuguese,legend-label
+4,354.0,96.0,98.5,26.5,Russian,legend-label
+5,354.0,129.0,131.5,26.5,E. Spanish,legend-label
+7,354.0,162.0,128.5,26.5,L. Spanish,legend-label
+9,354.0,195.0,103.0,26.5,Swedish,legend-label
+11,67.5,337.5,25.0,34.0,1.5,y-axis-label
+12,166.5,30.0,86.5,26.5,Danish,legend-label
+13,166.5,63.0,73.0,26.5,Dutch,legend-label
+14,166.5,96.0,91.0,26.5,English,legend-label
+15,166.5,129.0,86.5,26.5,French,legend-label
+16,166.5,162.0,74.5,26.5,Italian,legend-label
+17,166.5,195.0,115.0,26.5,Mandarin,legend-label
+19,67.5,531.0,25.0,34.0,1.0,y-axis-label
+20,7.5,159.0,31.0,313.0,Relevance Decay Rate,y-axis-title
+24,219.0,657.0,35.5,23.5,4.5,x-axis-label
+25,369.0,657.0,34.0,23.5,5.0,x-axis-label
+26,517.5,657.0,34.0,23.5,5.5,x-axis-label
+27,667.5,657.0,34.0,23.5,6.0,x-axis-label
+28,234.0,706.5,457.0,31.0,Within−Context Entropy per Word,x-axis-title

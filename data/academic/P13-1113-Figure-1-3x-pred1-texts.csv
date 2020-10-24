@@ -1,0 +1,27 @@
+id,x,y,width,height,text,type
+0,895.5,4.5,40.0,40.0,12,y-axis-label
+1,1530.0,120.0,128.5,35.5,essays-av,legend-label
+2,895.5,142.5,40.0,40.0,,y-axis-label
+3,4.5,207.0,38.5,509.5,Percentage of pairs of word types,y-axis-title
+5,1530.0,184.5,130.0,35.5,essays-15,legend-label
+6,1530.0,249.0,130.0,35.5,essays-85,legend-label
+7,915.0,282.0,20.5,38.5,,y-axis-label
+8,1530.0,313.5,88.0,35.5,wsj-av,legend-label
+9,1530.0,378.0,166.0,35.5,"N(0.90,0.66)",legend-label
+10,915.0,420.0,20.5,38.5,,y-axis-label
+11,1530.0,442.5,145.0,35.5,Grades 3-4,legend-label
+12,915.0,558.0,20.5,38.5,,y-axis-label
+13,915.0,696.0,20.5,40.0,(u \'I,y-axis-label
+14,40.5,882.0,32.5,38.5,-5,x-axis-label
+15,223.5,882.0,32.5,38.5,-4,x-axis-label
+16,405.0,882.0,32.5,38.5,-3,x-axis-label
+17,588.0,882.0,31.0,38.5,-2,x-axis-label
+18,915.0,835.5,20.5,38.5,_,y-axis-label
+19,751.5,858.0,64.0,38.5,PMI,text-label
+20,769.5,882.0,32.5,38.5,-1,x-axis-label
+21,957.0,882.0,22.0,38.5,0,x-axis-label
+22,1140.0,882.0,20.5,38.5,1,x-axis-label
+23,1321.5,882.0,20.5,38.5,2,x-axis-label
+24,1503.0,882.0,22.0,38.5,3,x-axis-label
+25,1686.0,882.0,20.5,38.5,4,x-axis-label
+26,1867.5,882.0,20.5,38.5,5,x-axis-label

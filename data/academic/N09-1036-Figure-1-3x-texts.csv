@@ -1,0 +1,17 @@
+id,x,y,width,height,text,type
+0,6.0,7.5,89.5,29.5,220000,y-axis-label
+1,279.0,36.0,527.5,28.0,"batch initialization, no table label resampling",legend-label
+7,241.5,64.5,565.0,29.5,"incremental initialization, table label resampling",legend-label
+12,316.5,94.5,490.0,28.0,"batch initialization, table label resampling",legend-label
+17,6.0,99.0,89.5,29.5,215000,y-axis-label
+18,6.0,190.5,89.5,29.5,210000,y-axis-label
+19,6.0,283.5,89.5,28.0,205000,y-axis-label
+20,6.0,375.0,89.5,28.0,200000,y-axis-label
+21,6.0,466.5,89.5,28.0,195000,y-axis-label
+22,6.0,558.0,89.5,28.0,190000,y-axis-label
+23,6.0,649.5,89.5,28.0,185000,y-axis-label
+24,108.0,678.0,16.0,29.5,0,x-axis-label
+25,300.0,678.0,46.0,29.5,500,x-axis-label
+26,499.5,678.0,61.0,29.5,1000,x-axis-label
+27,706.5,678.0,61.0,29.5,1500,x-axis-label
+28,913.5,678.0,61.0,29.5,2000,x-axis-label

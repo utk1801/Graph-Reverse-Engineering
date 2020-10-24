@@ -1,0 +1,15 @@
+id,x,y,width,height,text,type
+2,70.5,613.5,40.0,76.0,0.65,y-axis-label
+3,253.5,691.5,23.5,40.0,5,x-axis-label
+10,70.5,433.5,40.0,76.0,0.67,y-axis-label
+11,7.5,202.5,40.0,263.5,"BLEU, BLEUS",y-axis-title
+13,70.5,253.5,40.0,74.5,0.69,y-axis-label
+14,70.5,73.5,40.0,74.5,0.71,y-axis-label
+17,370.5,691.5,44.5,40.0,10,x-axis-label
+18,490.5,498.0,187.0,38.5,sys-BLEU,legend-label
+19,490.5,547.5,293.5,40.0,avg. seg-BLEU'S,legend-label
+21,490.5,598.5,269.5,40.0,avg. seg-BLEU,legend-label
+23,498.0,691.5,44.5,40.0,15,x-axis-label
+24,625.5,691.5,44.5,40.0,20,x-axis-label
+25,753.0,691.5,44.5,40.0,25,x-axis-label
+26,372.0,754.5,194.5,40.0,# path hyps,x-axis-title

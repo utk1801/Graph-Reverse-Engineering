@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,357.0,9.0,259.0,28.0,Accuracy v/s Data Size,title
+4,70.5,51.0,44.5,26.5,100,y-axis-label
+5,84.0,144.0,31.0,26.5,95,y-axis-label
+6,6.0,225.0,28.0,137.5,% Accuracy,y-axis-title
+8,84.0,237.0,31.0,26.5,90,y-axis-label
+9,84.0,330.0,31.0,26.5,85,y-axis-label
+10,84.0,423.0,31.0,26.5,80,y-axis-label
+11,676.5,439.5,44.5,26.5,WF,legend-label
+12,604.5,466.5,116.5,26.5,Weak-MF,legend-label
+13,618.0,493.5,103.0,28.0,Rich-MF,legend-label
+14,84.0,516.0,31.0,26.5,75,y-axis-label
+15,202.5,543.0,71.5,28.0,10000,x-axis-label
+16,319.5,543.0,71.5,28.0,20000,x-axis-label
+17,436.5,543.0,71.5,28.0,30000,x-axis-label
+18,553.5,543.0,71.5,28.0,40000,x-axis-label
+19,670.5,543.0,71.5,28.0,50000,x-axis-label
+20,315.0,585.0,341.5,26.5,No. of Words in Training Data,x-axis-title
+26,787.5,543.0,71.5,28.0,60000,x-axis-label

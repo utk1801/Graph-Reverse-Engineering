@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,67.5,99.0,25.0,31.0,10,y-axis-label
+1,67.5,51.0,25.0,29.5,12,y-axis-label
+2,67.5,1.5,25.0,31.0,14,y-axis-label
+3,67.5,156.0,25.0,16.0,8,y-axis-label
+4,67.5,204.0,25.0,16.0,9,y-axis-label
+5,67.5,253.5,25.0,16.0,4,y-axis-label
+6,67.5,351.0,25.0,16.0,0,y-axis-label
+7,67.5,301.5,25.0,16.0,2,y-axis-label
+8,7.5,115.5,25.0,151.0,log frequency,y-axis-title
+10,181.5,406.5,16.0,25.0,1,x-axis-label
+11,318.0,406.5,16.0,25.0,2,x-axis-label
+12,454.5,406.5,16.0,25.0,3,x-axis-label
+13,591.0,406.5,16.0,25.0,4,x-axis-label
+14,727.5,406.5,16.0,25.0,5,x-axis-label
+15,420.0,466.5,110.5,25.0,log length,x-axis-title

@@ -1,0 +1,14 @@
+id,x,y,width,height,text,type
+0,28.5,36.0,52.0,26.5,80%,y-axis-label
+1,28.5,88.5,52.0,25.0,70%,y-axis-label
+2,28.5,141.0,52.0,25.0,60%,y-axis-label
+3,28.5,192.0,52.0,26.5,50%,y-axis-label
+4,28.5,244.5,52.0,25.0,40%,y-axis-label
+5,28.5,295.5,52.0,26.5,30%,y-axis-label
+6,28.5,348.0,52.0,25.0,20%,y-axis-label
+7,28.5,400.5,52.0,25.0,10%,y-axis-label
+8,42.0,451.5,38.5,25.0,0%,y-axis-label
+9,151.5,487.5,100.0,26.5,Chamiak,x-axis-label
+10,357.0,487.5,95.5,26.5,Stanford,x-axis-label
+11,579.0,487.5,56.5,26.5,ESG,x-axis-label
+12,759.0,487.5,106.0,26.5,MINIPAR,x-axis-label

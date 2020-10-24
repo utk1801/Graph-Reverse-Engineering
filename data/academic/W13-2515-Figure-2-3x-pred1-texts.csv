@@ -1,0 +1,13 @@
+id,x,y,width,height,text,type
+0,6.0,54.0,22.0,37.0,120,y-axis-label
+1,6.0,147.0,22.0,37.0,100,y-axis-label
+2,6.0,244.5,22.0,26.5,80,y-axis-label
+3,6.0,337.5,22.0,25.0,Q9,y-axis-label
+4,6.0,430.5,22.0,25.0,40,y-axis-label
+5,6.0,523.5,22.0,25.0,20,y-axis-label
+6,6.0,621.0,22.0,14.5,0,y-axis-label
+7,136.5,663.0,46.0,22.0,Ours,x-axis-label
+8,376.5,663.0,55.0,22.0,Video,x-axis-label
+9,625.5,663.0,47.5,22.0,MSR,x-axis-label
+10,643.5,19.5,106.0,20.5,annotator 1,legend-label
+12,643.5,43.5,106.0,22.0,annotator 2,legend-label

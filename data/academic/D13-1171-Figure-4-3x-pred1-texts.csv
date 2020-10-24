@@ -1,0 +1,14 @@
+id,x,y,width,height,text,type
+0,40.5,3.0,26.5,53.5,2500,y-axis-label
+1,40.5,220.5,26.5,52.0,1500,y-axis-label
+2,40.5,328.5,26.5,52.0,1000,y-axis-label
+3,40.5,442.5,26.5,40.0,500,y-axis-label
+4,4.5,187.5,26.5,226.0,Frequency in Tweets,y-axis-title
+7,40.5,112.5,26.5,52.0,2000,y-axis-label
+8,148.5,48.0,107.5,37.0,Positive,legend-label
+9,148.5,84.0,121.0,37.0,Negative,legend-label
+10,148.5,120.0,100.0,37.0,Neutral,legend-label
+11,40.5,564.0,26.5,14.5,0,y-axis-label
+12,603.0,573.0,116.5,29.5,PERSON,x-axis-label
+13,385.5,609.0,145.0,28.0,Named Entity,x-axis-title
+15,151.5,573.0,208.0,29.5,ORGAN IZATION,x-axis-label

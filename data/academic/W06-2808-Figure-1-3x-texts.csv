@@ -1,0 +1,21 @@
+id,x,y,width,height,text,type
+0,25.5,36.0,55.0,26.5,0.90,y-axis-label
+1,25.5,75.0,55.0,28.0,0.80,y-axis-label
+2,25.5,115.5,55.0,26.5,0.70,y-axis-label
+3,25.5,156.0,55.0,28.0,0.60,y-axis-label
+4,25.5,196.5,55.0,26.5,0.50,y-axis-label
+5,25.5,235.5,55.0,28.0,0.40,y-axis-label
+6,25.5,276.0,55.0,26.5,0.30,y-axis-label
+7,1390.5,258.0,98.5,25.0,Exp-II-#2,legend-label
+8,1390.5,297.0,104.5,26.5,Exp-III-#2,legend-label
+9,25.5,316.5,55.0,28.0,0.20,y-axis-label
+10,25.5,357.0,55.0,26.5,0.10,y-axis-label
+11,25.5,396.0,55.0,26.5,0.00,y-axis-label
+12,1390.5,337.5,104.5,25.0,Exp-III-#3,legend-label
+13,1390.5,376.5,104.5,25.0,Exp-III-#4,legend-label
+14,115.5,433.5,172.0,61.0,conf-CNGIGA- word,x-axis-label
+16,330.0,433.5,158.5,61.0,ent-CNGIGA- word,x-axis-label
+18,526.5,433.5,179.5,28.0,conf-PKU-word,x-axis-label
+19,739.5,433.5,167.5,28.0,ent-PKU-word,x-axis-label
+20,930.0,433.5,199.0,28.0,conf-CNTB-word,x-axis-label
+21,1144.5,433.5,185.5,28.0,ent-CNTB-word,x-axis-label

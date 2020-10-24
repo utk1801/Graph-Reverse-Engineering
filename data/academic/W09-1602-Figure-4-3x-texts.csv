@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,39.0,9.0,28.0,22.0,60,y-axis-label
+1,555.0,34.5,91.0,26.5,AMtLMt,legend-label
+2,555.0,66.0,98.5,26.5,AMtLM0,legend-label
+3,555.0,97.5,98.5,26.5,AM0LMt,legend-label
+4,555.0,129.0,106.0,26.5,AM0LM0,legend-label
+5,39.0,61.5,28.0,23.5,55,y-axis-label
+6,6.0,186.0,26.5,140.5,IR−MAP(%),y-axis-title
+7,39.0,114.0,28.0,23.5,50,y-axis-label
+8,39.0,168.0,28.0,23.5,45,y-axis-label
+9,39.0,220.5,28.0,23.5,40,y-axis-label
+10,39.0,274.5,28.0,22.0,35,y-axis-label
+11,39.0,327.0,28.0,23.5,30,y-axis-label
+12,39.0,379.5,28.0,23.5,25,y-axis-label
+13,39.0,433.5,28.0,23.5,20,y-axis-label
+14,39.0,486.0,28.0,23.5,15,y-axis-label
+15,96.0,504.0,71.5,23.5,narrow,x-axis-label
+16,652.5,504.0,49.0,23.5,wide,x-axis-label
+17,271.5,529.5,202.0,26.5,Query Expansion,x-axis-title

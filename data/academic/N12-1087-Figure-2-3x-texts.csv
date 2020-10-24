@@ -1,0 +1,20 @@
+id,x,y,width,height,text,type
+0,90.0,6.0,46.0,28.0,0.48,y-axis-label
+1,90.0,58.5,46.0,29.5,0.46,y-axis-label
+2,192.0,42.0,109.0,34.0,Sup. Bas.,legend-label
+3,334.5,42.0,38.5,34.0,PR,legend-label
+4,192.0,142.5,64.0,34.0,CoDL,legend-label
+5,334.5,142.5,62.5,34.0,UEM,legend-label
+6,90.0,111.0,46.0,29.5,0.44,y-axis-label
+7,28.5,156.0,28.0,185.5,Avg. F1 for relations,y-axis-title
+8,90.0,163.5,46.0,29.5,0.42,y-axis-label
+9,102.0,216.0,34.0,29.5,0.4,y-axis-label
+10,90.0,268.5,46.0,29.5,0.38,y-axis-label
+11,90.0,321.0,46.0,29.5,0.36,y-axis-label
+12,90.0,373.5,46.0,29.5,0.34,y-axis-label
+13,90.0,426.0,46.0,29.5,0.32,y-axis-label
+14,102.0,480.0,34.0,28.0,0.3,y-axis-label
+15,252.0,505.5,17.5,28.0,5,x-axis-label
+16,463.5,505.5,28.0,28.0,10,x-axis-label
+17,399.0,534.0,161.5,28.0,% of labeled data,x-axis-title
+18,679.5,505.5,29.5,28.0,20,x-axis-label

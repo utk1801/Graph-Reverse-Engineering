@@ -1,0 +1,18 @@
+id,x,y,width,height,text,type
+0,-1.5,34.5,44.5,430.0,Classification accuracy (%),y-axis-title
+3,45.0,27.0,25.0,31.0,90,y-axis-label
+4,154.5,34.5,145.0,35.5,Training set,legend-label
+6,205.5,78.0,94.0,34.0,Test set,legend-label
+8,45.0,114.0,25.0,29.5,85,y-axis-label
+9,45.0,199.5,25.0,31.0,80,y-axis-label
+10,45.0,286.5,25.0,29.5,75,y-axis-label
+11,45.0,373.5,25.0,29.5,70,y-axis-label
+12,45.0,459.0,25.0,29.5,65,y-axis-label
+13,156.0,514.5,17.5,31.0,C,x-axis-label
+14,241.5,514.5,20.5,31.0,N,x-axis-label
+15,330.0,514.5,17.5,31.0,V,x-axis-label
+16,397.5,514.5,49.0,31.0,C+N,x-axis-label
+17,486.0,514.5,46.0,31.0,C+V,x-axis-label
+18,571.5,514.5,49.0,31.0,N+V,x-axis-label
+19,645.0,514.5,76.0,31.0,C+N+V,x-axis-label
+20,225.0,547.5,397.0,44.5,Parameter configuration,x-axis-title

@@ -1,0 +1,26 @@
+id,x,y,width,height,text,type
+0,6.0,10.5,26.5,443.5,Average running time per iteration (S),y-axis-title
+6,39.0,25.5,32.5,26.5,16,y-axis-label
+7,39.0,85.5,32.5,28.0,14,y-axis-label
+8,157.5,22.5,61.0,23.5,Naive,legend-label
+9,324.0,22.5,134.5,23.5,Fast−RB−sD,legend-label
+10,157.5,58.5,47.5,23.5,Fast,legend-label
+11,324.0,58.5,140.5,23.5,Fast−RB−sW,legend-label
+12,324.0,93.0,157.0,23.5,Fast−RB−sDW,legend-label
+13,157.5,93.0,92.5,25.0,Fast−RB,legend-label
+14,39.0,145.5,32.5,26.5,12,y-axis-label
+15,39.0,207.0,32.5,26.5,10,y-axis-label
+16,54.0,265.5,17.5,28.0,8,y-axis-label
+17,54.0,327.0,17.5,26.5,6,y-axis-label
+18,54.0,387.0,17.5,26.5,4,y-axis-label
+19,54.0,447.0,17.5,28.0,2,y-axis-label
+20,67.5,466.5,17.5,26.5,1,x-axis-label
+21,148.5,466.5,53.5,26.5,1.05,x-axis-label
+22,256.5,466.5,40.0,26.5,1.1,x-axis-label
+23,348.0,466.5,53.5,26.5,1.15,x-axis-label
+24,456.0,466.5,40.0,26.5,1.2,x-axis-label
+25,547.5,466.5,55.0,26.5,1.25,x-axis-label
+26,655.5,466.5,38.5,26.5,1.3,x-axis-label
+27,748.5,466.5,53.5,26.5,1.35,x-axis-label
+28,199.5,493.5,551.5,28.0,Average number of senses per constraint word,x-axis-title
+35,856.5,466.5,38.5,26.5,1.4,x-axis-label

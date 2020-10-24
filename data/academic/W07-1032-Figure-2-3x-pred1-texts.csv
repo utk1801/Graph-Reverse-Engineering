@@ -1,0 +1,19 @@
+id,x,y,width,height,text,type
+0,333.0,7.5,307.0,25.0,Comparison of Histograms,title
+3,31.5,147.0,61.0,22.0,80000,y-axis-label
+4,535.5,148.5,238.0,22.0,Random Sample x 5.148,legend-label
+8,535.5,175.5,247.0,22.0,"lexSim Slice S(0.7,0.725)",legend-label
+11,31.5,262.5,61.0,22.0,60000,y-axis-label
+12,6.0,315.0,22.0,101.5,Frequency,y-axis-title
+13,31.5,376.5,61.0,23.5,40000,y-axis-label
+14,31.5,492.0,61.0,22.0,20000,y-axis-label
+15,78.0,607.5,14.5,22.0,0,y-axis-label
+16,148.5,687.0,20.5,22.0,-4,x-axis-label
+17,247.5,687.0,20.5,22.0,-2,x-axis-label
+18,349.5,687.0,14.5,22.0,0,x-axis-label
+19,448.5,687.0,13.0,22.0,2,x-axis-label
+20,546.0,687.0,14.5,22.0,4,x-axis-label
+21,645.0,687.0,14.5,22.0,6,x-axis-label
+22,744.0,687.0,14.5,22.0,8,x-axis-label
+23,837.0,687.0,25.0,22.0,10,x-axis-label
+24,450.0,720.0,73.0,22.0,conSim,x-axis-title

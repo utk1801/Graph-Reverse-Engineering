@@ -1,0 +1,16 @@
+id,x,y,width,height,text,type
+0,33.0,6.0,77.5,34.0,100.0,y-axis-label
+1,49.5,91.5,61.0,32.5,98.0,y-axis-label
+2,6.0,126.0,32.5,203.5,F-measure [%],y-axis-title
+4,49.5,174.0,61.0,32.5,96.0,y-axis-label
+5,49.5,258.0,61.0,32.5,94.0,y-axis-label
+6,49.5,345.0,61.0,32.5,92.0,y-axis-label
+7,49.5,424.5,61.0,32.5,90.0,y-axis-label
+8,115.5,442.5,19.0,34.0,0,x-axis-label
+9,351.0,312.0,238.0,32.5,Proposed method,legend-label
+12,351.0,352.5,424.0,32.5,Without using similar category,legend-label
+18,351.0,393.0,349.0,32.5,Without using Goi-Taikei,legend-label
+21,313.5,442.5,52.0,34.0,10k,x-axis-label
+22,543.0,442.5,53.5,34.0,20k,x-axis-label
+23,766.5,445.5,53.5,32.5,30k,x-axis-label
+24,280.5,483.0,379.0,32.5,The number of training data,x-axis-title

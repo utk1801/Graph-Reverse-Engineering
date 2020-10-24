@@ -1,0 +1,18 @@
+id,x,y,width,height,text,type
+0,52.5,9.0,112.0,34.0,100000,y-axis-label
+1,72.0,127.5,92.5,34.0,10000,y-axis-label
+2,4.5,244.5,35.5,155.5,Frequency,y-axis-title
+3,90.0,246.0,74.5,34.0,1000,y-axis-label
+4,108.0,364.5,56.5,34.0,100,y-axis-label
+5,514.5,73.5,173.5,35.5,head-driven,legend-label
+6,393.0,103.5,295.0,35.5,optimal head-driven,legend-label
+8,126.0,481.5,38.5,35.5,10,y-axis-label
+9,144.0,600.0,20.5,35.5,1,y-axis-label
+10,183.0,630.0,20.5,34.0,3,x-axis-label
+11,298.5,630.0,20.5,34.0,4,x-axis-label
+12,412.5,630.0,22.0,34.0,5,x-axis-label
+13,528.0,630.0,20.5,34.0,6,x-axis-label
+14,643.5,630.0,20.5,34.0,7,x-axis-label
+15,397.5,673.5,283.0,35.5,Parsing complexity,x-axis-title
+17,757.5,630.0,20.5,34.0,8,x-axis-label
+18,873.0,630.0,20.5,34.0,9,x-axis-label
