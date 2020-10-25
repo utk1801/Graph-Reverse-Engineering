@@ -445,12 +445,56 @@ def chart_data(_data):
         _all_score = data['data_ink_ratio_score'] + ((data['x_spread_ratio_score'] + data['y_spread_ratio_score']) / 2) + data['background_score'] + data['chart_elem_score']
         data['overall_score'] = round((_all_score / 400) * 100)
 
-        """
-        Prepare entence for polly
-        """
+        """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+                                           Prepare sentence for polly
+        """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+        data_points = "This chart has " + str(len(data['text_and_class']['x-axis-label'])) + " data points."
+        title = ""
+        y_axis_label = ""
+        x_axis_label = ""
+        
+        if "title" in data['text_and_class']:
+          title =  "It's good that the chart have a title. The title of the chart is " + str(data['text_and_class']['title']) + "."
+        else:
+          title = "There's no title in the chart. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents."
+
+        if "x-axis-title" in data['text_and_class']:
+          x_axis_label = "I can see that the chart has a proper x axis label and it's value is " + str(data['text_and_class']['x-axis-title']) + "."
+        else:
+          x_axis_label = "I cannot see x axis label for the chart. Without x axis label I cannot tell what the chart really wants to show."
+
+        if "y-axis-title" in data['text_and_class']:
+          y_axis_label = "I can see that the chart has a proper y axis label and it's value is " + str(data['text_and_class']['y-axis-title']) + "."
+        else:
+          y_axis_label = "I cannot see y axis label for the chart. Without y axis label I cannot tell what does each of the datapoint quantifies to."
+
+        background_choice = ""
+        chart_elems = ""
+        data_ink_ratio_speech = ""
+        spacing = ""
+
+<<<<<<< HEAD
         data["speak"] = "Let's start with data ink ratio, the value is " + str(data['data_ink_ratio_score']) + ". This is a bar chart with 4 bars arranged horizontally. The data ink ratio is 70% and the background is white which looks good. Most chart elements are present but the title is missing. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents."
+=======
+        # background
+        if background_shade == "light":
+          background_choice = "Let's talk about the background of the chart. The color seems to be light which is good because I can easliy read data points."
+        else:
+          background_choice = "Let's talk about the background of the chart. The background color is too dark. You should consider changing it's color to some light color like white or light grey so that the data points are more visible."
 
+        # data-ink
+        if data_ink_ratio < 0.05:
+          data_ink_ratio_speech = "Data-ink ratio is too low. Consider removing extra elements in the chart to make data more visible to the user"
+        elif data_ink_ratio >= 0.05 and data_ink_ratio < 0.08:
+          data_ink_ratio_speech = ""
+        elif data_ink_ratio >= 0.08 and data_ink_ratio < 0.15:
+          data_ink_ratio_speech = ""
+        elif data_ink_ratio >= 0.15:
+          data_ink_ratio_speech = ""
+>>>>>>> ab98d547ed026178192854e7413acc0c6c7cc7ae
+
+        data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing
         return data
 
   

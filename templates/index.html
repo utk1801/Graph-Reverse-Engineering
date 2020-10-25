@@ -105,22 +105,6 @@
                   class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
             </div>
 
-            <form id="input" method="GET" action="/read">
-              <!-- <div>
-                  <label for="voice">Select a voice:</label>
-                  <select id="voice" name="voiceId" disabled>
-                      <option value="">Choose a voice...</option>
-                  </select>
-              </div>
-              <div>
-                  <label for="text">Text to read:</label>
-                  <textarea id="text" maxlength="1000" minlength="1" name="text"
-                          placeholder="Type some text here..."></textarea>
-              </div> -->
-              <input type="submit" value="Read" id="submit" />
-          </form>
-          <audio id="player"></audio>
-
             <div class="row">
               <div class="col-lg-6">
                 <div class="card shadow mb-4">
@@ -231,7 +215,7 @@
                   <div class="card-body">
                     <div class="text-center">
                       <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
-                        src="../static/img/undraw_posting_photo.svg" alt="">
+                        src="../static/img/undraw_Data_points_ubvs.svg" alt="">
                     </div>
                     <p class="data-ink-comment"></p>
                     <p class="bck-comment"></p>
@@ -250,9 +234,46 @@
                   <div class="card-body">
                     <div class="text-center boxes-all">
                       <img class="img-fluid-custom px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="" alt="">
-                      
-                      </div>
+
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-12 padding-top">
+                <div class="card shadow">
+                  <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Speak-Out Chart</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="text-center">
+                      <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
+                        src="../static/img/althemist-about.svg" alt="">
+                        <p>Click the "Speak-Out" button below. I'll help you study this chart.</p>
+                        <p>Let's Go!</p>
+                    </div>
+
+                    <div id="voice-animation" class="loader-container">
+                      <div class="rectangle-1"></div>
+                      <div class="rectangle-2"></div>
+                      <div class="rectangle-3"></div>
+                      <div class="rectangle-4"></div>
+                      <div class="rectangle-5"></div>
+                      <div class="rectangle-6"></div>
+                      <div class="rectangle-5"></div>
+                      <div class="rectangle-4"></div>
+                      <div class="rectangle-3"></div>
+                      <div class="rectangle-2"></div>
+                      <div class="rectangle-1"></div>
+                    </div>
+
+                    <form id="input" method="GET" action="/read">
+                      <div id="polly" class="custom-margin-top-30 d-sm-flex align-items-center justify-content-between mb-4 padding-top">
+                        <a class="d-none custom-color-white d-sm-inline-block btn btn-sm btn-primary shadow-sm forced-center"><i
+                            class="fas fa-comments fa-sm text-white-50"></i> Speak-Out</a>
+                      </div>
+                    </form>
+                    <audio id="player"></audio>
                   </div>
                 </div>
               </div>
@@ -260,48 +281,49 @@
             </div>
           </div>
         </div>
-        <!-- End of Main Content -->
-
-        <!-- Footer -->
-        <footer class="sticky-footer bg-white">
-          <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-              <span>Copyright &copy; Chart Analysis 2020</span>
-            </div>
-          </div>
-        </footer>
-        <!-- End of Footer -->
-
       </div>
-      <!-- End of Content Wrapper -->
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Chart Analysis 2020</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
 
     </div>
-    <!-- End of Page Wrapper -->
+    <!-- End of Content Wrapper -->
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-      <i class="fas fa-angle-up"></i>
-    </a>
+  </div>
+  <!-- End of Page Wrapper -->
 
-    <!-- Logout Modal-->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
 
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="../static/vendor/jquery/jquery.min.js"></script>
-    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript-->
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Core plugin JavaScript-->
+  <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for all pages-->
-    <script src="../static/js/sb-admin-2.js"></script>
+  <!-- Custom scripts for all pages-->
+  <script src="../static/js/sb-admin-2.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="../static/vendor/chart.js/Chart.min.js"></script>
+  <!-- Page level plugins -->
+  <script src="../static/vendor/chart.js/Chart.min.js"></script>
 
-    <!-- Page level custom scripts -->
-    <script src="../static/js/demo/chart-area-demo.js"></script>
-    <script src="../static/js/demo/chart-pie-demo.js"></script>
+  <!-- Page level custom scripts -->
+  <script src="../static/js/demo/chart-area-demo.js"></script>
+  <script src="../static/js/demo/chart-pie-demo.js"></script>
 
 </body>
 
