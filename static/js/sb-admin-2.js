@@ -227,54 +227,6 @@
     request.send();
   }
 
-<<<<<<< HEAD
-          // Play the audio stream when the form is submitted successfully
-          input.addEventListener('submit', function (event) {
-              // Validate the fields in the form, display a message if
-              // unexpected values are encountered
-
-                  console.log(pollySentence)
-                  // Point the player to the streaming server
-                  player.src = '/read?voiceId=' +
-                      encodeURIComponent("Joanna") +
-                      '&text=' + encodeURIComponent(pollySentence) +
-                      '&outputFormat=' + supportedFormats[0];
-                  player.play();
-              
-
-              // Stop the form from submitting,
-              // Submitting the form is allowed only if the browser doesn't
-              // support Javascript to ensure functionality in such a case
-              event.preventDefault();
-          });
-
-          // Load the list of available voices and display them in a menu
-          // fetchJSON('GET', '/voices',
-          //     // If the request succeeds
-          //     function (voices) {
-          //         var container = document.createDocumentFragment();
-
-          //         // Build the list of options for the menu
-          //         voices.forEach(function (voice) {
-          //             var option = document.createElement('option');
-          //             option.value = voice['Id'];
-          //             option.innerHTML = voice['Name'] + ' (' +
-          //                 voice['Gender'] + ', ' +
-          //                 voice['LanguageName'] + ')';
-          //             container.appendChild(option);
-          //         });
-
-          //         // Add the options to the menu and enable the form field
-          //         voiceMenu.appendChild(container);
-          //         voiceMenu.disabled = false;
-          //     },
-          //     // If the request fails
-          //     function (status, response) {
-          //         // Display a message in case loading data from the server
-          //         // fails
-          //         alert(status + ' - ' + response);
-          //     });
-=======
   /**
    * Returns a list of audio formats supported by the browser
    */
@@ -283,7 +235,6 @@
       .filter(function (format) {
         var supported = player.canPlayType(AUDIO_FORMATS[format]);
         return supported === 'probably' || supported === 'maybe';
->>>>>>> ab98d547ed026178192854e7413acc0c6c7cc7ae
       });
   }
 
