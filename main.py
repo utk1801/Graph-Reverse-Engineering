@@ -472,7 +472,8 @@ def chart_data(_data):
         background_choice = ""
         chart_elems = ""
         data_ink_ratio_speech = ""
-        spacing = ""
+        spacing_speech = ""
+        overall_score = ""
 
         # background
         if background_shade == "light":
@@ -490,7 +491,20 @@ def chart_data(_data):
         elif data_ink_ratio >= 0.15:
           data_ink_ratio_speech = "Data-ink ratio is perfect. "
 
-        data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing
+        # spacing 
+        if x_spread_ratio < 0.1:
+          spacing_speech = "X-axis not spread or scaled properly. "
+        elif x_spread_ratio >= 0.1 and x_spread_ratio < 0.2:
+          spacing_speech = "X-axis might not spread or scaled properly. "
+        elif x_spread_ratio >= 0.2 and x_spread_ratio < 0.3:
+          spacing_speech = "X-axis seems good. "
+        elif x_spread_ratio >= 0.3:
+          spacing_speech = "X-axis is perfect! "
+
+        # overall score
+        overall_score= data['overall_score']
+        
+        data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing_speech + " I would give this chart an overall score of " + overall_score + ". "
         return data
 
   
@@ -646,6 +660,39 @@ def voices():
     voices.extend(response.get("Voices", []))
 
     return jsonify(voices)
+
+# ==========================================
+#        Transcribe Live Speech to Text
+# ==========================================
+
+def transcribe_file(job_name, file_uri, transcribe_client):
+    transcribe_client.start_transcription_job(
+        TranscriptionJobName=job_name,
+        Media={'MediaFileUri': file_uri},
+        MediaFormat='wav',
+        LanguageCode='en-US'
+    )
+
+    max_tries = 60
+    while max_tries > 0:
+        max_tries -= 1
+        job = transcribe_client.get_transcription_job(TranscriptionJobName=job_name)
+        job_status = job['TranscriptionJob']['TranscriptionJobStatus']
+        if job_status in ['COMPLETED', 'FAILED']:
+            print(f"Job {job_name} is {job_status}.")
+            if job_status == 'COMPLETED':
+                print(
+                    f"Download the transcript from\n"
+                    f"\t{job['TranscriptionJob']['Transcript']['TranscriptFileUri']}.")
+            break
+        else:
+            print(f"Waiting for {job_name}. Current status is {job_status}.")
+        time.sleep(10)
+
+def transcribe():
+    transcribe_client = boto3.client('transcribe')
+    file_uri = 's3://523testing/speech_20201025193754520.mp3'
+    transcribe_file('Example-job', file_uri, transcribe_client)
 
 if __name__ == '__main__':
 
