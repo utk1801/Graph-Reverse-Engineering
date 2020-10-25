@@ -244,26 +244,36 @@ def calculate_data_ink(img_path):
   return round(data_pixels/sum(hex_color_map.values()), 4), data_ink_map[0][2]
 
 
-def testing_aws_and_model(json_path):
+def testing_aws_and_model(aws_data):
 
   global chart_h
   global chart_w
 
   print(chart_w, chart_h)
 
-  # Opening JSON file 
-  f = open(json_path) 
+  # # Opening JSON file 
+  # f = open(json_path) 
     
-  # returns JSON object as  
-  # a dictionary 
-  _data = json.load(f) 
+  # # returns JSON object as  
+  # # a dictionary 
+  # _data = json.load(f) 
     
-  # Closing file 
-  f.close() 
+  # # Closing file 
+  # f.close() 
+
+  _data = aws_data
 
   chart_width = chart_w
   chart_height = chart_h
   _all_ftrs = []
+
+  data = {
+      'available': [],
+      'not_available': [],
+      'x_spread_ratio': 0,
+      'y_spread_ratio': 0,
+      '_all_boxes': []
+  }
 
   TextDetections = _data['TextDetections']
   for text in TextDetections:
@@ -295,6 +305,7 @@ def testing_aws_and_model(json_path):
       box['w'] = max(_all_x) - min(_all_x)
       box['h'] = max(_all_y) - min(_all_y)
 
+      data['_all_boxes'].append([box['x'], box['y'], box['w'], box['h']])
       _all_ftrs.append(list(box.values()))
 
 
@@ -304,12 +315,6 @@ def testing_aws_and_model(json_path):
   regr2.fit(x_train, y_train)
   y_pred_r_2 = regr2.predict(df_test)
 
-  data = {
-      'available': [],
-      'not_available': [],
-      'x_spread_ratio': 0,
-      'y_spread_ratio': 0
-  }
   obtained_ftrs_set = set()
   for each in y_pred_r_2.tolist():
     if int(each[0]) not in obtained_ftrs_set:
@@ -363,21 +368,24 @@ def template():
     return render_template('index.html')
 
 @app.route('/chart_data', methods=['POST'])
-def chart_data():
-    try:
-
-        data = testing_aws_and_model('./data/testing_charts/test_01.json')
+def chart_data(_data):
+  
+        data = testing_aws_and_model(_data)
 
         data['data_ink_ratio_value'] = data_ink_ratio
 
         if data_ink_ratio < 0.05:
           data['data_ink_ratio_score'] = 25
+          data['data_ink_ratio_comment'] = "Data-ink ratio is low. Consider adding more valid data."
         elif data_ink_ratio >= 0.05 and data_ink_ratio < 0.08:
           data['data_ink_ratio_score'] = 50
+          data['data_ink_ratio_comment'] = "Data-ink ratio is moderate. Consider adding more valid data."
         elif data_ink_ratio >= 0.08 and data_ink_ratio < 0.15:
           data['data_ink_ratio_score'] = 75
+          data['data_ink_ratio_comment'] = "Data-ink ratio is good."
         elif data_ink_ratio >= 0.15:
           data['data_ink_ratio_score'] = 100
+          data['data_ink_ratio_comment'] = "Data-ink is perfect!"
 
         data['chart_elem_score'] = round((len(data['available'])/(len(data['available']) + len(data['not_available']))) * 100)
         
@@ -386,35 +394,43 @@ def chart_data():
 
         if x_spread_ratio < 0.1:
           data['x_spread_ratio_score'] = 25
+          data['x_spread_ratio_comment'] = "X-axis not spread or scaled properly."
         elif x_spread_ratio >= 0.1 and x_spread_ratio < 0.2:
           data['x_spread_ratio_score'] = 50
+          data['x_spread_ratio_comment'] = "X-axis might not spread or scaled properly."
         elif x_spread_ratio >= 0.2 and x_spread_ratio < 0.3:
           data['x_spread_ratio_score'] = 75
+          data['x_spread_ratio_comment'] = "X-axis seems good."
         elif x_spread_ratio >= 0.3:
           data['x_spread_ratio_score'] = 100
+          data['x_spread_ratio_comment'] = "X-axis is perfect!"
 
         if y_spread_ratio < 0.05:
           data['y_spread_ratio_score'] = 25
+          data['y_spread_ratio_comment'] = "Y-axis not spread or scaled properly."
         elif y_spread_ratio >= 0.05 and y_spread_ratio < 0.1:
           data['y_spread_ratio_score'] = 50
+          data['y_spread_ratio_comment'] = "Y-axis might not spread or scaled properly."
         elif y_spread_ratio >= 0.1 and y_spread_ratio < 0.2:
           data['y_spread_ratio_score'] = 75
+          data['y_spread_ratio_comment'] = "Y-axis seems good."
         elif y_spread_ratio >= 0.2:
           data['y_spread_ratio_score'] = 100
+          data['y_spread_ratio_comment'] = "Y-axis is perfect!"
 
         if background_shade == 'light':
           data['background_score'] = 100
+          data['background_score_comment'] = "Good background choice."
         else:
           data['background_score'] = 50
+          data['background_score_comment'] = "Poor background choice."
 
         data['spacing_score'] = (data['x_spread_ratio_score'] + data['y_spread_ratio_score']) / 2
 
         _all_score = data['data_ink_ratio_score'] + ((data['x_spread_ratio_score'] + data['y_spread_ratio_score']) / 2) + data['background_score'] + data['chart_elem_score']
         data['overall_score'] = round((_all_score / 400) * 100)
 
-    except:
-        e = sys.exc_info()
-    return json.dumps(data)
+        return data
 
   
 @app.route('/save_local', methods=['POST'])
@@ -475,7 +491,7 @@ def lambda_handler():
 
       except Exception as e:
           return (str(e))
-      return json.dumps(chart_data())
+      return json.dumps(chart_data(text))
 
 if __name__ == '__main__':
 

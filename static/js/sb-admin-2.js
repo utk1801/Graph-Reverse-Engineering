@@ -54,6 +54,7 @@
     formData.append('img', files[0])
 
     $('.content-01').show();
+    $('.spinner-border').show();
 
     fetch('/save_local', {
       method: 'POST',
@@ -68,10 +69,15 @@
         fetch('/recog', {
           method: 'POST',
           body: formData
-        }).then(data => {
+        })
+        .then(response => response.json())
+        .then(data => {
 
-          var table_available = data.available
-          var table_missing = data.not_available
+          // console.log(data)
+
+          var table_available = data.available;
+          var table_missing = data.not_available;
+          var chart_boxes = data._all_boxes;
 
           table_available.forEach(elem => {
             $('.'.concat(elem, '-available')).show();
@@ -95,6 +101,13 @@
           $(".background-p").html(String(data.background_score).concat("%"))
           $(".overall-p").html(String(data.overall_score).concat("%"))
 
+          $(".data-ink-comment").html(data.data_ink_ratio_comment)
+          $(".bck-comment").html(data.background_score_comment)
+          // $(".x-axis-comment").html(data.x_spread_ratio_comment)
+          // $(".y-axis-comment").html(data.y_spread_ratio_comment)
+
+          $(".chart-elem-p").html(String(data.chart_elem_score).concat("%"))
+
           if (data.data_ink_ratio_score < 33) { $(".data-ink-bar").addClass("bg-danger") }
           else if (data.data_ink_ratio_score >= 33 && data.data_ink_ratio_score < 66) { $(".data-ink-bar").addClass("bg-warning") }
           else { $(".data-ink-bar").addClass("bg-success") }
@@ -117,9 +130,19 @@
 
           $(".img-fluid-custom").attr("src", "static/images/".concat(files[0].name));
 
+          //boxes
+
+          chart_boxes.forEach(elem => {
+
+            $(".boxes-all").append("<div style='border: 3px solid #d9534f; position: absolute; top:" + String((parseInt(elem[1]) +70)) + "px; left: " + String(parseInt(elem[0] + 70)) + "px; width: " + elem[2] + "px; height: " + elem[3] +"px;'>" );
+
+            
+          });
+        
           $('.content-01').hide();
           $('.content-02').show();
 
+          $('.spinner-border').hide();
 
         }).catch(error => {
           console.error(error)
@@ -141,5 +164,6 @@
   })
 
   $('.content-02').hide();
+  $('.spinner-border').hide();
 
 })(jQuery); // End of use strict
