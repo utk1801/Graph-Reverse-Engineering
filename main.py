@@ -449,7 +449,7 @@ def chart_data(_data):
         Prepare entence for polly
         """
 
-        data["speak"] = "Let's start with data ink ratio, the value is " + str(data['data_ink_ratio_score']) + "This is a bar chart with 4 bars arranged horizontally. The data ink ratio is 70% and the background is white which looks good. Most chart elements are present but the title is missing. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents."
+        data["speak"] = "Let's start with data ink ratio, the value is " + str(data['data_ink_ratio_score']) + ". This is a bar chart with 4 bars arranged horizontally. The data ink ratio is 70% and the background is white which looks good. Most chart elements are present but the title is missing. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents."
 
         return data
 

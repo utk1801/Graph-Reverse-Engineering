@@ -262,7 +262,7 @@
               // Validate the fields in the form, display a message if
               // unexpected values are encountered
 
-                  console.log(pollySentence, "eihfi")
+                  console.log(pollySentence)
                   // Point the player to the streaming server
                   player.src = '/read?voiceId=' +
                       encodeURIComponent("Joanna") +
