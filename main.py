@@ -484,11 +484,11 @@ def chart_data(_data):
         if data_ink_ratio < 0.05:
           data_ink_ratio_speech = "Data-ink ratio is too low. Consider removing extra elements in the chart to make data more visible to the user. "
         elif data_ink_ratio >= 0.05 and data_ink_ratio < 0.08:
-          data_ink_ratio_speech = ""
+          data_ink_ratio_speech = "Data-ink ratio is moderate. Consider adding more valid data. "
         elif data_ink_ratio >= 0.08 and data_ink_ratio < 0.15:
-          data_ink_ratio_speech = ""
+          data_ink_ratio_speech = "Data-ink ratio is good. "
         elif data_ink_ratio >= 0.15:
-          data_ink_ratio_speech = ""
+          data_ink_ratio_speech = "Data-ink ratio is perfect. "
 
         data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing
         return data
