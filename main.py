@@ -474,9 +474,6 @@ def chart_data(_data):
         data_ink_ratio_speech = ""
         spacing = ""
 
-<<<<<<< HEAD
-        data["speak"] = "Let's start with data ink ratio, the value is " + str(data['data_ink_ratio_score']) + ". This is a bar chart with 4 bars arranged horizontally. The data ink ratio is 70% and the background is white which looks good. Most chart elements are present but the title is missing. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents."
-=======
         # background
         if background_shade == "light":
           background_choice = "Let's talk about the background of the chart. The color seems to be light which is good because I can easliy read data points."
@@ -492,7 +489,6 @@ def chart_data(_data):
           data_ink_ratio_speech = ""
         elif data_ink_ratio >= 0.15:
           data_ink_ratio_speech = ""
->>>>>>> ab98d547ed026178192854e7413acc0c6c7cc7ae
 
         data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing
         return data
