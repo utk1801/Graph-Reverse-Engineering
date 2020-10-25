@@ -105,6 +105,22 @@
                   class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
             </div>
 
+            <form id="input" method="GET" action="/read">
+              <!-- <div>
+                  <label for="voice">Select a voice:</label>
+                  <select id="voice" name="voiceId" disabled>
+                      <option value="">Choose a voice...</option>
+                  </select>
+              </div>
+              <div>
+                  <label for="text">Text to read:</label>
+                  <textarea id="text" maxlength="1000" minlength="1" name="text"
+                          placeholder="Type some text here..."></textarea>
+              </div> -->
+              <input type="submit" value="Read" id="submit" />
+          </form>
+          <audio id="player"></audio>
+
             <div class="row">
               <div class="col-lg-6">
                 <div class="card shadow mb-4">

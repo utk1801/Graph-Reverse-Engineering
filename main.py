@@ -1,12 +1,9 @@
 # ==========================================
 #           Importing modules
 # ==========================================
-from flask import Flask
-from flask import render_template
-from flask import request
-from flask import jsonify
 from flask_cors import CORS, cross_origin
 import boto3
+from flask import Flask, jsonify, Response, render_template, request, send_file
 
 import pandas as pd
 import numpy as np
@@ -32,6 +29,8 @@ import matplotlib.pyplot as plt
 import matplotlib
 import collections
 
+from boto3 import Session
+from botocore.exceptions import BotoCoreError, ClientError
 import warnings
 warnings.filterwarnings("ignore")
 from config import ACCESS_KEY,SECRET_KEY
@@ -450,7 +449,7 @@ def chart_data(_data):
         Prepare entence for polly
         """
 
-        data["speak"] = "Let's start with data ink ratio, the value is " + str(data['data_ink_ratio_score'])
+        data["speak"] = "Let's start with data ink ratio, the value is " + str(data['data_ink_ratio_score']) + "This is a bar chart with 4 bars arranged horizontally. The data ink ratio is 70% and the background is white which looks good. Most chart elements are present but the title is missing. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents."
 
         return data
 
@@ -514,6 +513,99 @@ def lambda_handler():
       except Exception as e:
           return (str(e))
       return json.dumps(chart_data(text))
+
+AUDIO_FORMATS = {"ogg_vorbis": "audio/ogg",
+                 "mp3": "audio/mpeg",
+                 "pcm": "audio/wave; codecs=1"}
+
+# Create a client using the credentials and region defined in the adminuser
+# section of the AWS credentials and configuration files
+session = Session(profile_name="default")
+polly = session.client("polly")
+
+# # Create a flask app
+# app = Flask(__name__)
+
+
+# Simple exception class
+class InvalidUsage(Exception):
+    status_code = 400
+
+    def __init__(self, message, status_code=None, payload=None):
+        Exception.__init__(self)
+        self.message = message
+        if status_code is not None:
+            self.status_code = status_code
+        self.payload = payload
+
+    def to_dict(self):
+        rv = dict(self.payload or ())
+        rv['message'] = self.message
+        return rv
+
+
+# Register error handler
+@app.errorhandler(InvalidUsage)
+def handle_invalid_usage(error):
+    response = jsonify(error.to_dict())
+    response.status_code = error.status_code
+    return response
+
+
+@app.route('/', methods=['GET'])
+def index():
+    return render_template('index.html')
+
+
+@app.route('/read', methods=['GET'])
+def read():
+    """Handles routing for reading text (speech synthesis)"""
+    # Get the parameters from the query string
+    try:
+        outputFormat = request.args.get('outputFormat')
+        text = request.args.get('text')
+        voiceId = request.args.get('voiceId')
+    except TypeError:
+        raise InvalidUsage("Wrong parameters", status_code=400)
+
+    # Validate the parameters, set error flag in case of unexpected
+    # values
+    if len(text) == 0 or len(voiceId) == 0 or \
+            outputFormat not in AUDIO_FORMATS:
+        raise InvalidUsage("Wrong parameters", status_code=400)
+    else:
+        try:
+            # Request speech synthesis
+            response = polly.synthesize_speech(Text=text,
+                                               VoiceId=voiceId,
+                                               OutputFormat=outputFormat)
+        except (BotoCoreError, ClientError) as err:
+            # The service returned an error
+            raise InvalidUsage(str(err), status_code=500)
+
+        return send_file(response.get("AudioStream"),
+                         AUDIO_FORMATS[outputFormat])
+
+
+@app.route('/voices', methods=['GET'])
+def voices():
+    """Handles routing for listing available voices"""
+    params = {}
+    voices = []
+
+    try:
+        # Request list of available voices, if a continuation token
+        # was returned by the previous call then use it to continue
+        # listing
+        response = polly.describe_voices(**params)
+    except (BotoCoreError, ClientError) as err:
+        # The service returned an error
+        raise InvalidUsage(str(err), status_code=500)
+
+    # Collect all the voices
+    voices.extend(response.get("Voices", []))
+
+    return jsonify(voices)
 
 if __name__ == '__main__':
 
