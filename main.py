@@ -449,25 +449,25 @@ def chart_data(_data):
                                            Prepare sentence for polly
         """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-        data_points = "This chart has " + str(len(data['text_and_class']['x-axis-label'])) + " data points."
+        data_points = "This chart has " + str(len(data['text_and_class']['x-axis-label'])) + " data points. "
         title = ""
         y_axis_label = ""
         x_axis_label = ""
         
         if "title" in data['text_and_class']:
-          title =  "It's good that the chart have a title. The title of the chart is " + str(data['text_and_class']['title']) + "."
+          title =  "It's good that the chart have a title. The title of the chart is " + str(data['text_and_class']['title']) + ". "
         else:
-          title = "There's no title in the chart. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents."
+          title = "There's no title in the chart. I would suggest adding a title to this chart to make it more instructive to someone who does not know what the chart represents. "
 
         if "x-axis-title" in data['text_and_class']:
-          x_axis_label = "I can see that the chart has a proper x axis label and it's value is " + str(data['text_and_class']['x-axis-title']) + "."
+          x_axis_label = "I can see that the chart has a proper x axis label and it's value is " + str(data['text_and_class']['x-axis-title']) + ". "
         else:
-          x_axis_label = "I cannot see x axis label for the chart. Without x axis label I cannot tell what the chart really wants to show."
+          x_axis_label = "I cannot see x axis label for the chart. Without x axis label I cannot tell what the chart really wants to show. "
 
         if "y-axis-title" in data['text_and_class']:
-          y_axis_label = "I can see that the chart has a proper y axis label and it's value is " + str(data['text_and_class']['y-axis-title']) + "."
+          y_axis_label = "I can see that the chart has a proper y axis label and it's value is " + str(data['text_and_class']['y-axis-title']) + ". "
         else:
-          y_axis_label = "I cannot see y axis label for the chart. Without y axis label I cannot tell what does each of the datapoint quantifies to."
+          y_axis_label = "I cannot see y axis label for the chart. Without y axis label I cannot tell what does each of the datapoint quantifies to. "
 
         background_choice = ""
         chart_elems = ""
@@ -476,13 +476,13 @@ def chart_data(_data):
 
         # background
         if background_shade == "light":
-          background_choice = "Let's talk about the background of the chart. The color seems to be light which is good because I can easliy read data points."
+          background_choice = "Let's talk about the background of the chart. The color seems to be light which is good because I can easliy read data points. "
         else:
-          background_choice = "Let's talk about the background of the chart. The background color is too dark. You should consider changing it's color to some light color like white or light grey so that the data points are more visible."
+          background_choice = "Let's talk about the background of the chart. The background color is too dark. You should consider changing it's color to some light color like white or light grey so that the data points are more visible. "
 
         # data-ink
         if data_ink_ratio < 0.05:
-          data_ink_ratio_speech = "Data-ink ratio is too low. Consider removing extra elements in the chart to make data more visible to the user"
+          data_ink_ratio_speech = "Data-ink ratio is too low. Consider removing extra elements in the chart to make data more visible to the user. "
         elif data_ink_ratio >= 0.05 and data_ink_ratio < 0.08:
           data_ink_ratio_speech = ""
         elif data_ink_ratio >= 0.08 and data_ink_ratio < 0.15:
