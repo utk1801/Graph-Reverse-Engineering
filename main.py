@@ -30,6 +30,7 @@ from sklearn.ensemble import AdaBoostRegressor
 from sklearn.metrics import mean_absolute_error, r2_score, accuracy_score
 import matplotlib.pyplot as plt
 import matplotlib
+import collections
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -266,6 +267,7 @@ def testing_aws_and_model(aws_data):
   chart_width = chart_w
   chart_height = chart_h
   _all_ftrs = []
+  _all_ftrs_for_training = []
 
   data = {
       'available': [],
@@ -305,15 +307,27 @@ def testing_aws_and_model(aws_data):
       box['w'] = max(_all_x) - min(_all_x)
       box['h'] = max(_all_y) - min(_all_y)
 
-      data['_all_boxes'].append([box['x'], box['y'], box['w'], box['h']])
+      box['text'] = text['DetectedText']
+      
       _all_ftrs.append(list(box.values()))
+      collect_numerical_ftrs = []
+      for key, val in box.items():
+        if type(val) == int:
+          collect_numerical_ftrs.append(val)
+      _all_ftrs_for_training.append(collect_numerical_ftrs)
 
+      data['_all_boxes'].append([box['x'], box['y'], box['w'], box['h']])
 
-  df_test = pd.DataFrame(_all_ftrs, columns = ['fw', 'fh', 'x', 'y', 'x2', 'y2', 'w', 'h'])  
+  df_test = pd.DataFrame(_all_ftrs_for_training, columns = ['fw', 'fh', 'x', 'y', 'x2', 'y2', 'w', 'h'])  
 
   regr2 = KNeighborsRegressor(n_neighbors=1)
   regr2.fit(x_train, y_train)
   y_pred_r_2 = regr2.predict(df_test)
+
+  text_and_class = collections.defaultdict(list)
+  for index, pred_lb in enumerate(y_pred_r_2.tolist()):
+    text_and_class[label_encoding_dict[int(pred_lb[0])]].append(_all_ftrs[index][-1])
+  print(text_and_class)
 
   obtained_ftrs_set = set()
   for each in y_pred_r_2.tolist():
@@ -350,6 +364,8 @@ def testing_aws_and_model(aws_data):
 
   data['x_spread_ratio'] = x_spread/chart_w
   data['y_spread_ratio'] = y_spread/chart_h
+
+  data['text_and_class'] = text_and_class
 
   return data
 
@@ -429,6 +445,12 @@ def chart_data(_data):
 
         _all_score = data['data_ink_ratio_score'] + ((data['x_spread_ratio_score'] + data['y_spread_ratio_score']) / 2) + data['background_score'] + data['chart_elem_score']
         data['overall_score'] = round((_all_score / 400) * 100)
+
+        """
+        Prepare entence for polly
+        """
+
+        data["speak"] = "Let's start with data ink ratio, the value is " + str(data['data_ink_ratio_score'])
 
         return data
 
