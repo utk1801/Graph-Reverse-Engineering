@@ -537,7 +537,7 @@ def upload():
             filename = ''
             if img:
                 filename = secure_filename(img.filename)
-                #img.save(filename)
+                img.save(filename)
                 bucket_resource.upload_file(
                     Bucket = bucket_name,
                     Filename=filename,
