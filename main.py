@@ -12,6 +12,7 @@ import json
 import sys
 import os
 from werkzeug.utils import secure_filename
+import random
 
 from PIL import Image, ImageColor
 import operator
@@ -161,6 +162,10 @@ def calculate_data_ink(img_path):
   global black_ink_added
   global chart_w
   global chart_h
+
+  data_ink_map = list([])
+  black_ink_added = False
+  chart_w = chart_h = 0
 
   im = Image.open(img_path).convert('RGB')
   chart_w, chart_h = im.size
@@ -504,7 +509,8 @@ def chart_data(_data):
         # overall score
         overall = str(data['overall_score'])
 
-        data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing_speech + " I would give this chart an overall score of " + overall + ". "
+        starting = ["First thing first, ", "Hmmmmm, okay, Let's begin, ", "Let's analyze this chart ,", "Let me walk through this chart, ", "Hmmmm, Let's see what we got here, ", "Hmmmmm, let's see"]
+        data["speak"] = starting[random.randint(0, len(starting) - 1)] + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing_speech + " I would give this chart an overall score of " + overall + ". "
         return data
 
   

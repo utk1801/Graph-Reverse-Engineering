@@ -269,6 +269,10 @@
 
       $('#voice-animation').show();
 
+      setTimeout(() => {
+        $('#voice-animation').hide();        
+      }, 45000);
+
 
       // Stop the form from submitting,
       // Submitting the form is allowed only if the browser doesn't
