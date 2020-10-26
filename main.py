@@ -4,7 +4,7 @@
 from flask_cors import CORS, cross_origin
 import boto3
 from flask import Flask, jsonify, Response, render_template, request, send_file
-
+import time
 import pandas as pd
 import numpy as np
 import csv
@@ -473,7 +473,7 @@ def chart_data(_data):
         chart_elems = ""
         data_ink_ratio_speech = ""
         spacing_speech = ""
-        overall_score = ""
+        overall = ""
 
         # background
         if background_shade == "light":
@@ -493,18 +493,18 @@ def chart_data(_data):
 
         # spacing 
         if x_spread_ratio < 0.1:
-          spacing_speech = "X-axis not spread or scaled properly. "
+          spacing_speech = "Spacing for the X-axis not spread or scaled properly. "
         elif x_spread_ratio >= 0.1 and x_spread_ratio < 0.2:
-          spacing_speech = "X-axis might not spread or scaled properly. "
+          spacing_speech = "Spacing for the X-axis might not spread or scaled properly. "
         elif x_spread_ratio >= 0.2 and x_spread_ratio < 0.3:
-          spacing_speech = "X-axis seems good. "
+          spacing_speech = "Spacing for the X-axis seems good. "
         elif x_spread_ratio >= 0.3:
-          spacing_speech = "X-axis is perfect! "
+          spacing_speech = "Spacing for the X-axis is perfect! "
 
         # overall score
-        overall_score= data['overall_score']
-        
-        data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing_speech + " I would give this chart an overall score of " + overall_score + ". "
+        overall = str(data['overall_score'])
+
+        data["speak"] = "First thing first, " + data_points + title + x_axis_label + y_axis_label + background_choice + chart_elems + data_ink_ratio_speech + spacing_speech + " I would give this chart an overall score of " + overall + ". "
         return data
 
   
@@ -690,10 +690,11 @@ def transcribe_file(job_name, file_uri, transcribe_client):
         time.sleep(10)
 
 def transcribe():
+    print("G")
     transcribe_client = boto3.client('transcribe')
     file_uri = 's3://523testing/speech_20201025193754520.mp3'
-    transcribe_file('Example-job', file_uri, transcribe_client)
+    transcribe_file('Example-job2', file_uri, transcribe_client)
 
 if __name__ == '__main__':
-
     app.run('localhost', 8081)
+    
